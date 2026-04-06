@@ -36,8 +36,8 @@ export const SpacesProvider = ({ children }: { children: React.ReactNode }) => {
     const loadData = async () => {
       try {
         const [spacesRes, savedRes] = await Promise.all([
-          fetch("http://localhost:3001/spaces"),
-          fetch("http://localhost:3001/saved"),
+          fetch(`${process.env.NEXT_PUBLIC_API_URL}/spaces`),
+          fetch(`${process.env.NEXT_PUBLIC_API_URL}/saved`),
         ]);
         if (!spacesRes.ok || !savedRes.ok) throw new Error();
         const [spaces, saved] = await Promise.all([
@@ -69,9 +69,12 @@ export const SpacesProvider = ({ children }: { children: React.ReactNode }) => {
         // Optimistic remove
         setSavedEntries((prev) => prev.filter((e) => e.spaceId !== spaceId));
         try {
-          await fetch(`http://localhost:3001/saved/${existing.id}`, {
-            method: "DELETE",
-          });
+          await fetch(
+            `${process.env.NEXT_PUBLIC_API_URL}/saved/${existing.id}`,
+            {
+              method: "DELETE",
+            },
+          );
         } catch {
           // Revert on failure
           setSavedEntries((prev) => [...prev, existing]);
@@ -81,7 +84,7 @@ export const SpacesProvider = ({ children }: { children: React.ReactNode }) => {
         const optimistic: SavedEntry = { id: Date.now(), spaceId };
         setSavedEntries((prev) => [...prev, optimistic]);
         try {
-          const res = await fetch("http://localhost:3001/saved", {
+          const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/saved`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ spaceId }),

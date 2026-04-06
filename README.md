@@ -4,6 +4,8 @@ A premium, high-performance dashboard and discovery platform for curated spaces.
 
 ---
 
+### Production: [Click here](https://spaces-json-server.netlify.app/)
+
 ## 🚀 Getting Started
 
 ### 1\. Prerequisites
@@ -111,7 +113,7 @@ For the **DiscoveryGrid**, we implemented **List Virtualization** (using `react-
 
 - **Architecture & Setup**: 2 hours
 - **Feature Development (Filters/Charts)**: 6 hours
-- **TypeScript Refactoring & Hardening**: 3 hours
+- **TypeScript Refactoring, UI styling & Hardening**: 3 hours
 - **Testing, Polishing & Documentation**: 2 hours
 - **Total**: \~13 hours
 

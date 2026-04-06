@@ -4,9 +4,8 @@ import { DashboardView } from "@/features/dashboard/components/DashboardView";
 export default async function DashboardPage() {
   let initialBookings = [];
   let isError = false;
-
   try {
-    const res = await fetch("http://localhost:3001/bookings", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/bookings`, {
       cache: "no-store",
     });
 

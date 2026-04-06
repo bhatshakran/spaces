@@ -27,7 +27,7 @@ export const useBookings = () => {
     try {
       setIsLoading(true);
       setIsError(false);
-      const res = await fetch("http://localhost:3001/bookings");
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/bookings`);
       if (!res.ok) throw new Error("Failed to fetch");
       const data = await res.json();
       setBookings(data);
