@@ -1,101 +1,73 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useMemo } from "react";
+import { useSpacesData } from "@/features/spaces/context/SpacesContext";
 
-interface Space {
-  id: number;
-  name: string;
-  city: string;
-  category: string;
-  price: number;
-  capacity: number;
-  rating: number;
-  amenities: string[];
-  description: string;
-  imageUrl: string;
-}
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const useSpaces = (filters: any) => {
-  const [allSpaces, setAllSpaces] = useState<Space[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [isError, setIsError] = useState(false);
+  // 1. Grab global data from Context
+  const { allSpaces, isLoading, isError } = useSpacesData();
 
-  // 1. Initial Fetch
-  useEffect(() => {
-    const fetchSpaces = async () => {
-      try {
-        setIsLoading(true);
-        const response = await fetch("http://localhost:3001/spaces");
-        if (!response.ok) throw new Error("Failed to fetch");
-        const data = await response.json();
-        setAllSpaces(data);
-      } catch (err) {
-        setIsError(true);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-    fetchSpaces();
-  }, []);
-
-  // 2. The Filtering Logic (The "AND" Engine)
+  // 2. The Filtering Logic (Calculated locally from the global array)
   const filteredSpaces = useMemo(() => {
-    return (
-      allSpaces
-        .filter((space) => {
-          // Search filter (name, city, or description)
-          if (filters.search) {
-            const searchLower = filters.search.toLowerCase();
-            const matchesSearch =
-              space.name.toLowerCase().includes(searchLower) ||
-              space.city.toLowerCase().includes(searchLower) ||
-              space.description.toLowerCase().includes(searchLower);
-            if (!matchesSearch) return false;
-          }
+    // If data hasn't arrived yet, return empty
+    if (!allSpaces.length) return [];
 
-          // Category filter (Multi-select AND logic)
-          if (filters.categories?.length > 0) {
-            if (!filters.categories.includes(space.category)) return false;
-          }
+    return allSpaces
+      .filter((space) => {
+        // Search filter
+        if (filters.search) {
+          const searchLower = filters.search.toLowerCase();
+          const matchesSearch =
+            space.name.toLowerCase().includes(searchLower) ||
+            space.city.toLowerCase().includes(searchLower) ||
+            space.description.toLowerCase().includes(searchLower);
+          if (!matchesSearch) return false;
+        }
 
-          // Price Range filter
-          if (filters.minPrice && space.price < filters.minPrice) return false;
-          if (filters.maxPrice && space.price > filters.maxPrice) return false;
+        // Category filter
+        if (filters.categories?.length > 0) {
+          if (!filters.categories.includes(space.category)) return false;
+        }
 
-          // Capacity filter
-          if (filters.minCapacity && space.capacity < filters.minCapacity)
-            return false;
+        // Price Range filter
+        if (filters.minPrice && space.price < filters.minPrice) return false;
+        if (filters.maxPrice && space.price > filters.maxPrice) return false;
 
-          // Rating filter (Minimum stars)
-          if (filters.rating && space.rating < filters.rating) return false;
+        // Capacity filter
+        if (filters.minCapacity && space.capacity < filters.minCapacity)
+          return false;
 
-          // Amenities filter (Must have ALL selected amenities)
-          if (filters.amenities?.length > 0) {
-            const hasAllAmenities = filters.amenities.every((amt: string) =>
-              space.amenities.includes(amt),
-            );
-            if (!hasAllAmenities) return false;
-          }
+        // Rating filter
+        if (filters.rating && space.rating < filters.rating) return false;
 
-          return true;
-        })
-        // 3. Sorting Logic
-        .sort((a, b) => {
-          switch (filters.sort) {
-            case "price_asc":
-              return a.price - b.price;
-            case "price_desc":
-              return b.price - a.price;
-            case "capacity":
-              return b.capacity - a.capacity;
-            case "newest":
-            default:
-              return b.id - a.id; // Assuming higher ID is newer
-          }
-        })
-    );
-  }, [allSpaces, filters]);
+        // Amenities filter
+        if (filters.amenities?.length > 0) {
+          const hasAllAmenities = filters.amenities.every((amt: string) =>
+            space.amenities.includes(amt),
+          );
+          if (!hasAllAmenities) return false;
+        }
+
+        return true;
+      })
+      .sort((a, b) => {
+        // Sorting Logic
+        switch (filters.sort) {
+          case "price_asc":
+            return a.price - b.price;
+          case "price_desc":
+            return b.price - a.price;
+          case "capacity":
+            return b.capacity - a.capacity;
+          case "newest":
+          default:
+            return b.id - a.id;
+        }
+      });
+
+    // IMPORTANT: We stringify filters so that the reference change
+    // of the object doesn't cause an infinite re-render loop.
+  }, [allSpaces, JSON.stringify(filters)]);
 
   return {
     filteredSpaces,

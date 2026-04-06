@@ -1,30 +1,24 @@
 "use client";
 
+import { SpaceCardProps } from "@/features/types/spaces";
 import { useState } from "react";
+import { useSavedSpaces } from "@/features/spaces/hooks/useSavedSpaces";
+import Image from "next/image";
 
-interface Space {
-  id: number;
-  name: string;
-  city: string;
-  category: string;
-  price: number;
-  capacity: number;
-  rating: number;
-  reviewCount: number;
-  amenities: string[];
-  imageUrl: string;
-}
+export const SpaceCard = ({ space, onRemove }: SpaceCardProps) => {
+  const [, forceUpdate] = useState(0);
+  const { isSaved, toggle } = useSavedSpaces();
 
-interface SpaceCardProps {
-  space: Space;
-  isSavedInitial?: boolean;
-}
-
-export const SpaceCard = ({
-  space,
-  isSavedInitial = false,
-}: SpaceCardProps) => {
-  const [isSaved, setIsSaved] = useState(isSavedInitial);
+  const handleSave = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (onRemove) {
+      onRemove(); // in collection, removing is the only action
+    } else {
+      toggle(space.id);
+      forceUpdate((n) => n + 1);
+    }
+  };
 
   return (
     <div
@@ -33,15 +27,16 @@ export const SpaceCard = ({
       transition-all duration-500 flex flex-col h-full"
     >
       {/* Image */}
-      <div className="relative aspect-[4/3] overflow-hidden">
-        <img
+      <div className="relative aspect-4/3 overflow-hidden">
+        <Image
+          fill
           src={space.imageUrl}
           alt={space.name}
           className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out"
           loading="lazy"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-t from-[#1A110A]/35 via-transparent to-transparent
+          className="absolute inset-0 bg-linear-to-t from-[#1A110A]/35 via-transparent to-transparent
           opacity-0 group-hover:opacity-100 transition-opacity duration-500"
         />
 
@@ -57,18 +52,14 @@ export const SpaceCard = ({
 
         {/* Save button */}
         <button
-          onClick={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            setIsSaved(!isSaved);
-          }}
+          onClick={handleSave}
           className="absolute top-3 right-3 w-[34px] h-[34px] rounded-full bg-[#F6F2EC]/90 backdrop-blur-sm
             border-none flex items-center justify-center hover:bg-white transition-all active:scale-90 shadow-sm"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill={isSaved ? "#C05A32" : "none"}
-            stroke={isSaved ? "#C05A32" : "#8B7B6E"}
+            fill={isSaved(space.id) ? "#C05A32" : "none"}
+            stroke={isSaved(space.id) ? "#C05A32" : "#8B7B6E"}
             viewBox="0 0 24 24"
             strokeWidth={1.8}
             className="w-4 h-4 transition-colors duration-200"
@@ -100,7 +91,7 @@ export const SpaceCard = ({
         </div>
 
         <p className="flex items-center gap-1.5 text-[12px] text-stone-400 mb-4">
-          <span className="w-[5px] h-[5px] rounded-full bg-[#C05A32] flex-shrink-0" />
+          <span className="w-[5px] h-[5px] rounded-full bg-[#C05A32] shrink-0" />
           {space.city}
         </p>
 
