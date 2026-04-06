@@ -38,7 +38,7 @@ export const useBookings = () => {
     }
   }, []);
   const cancelOne = async (id: number) => {
-    await fetch(`http://localhost:3001/bookings/${id}`, {
+    await fetch(`${process.env.NEXT_PUBLIC_API_URL}/bookings/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ status: "Cancelled" }),
@@ -106,7 +106,7 @@ export const useBookings = () => {
     const ids = Array.from(selectedIds);
     await Promise.all(
       ids.map((id) =>
-        fetch(`http://localhost:3001/bookings/${id}`, {
+        fetch(`${process.env.NEXT_PUBLIC_API_URL}/bookings/${id}`, {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ status: "Cancelled" }),
