@@ -25,10 +25,6 @@ export const DiscoveryView = () => {
         <div className="max-w-[1400px] mx-auto px-6 py-4">
           {/* Top row: logo + search + actions */}
           <div className="flex items-center gap-4">
-            <span className="font-cormorant text-[#C05A32] text-[22px] font-semibold tracking-tight shrink-0">
-              Spaces
-            </span>
-
             <div className="flex-1 max-w-2xl">
               <SearchInput
                 value={filters.search || ""}

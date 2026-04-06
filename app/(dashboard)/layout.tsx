@@ -1,3 +1,4 @@
+import { DashboardNav } from "@/components/DashboardNav";
 import { SpacesProvider } from "@/features/spaces/context/SpacesContext";
 
 export default function DashboardLayout({
@@ -7,7 +8,10 @@ export default function DashboardLayout({
 }) {
   return (
     <SpacesProvider>
-      <main className="flex-1">{children}</main>
+      <div className="min-h-screen bg-[#F6F2EC]">
+        <DashboardNav />
+        {children}
+      </div>
     </SpacesProvider>
   );
 }
