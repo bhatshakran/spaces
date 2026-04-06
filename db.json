@@ -1,7 +1,7 @@
 {
   "spaces": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Skyline Rooftop Lounge",
       "description": "A breathtaking outdoor space with panoramic views of the city skyline. Perfect for cocktail parties and networking events.",
       "city": "New York",
@@ -10,12 +10,17 @@
       "capacity": 75,
       "rating": 4.8,
       "reviewCount": 124,
-      "amenities": ["WiFi", "Outdoor", "Bar", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Bar",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space1/600/400",
       "createdAt": "2024-01-15T10:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Minimalist Creative Studio",
       "description": "High ceilings and natural light make this studio ideal for photoshoots, workshops, and intimate galleries.",
       "city": "Berlin",
@@ -24,12 +29,16 @@
       "capacity": 20,
       "rating": 4.5,
       "reviewCount": 42,
-      "amenities": ["WiFi", "AV Equipment", "Parking"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space2/600/400",
       "createdAt": "2024-02-10T14:30:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "The Glass Pavilion",
       "description": "An elegant glass-walled event space surrounded by manicured gardens. A stunning venue for weddings and corporate galas.",
       "city": "London",
@@ -38,12 +47,19 @@
       "capacity": 200,
       "rating": 4.9,
       "reviewCount": 211,
-      "amenities": ["WiFi", "Catering", "Bar", "Parking", "AV Equipment", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Parking",
+        "AV Equipment",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space3/600/400",
       "createdAt": "2024-01-20T09:00:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Warehouse District Loft",
       "description": "A raw, industrial loft with exposed brick and steel beams. Ideal for brand activations, art shows, and edgy corporate events.",
       "city": "Chicago",
@@ -52,12 +68,17 @@
       "capacity": 120,
       "rating": 4.6,
       "reviewCount": 88,
-      "amenities": ["WiFi", "AV Equipment", "Parking", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Parking",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space4/600/400",
       "createdAt": "2024-02-01T11:00:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Harborview Conference Center",
       "description": "A modern waterfront conference facility with floor-to-ceiling windows and state-of-the-art meeting technology.",
       "city": "San Francisco",
@@ -66,12 +87,17 @@
       "capacity": 60,
       "rating": 4.7,
       "reviewCount": 76,
-      "amenities": ["WiFi", "AV Equipment", "Catering", "Whiteboard"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Catering",
+        "Whiteboard"
+      ],
       "imageUrl": "https://picsum.photos/seed/space5/600/400",
       "createdAt": "2024-03-05T08:30:00Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "The Zen Garden Studio",
       "description": "A serene Japanese-inspired space with bamboo accents and a meditation garden. Perfect for yoga retreats and wellness workshops.",
       "city": "Los Angeles",
@@ -80,12 +106,16 @@
       "capacity": 25,
       "rating": 4.9,
       "reviewCount": 157,
-      "amenities": ["WiFi", "Outdoor", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space6/600/400",
       "createdAt": "2024-01-28T13:00:00Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Château Vigne Event Hall",
       "description": "A grand French chateau-style hall with vaulted ceilings and ornate chandeliers. Ideal for luxury weddings and black-tie galas.",
       "city": "Paris",
@@ -94,12 +124,18 @@
       "capacity": 300,
       "rating": 4.8,
       "reviewCount": 193,
-      "amenities": ["WiFi", "Catering", "Bar", "Parking", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Parking",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space7/600/400",
       "createdAt": "2024-02-14T10:00:00Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Neon Underground Club",
       "description": "A vibrant underground venue with neon lighting, a professional sound system, and a full bar. Perfect for launch parties and DJ events.",
       "city": "Miami",
@@ -108,12 +144,17 @@
       "capacity": 150,
       "rating": 4.4,
       "reviewCount": 65,
-      "amenities": ["Bar", "Sound System", "Lighting", "Security"],
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Lighting",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space8/600/400",
       "createdAt": "2024-03-10T20:00:00Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Alpine Meeting Lodge",
       "description": "A cozy mountain lodge with rustic wooden interiors and breathtaking alpine views. Great for team retreats and off-site meetings.",
       "city": "Zurich",
@@ -122,12 +163,17 @@
       "capacity": 40,
       "rating": 4.7,
       "reviewCount": 34,
-      "amenities": ["WiFi", "Catering", "Parking", "Fireplace"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Parking",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space9/600/400",
       "createdAt": "2024-01-05T09:00:00Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Oceanfront Terrace",
       "description": "A stunning open-air terrace set directly on the ocean. Hosts sunset cocktail receptions, wedding ceremonies, and VIP dinners.",
       "city": "Barcelona",
@@ -136,12 +182,17 @@
       "capacity": 100,
       "rating": 4.9,
       "reviewCount": 248,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space10/600/400",
       "createdAt": "2024-02-20T16:00:00Z"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "The Brickyard Gallery",
       "description": "A converted Victorian brickyard turned contemporary art gallery. A unique setting for product launches and private exhibitions.",
       "city": "London",
@@ -150,12 +201,16 @@
       "capacity": 80,
       "rating": 4.6,
       "reviewCount": 53,
-      "amenities": ["WiFi", "Lighting", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space11/600/400",
       "createdAt": "2024-03-01T11:00:00Z"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Desert Sunset Pavilion",
       "description": "An open-air pavilion in the heart of the desert with sweeping sand dune views. Perfect for corporate retreats and themed events.",
       "city": "Dubai",
@@ -164,12 +219,18 @@
       "capacity": 180,
       "rating": 4.8,
       "reviewCount": 112,
-      "amenities": ["Catering", "Bar", "Outdoor", "Parking", "AV Equipment"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Parking",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space12/600/400",
       "createdAt": "2024-01-10T07:00:00Z"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "The Clocktower Boardroom",
       "description": "A premium executive boardroom inside a historic clocktower building. Equipped for high-stakes negotiations and leadership summits.",
       "city": "Toronto",
@@ -178,12 +239,17 @@
       "capacity": 18,
       "rating": 4.7,
       "reviewCount": 29,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space13/600/400",
       "createdAt": "2024-02-08T08:00:00Z"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Sakura Garden Hall",
       "description": "A traditional Japanese event hall surrounded by cherry blossom trees and koi ponds. Elegant and serene for all occasions.",
       "city": "Tokyo",
@@ -192,12 +258,17 @@
       "capacity": 90,
       "rating": 4.9,
       "reviewCount": 302,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space14/600/400",
       "createdAt": "2024-01-25T09:00:00Z"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Riverwalk Boathouse",
       "description": "A charming boathouse on the river with a private dock and wraparound deck. Ideal for intimate rehearsal dinners and private parties.",
       "city": "Amsterdam",
@@ -206,12 +277,17 @@
       "capacity": 50,
       "rating": 4.6,
       "reviewCount": 71,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space15/600/400",
       "createdAt": "2024-03-15T10:00:00Z"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "SoHo Pop-Up Space",
       "description": "A versatile retail and event space in the heart of SoHo. Perfect for pop-up shops, brand launches, and influencer events.",
       "city": "New York",
@@ -220,12 +296,17 @@
       "capacity": 100,
       "rating": 4.5,
       "reviewCount": 89,
-      "amenities": ["WiFi", "AV Equipment", "Lighting", "Bar"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Lighting",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space16/600/400",
       "createdAt": "2024-02-25T12:00:00Z"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "The Candlelit Cellar",
       "description": "A romantic underground wine cellar with stone arches and soft candlelight. A magical setting for intimate dinners and wine tastings.",
       "city": "Rome",
@@ -234,12 +315,16 @@
       "capacity": 30,
       "rating": 4.8,
       "reviewCount": 144,
-      "amenities": ["Bar", "Catering", "WiFi"],
+      "amenities": [
+        "Bar",
+        "Catering",
+        "WiFi"
+      ],
       "imageUrl": "https://picsum.photos/seed/space17/600/400",
       "createdAt": "2024-01-30T18:00:00Z"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Meatpacking District Penthouse",
       "description": "A sleek penthouse with wraparound terrace and Manhattan views. A favorite for high-profile networking events and media parties.",
       "city": "New York",
@@ -248,12 +333,19 @@
       "capacity": 120,
       "rating": 4.9,
       "reviewCount": 178,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering", "Parking", "Security"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering",
+        "Parking",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space18/600/400",
       "createdAt": "2024-02-03T15:00:00Z"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Tech Hub Innovation Lab",
       "description": "A cutting-edge innovation lab with modular furniture and smart technology. Designed for hackathons, product demos, and startup pitches.",
       "city": "San Francisco",
@@ -262,12 +354,18 @@
       "capacity": 45,
       "rating": 4.6,
       "reviewCount": 61,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard", "3D Printing", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard",
+        "3D Printing",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space19/600/400",
       "createdAt": "2024-03-08T09:00:00Z"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Botanical Greenhouse",
       "description": "A lush Victorian greenhouse filled with exotic plants and tropical flowers. An enchanting venue for garden parties and wedding ceremonies.",
       "city": "London",
@@ -276,12 +374,17 @@
       "capacity": 85,
       "rating": 4.9,
       "reviewCount": 207,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space20/600/400",
       "createdAt": "2024-01-18T10:00:00Z"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Tribeca Film Screening Room",
       "description": "A private cinema with plush seating and Dolby sound. Ideal for film premieres, media screenings, and exclusive watch parties.",
       "city": "New York",
@@ -290,12 +393,17 @@
       "capacity": 55,
       "rating": 4.7,
       "reviewCount": 48,
-      "amenities": ["WiFi", "AV Equipment", "Bar", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Bar",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space21/600/400",
       "createdAt": "2024-02-12T14:00:00Z"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Tuscan Courtyard",
       "description": "An authentic Tuscan courtyard with terracotta tiles, olive trees, and a stone fountain. Perfect for al fresco dining and rustic weddings.",
       "city": "Florence",
@@ -304,12 +412,18 @@
       "capacity": 110,
       "rating": 4.8,
       "reviewCount": 163,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space22/600/400",
       "createdAt": "2024-01-22T11:00:00Z"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Crossfit & Events Gym",
       "description": "A dual-purpose athletic space that transforms into a corporate wellness venue. Great for team-building workshops and fitness challenges.",
       "city": "Austin",
@@ -318,12 +432,17 @@
       "capacity": 60,
       "rating": 4.4,
       "reviewCount": 27,
-      "amenities": ["WiFi", "Parking", "Sound System", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Parking",
+        "Sound System",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space23/600/400",
       "createdAt": "2024-03-18T07:00:00Z"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Heritage Library Hall",
       "description": "A majestic Victorian library with floor-to-ceiling bookshelves and mahogany furniture. A distinguished setting for lectures and private dinners.",
       "city": "Edinburgh",
@@ -332,12 +451,16 @@
       "capacity": 65,
       "rating": 4.8,
       "reviewCount": 92,
-      "amenities": ["WiFi", "AV Equipment", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space24/600/400",
       "createdAt": "2024-01-12T10:00:00Z"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Lakeside Event Barn",
       "description": "A converted 19th-century barn with rustic charm perched above a tranquil lake. A beloved venue for barn weddings and country celebrations.",
       "city": "Nashville",
@@ -346,12 +469,18 @@
       "capacity": 130,
       "rating": 4.7,
       "reviewCount": 188,
-      "amenities": ["WiFi", "Catering", "Parking", "Outdoor", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Parking",
+        "Outdoor",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space25/600/400",
       "createdAt": "2024-02-16T12:00:00Z"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Glass Cube Meeting Room",
       "description": "A futuristic all-glass meeting cube with panoramic city views and smart whiteboards. Ideal for focused business meetings and investor pitches.",
       "city": "Singapore",
@@ -360,12 +489,16 @@
       "capacity": 16,
       "rating": 4.6,
       "reviewCount": 38,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard"
+      ],
       "imageUrl": "https://picsum.photos/seed/space26/600/400",
       "createdAt": "2024-03-02T08:30:00Z"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Speakeasy Jazz Lounge",
       "description": "A clandestine 1920s-themed jazz lounge with velvet booths and live music. Perfect for themed corporate dinners and anniversary parties.",
       "city": "New Orleans",
@@ -374,26 +507,36 @@
       "capacity": 70,
       "rating": 4.8,
       "reviewCount": 116,
-      "amenities": ["Bar", "Sound System", "Catering", "WiFi"],
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Catering",
+        "WiFi"
+      ],
       "imageUrl": "https://picsum.photos/seed/space27/600/400",
       "createdAt": "2024-01-08T19:00:00Z"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Clifftop Ceremony Venue",
       "description": "A dramatic open-air ceremony space perched atop a coastal cliff with ocean views to the horizon. Popular for destination weddings.",
       "city": "Santorini",
       "category": "Outdoor",
       "price": 4200,
       "capacity": 80,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 274,
-      "amenities": ["Catering", "Bar", "Outdoor", "Lighting"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space28/600/400",
       "createdAt": "2024-02-05T15:00:00Z"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Artisan Culinary Studio",
       "description": "A fully equipped professional kitchen and dining space for cooking classes, culinary team builds, and chef's table experiences.",
       "city": "Melbourne",
@@ -402,12 +545,16 @@
       "capacity": 24,
       "rating": 4.7,
       "reviewCount": 59,
-      "amenities": ["WiFi", "Catering", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space29/600/400",
       "createdAt": "2024-03-12T10:00:00Z"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Rooftop Cinema Club",
       "description": "An open-air rooftop cinema with a 20-foot inflatable screen and bean bag seating. Unique for private screenings and birthday parties.",
       "city": "Los Angeles",
@@ -416,12 +563,18 @@
       "capacity": 90,
       "rating": 4.6,
       "reviewCount": 83,
-      "amenities": ["WiFi", "AV Equipment", "Bar", "Outdoor", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Bar",
+        "Outdoor",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space30/600/400",
       "createdAt": "2024-01-29T17:00:00Z"
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Floating Pontoon Deck",
       "description": "A unique floating event deck anchored in the city harbor. Offers 360° water views and is perfect for summer parties and VIP brunches.",
       "city": "Sydney",
@@ -430,12 +583,17 @@
       "capacity": 95,
       "rating": 4.8,
       "reviewCount": 137,
-      "amenities": ["Bar", "Catering", "Outdoor", "Sound System"],
+      "amenities": [
+        "Bar",
+        "Catering",
+        "Outdoor",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space31/600/400",
       "createdAt": "2024-02-22T11:00:00Z"
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Nordic Co-working Hub",
       "description": "A Scandinavian-designed co-working space with minimalist aesthetics and breakout pods. Ideal for remote team days and design sprints.",
       "city": "Copenhagen",
@@ -444,12 +602,17 @@
       "capacity": 35,
       "rating": 4.5,
       "reviewCount": 44,
-      "amenities": ["WiFi", "Whiteboard", "Catering", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Whiteboard",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space32/600/400",
       "createdAt": "2024-03-07T09:00:00Z"
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "The Velvet Ballroom",
       "description": "A sumptuous Art Deco ballroom with mirrored walls and velvet drapery. A timeless venue for weddings, proms, and charity galas.",
       "city": "Chicago",
@@ -458,12 +621,19 @@
       "capacity": 250,
       "rating": 4.8,
       "reviewCount": 219,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment", "Parking", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment",
+        "Parking",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space33/600/400",
       "createdAt": "2024-01-14T09:00:00Z"
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Rainforest Eco Lodge",
       "description": "A sustainable eco lodge nestled in the heart of the rainforest. Ideal for immersive corporate retreats and mindfulness programs.",
       "city": "São Paulo",
@@ -472,12 +642,17 @@
       "capacity": 55,
       "rating": 4.7,
       "reviewCount": 72,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space34/600/400",
       "createdAt": "2024-02-17T08:00:00Z"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Penthouse Sky Bar",
       "description": "An ultra-modern sky bar on the 52nd floor with a retractable glass roof. The city's most sought-after venue for exclusive parties.",
       "city": "Hong Kong",
@@ -486,12 +661,19 @@
       "capacity": 140,
       "rating": 4.9,
       "reviewCount": 256,
-      "amenities": ["Bar", "WiFi", "Outdoor", "Catering", "Security", "Sound System"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Outdoor",
+        "Catering",
+        "Security",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space35/600/400",
       "createdAt": "2024-01-03T18:00:00Z"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "Midsummer Meadow",
       "description": "An open wildflower meadow with a rustic stage and fairy light canopy. Magical for outdoor concerts, festivals, and bohemian weddings.",
       "city": "Stockholm",
@@ -500,12 +682,17 @@
       "capacity": 500,
       "rating": 4.6,
       "reviewCount": 98,
-      "amenities": ["Outdoor", "Sound System", "Parking", "Catering"],
+      "amenities": [
+        "Outdoor",
+        "Sound System",
+        "Parking",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space36/600/400",
       "createdAt": "2024-02-28T12:00:00Z"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "The Ironworks Event Hall",
       "description": "A vast converted ironworks factory with polished concrete floors and dramatic skylights. A blank canvas for large-scale events.",
       "city": "Manchester",
@@ -514,12 +701,18 @@
       "capacity": 350,
       "rating": 4.5,
       "reviewCount": 67,
-      "amenities": ["WiFi", "Parking", "AV Equipment", "Lighting", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "Parking",
+        "AV Equipment",
+        "Lighting",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space37/600/400",
       "createdAt": "2024-03-20T10:00:00Z"
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "Medina Riad Courtyard",
       "description": "A stunning traditional Moroccan riad with a central fountain and mosaic tilework. Perfect for immersive cultural events and intimate celebrations.",
       "city": "Marrakech",
@@ -528,12 +721,17 @@
       "capacity": 45,
       "rating": 4.9,
       "reviewCount": 185,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space38/600/400",
       "createdAt": "2024-01-17T14:00:00Z"
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Aquarium Private Event Suite",
       "description": "An exclusive event suite surrounded by floor-to-ceiling fish tanks and marine life. Unforgettable for cocktail receptions and corporate dinners.",
       "city": "Atlanta",
@@ -542,12 +740,18 @@
       "capacity": 200,
       "rating": 4.8,
       "reviewCount": 143,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space39/600/400",
       "createdAt": "2024-02-07T10:00:00Z"
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Industrial Chic Warehouse",
       "description": "A raw industrial warehouse with exposed ductwork, polished floors, and production-grade lighting rigs. A go-to for fashion shows and product launches.",
       "city": "Brooklyn",
@@ -556,12 +760,18 @@
       "capacity": 180,
       "rating": 4.6,
       "reviewCount": 104,
-      "amenities": ["WiFi", "Lighting", "AV Equipment", "Sound System", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment",
+        "Sound System",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space40/600/400",
       "createdAt": "2024-03-03T10:00:00Z"
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Beachfront Cabana Club",
       "description": "A private beachfront club with luxury cabanas, a pool, and a beach bar. The ultimate setting for daytime celebrations and sunset dinners.",
       "city": "Ibiza",
@@ -570,12 +780,18 @@
       "capacity": 160,
       "rating": 4.8,
       "reviewCount": 231,
-      "amenities": ["Bar", "Outdoor", "Catering", "Sound System", "Parking"],
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Catering",
+        "Sound System",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space41/600/400",
       "createdAt": "2024-01-26T10:00:00Z"
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Victorian Mansion Parlor",
       "description": "An opulently restored Victorian parlor with period furniture and ornate fireplaces. Ideal for literary soirées, mystery dinners, and private events.",
       "city": "Boston",
@@ -584,12 +800,17 @@
       "capacity": 50,
       "rating": 4.7,
       "reviewCount": 62,
-      "amenities": ["WiFi", "Catering", "Bar", "Fireplace"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space42/600/400",
       "createdAt": "2024-02-11T13:00:00Z"
     },
     {
-      "id": 43,
+      "id": "43",
       "name": "Canyon Amphitheatre",
       "description": "A dramatic natural stone amphitheatre carved into a canyon wall. An epic setting for concerts, ceremonies, and outdoor performances.",
       "city": "Phoenix",
@@ -598,12 +819,17 @@
       "capacity": 400,
       "rating": 4.7,
       "reviewCount": 89,
-      "amenities": ["Outdoor", "Sound System", "Lighting", "Parking"],
+      "amenities": [
+        "Outdoor",
+        "Sound System",
+        "Lighting",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space43/600/400",
       "createdAt": "2024-03-14T09:00:00Z"
     },
     {
-      "id": 44,
+      "id": "44",
       "name": "Cobblestone Cellar Bar",
       "description": "An atmospheric underground bar with cobblestone floors and arched stone ceilings. Great for whisky tastings, cocktail classes, and private parties.",
       "city": "Dublin",
@@ -612,12 +838,16 @@
       "capacity": 40,
       "rating": 4.6,
       "reviewCount": 79,
-      "amenities": ["Bar", "WiFi", "Catering"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space44/600/400",
       "createdAt": "2024-01-06T17:00:00Z"
     },
     {
-      "id": 45,
+      "id": "45",
       "name": "Futuristic Dome Space",
       "description": "A geodesic dome with immersive projection mapping capabilities. Ideal for brand activations, immersive art events, and unique product launches.",
       "city": "Seoul",
@@ -626,12 +856,17 @@
       "capacity": 100,
       "rating": 4.8,
       "reviewCount": 121,
-      "amenities": ["WiFi", "AV Equipment", "Lighting", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Lighting",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space45/600/400",
       "createdAt": "2024-02-19T14:00:00Z"
     },
     {
-      "id": 46,
+      "id": "46",
       "name": "Retro Diner & Event Space",
       "description": "A classic 1950s American diner available for private hire. A quirky, nostalgic setting for birthday parties and themed events.",
       "city": "Las Vegas",
@@ -640,12 +875,17 @@
       "capacity": 60,
       "rating": 4.4,
       "reviewCount": 55,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space46/600/400",
       "createdAt": "2024-03-19T12:00:00Z"
     },
     {
-      "id": 47,
+      "id": "47",
       "name": "Rainwater Rooftop Garden",
       "description": "A sustainable urban rooftop garden with vegetables, herbs, and a stunning green skyline view. Great for eco-themed events and wellness workshops.",
       "city": "Portland",
@@ -654,12 +894,16 @@
       "capacity": 40,
       "rating": 4.7,
       "reviewCount": 46,
-      "amenities": ["WiFi", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space47/600/400",
       "createdAt": "2024-01-31T09:00:00Z"
     },
     {
-      "id": 48,
+      "id": "48",
       "name": "Lakehouse Retreat Center",
       "description": "A secluded lakehouse retreat surrounded by pine forest. Features indoor and outdoor spaces for team-building activities and wellness programs.",
       "city": "Seattle",
@@ -668,12 +912,18 @@
       "capacity": 60,
       "rating": 4.8,
       "reviewCount": 103,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking", "Fireplace"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space48/600/400",
       "createdAt": "2024-02-26T10:00:00Z"
     },
     {
-      "id": 49,
+      "id": "49",
       "name": "Baroque Theatre Stage",
       "description": "A fully operational baroque theatre with stage, orchestra pit, and grand balconies. Perfect for product reveals, theatrical dinners, and performances.",
       "city": "Vienna",
@@ -682,12 +932,18 @@
       "capacity": 220,
       "rating": 4.9,
       "reviewCount": 168,
-      "amenities": ["WiFi", "AV Equipment", "Lighting", "Sound System", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Lighting",
+        "Sound System",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space49/600/400",
       "createdAt": "2024-01-07T10:00:00Z"
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "Sky Garden Terrace",
       "description": "A luxury sky garden terrace atop a five-star hotel with infinity pool access and downtown views. Perfect for exclusive evening receptions.",
       "city": "Dubai",
@@ -696,12 +952,19 @@
       "capacity": 130,
       "rating": 4.9,
       "reviewCount": 290,
-      "amenities": ["Bar", "WiFi", "Outdoor", "Catering", "Pool", "Security"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Outdoor",
+        "Catering",
+        "Pool",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space50/600/400",
       "createdAt": "2024-02-01T16:00:00Z"
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "Napa Valley Wine Cave",
       "description": "An authentic underground wine cave carved into a hillside vineyard. Spectacular for intimate wine dinners, tastings, and corporate entertaining.",
       "city": "San Francisco",
@@ -710,12 +973,16 @@
       "capacity": 35,
       "rating": 4.9,
       "reviewCount": 147,
-      "amenities": ["Catering", "Bar", "WiFi"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "WiFi"
+      ],
       "imageUrl": "https://picsum.photos/seed/space51/600/400",
       "createdAt": "2024-03-22T14:00:00Z"
     },
     {
-      "id": 52,
+      "id": "52",
       "name": "Midtown Skybridge Lounge",
       "description": "A dramatic glass-enclosed skybridge lounge connecting two skyscrapers. An unforgettable suspended setting for cocktail hours and press events.",
       "city": "New York",
@@ -724,12 +991,17 @@
       "capacity": 75,
       "rating": 4.7,
       "reviewCount": 92,
-      "amenities": ["Bar", "WiFi", "Catering", "AV Equipment"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space52/600/400",
       "createdAt": "2024-01-23T11:00:00Z"
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "Heritage Windmill",
       "description": "A lovingly restored 18th-century windmill with a cozy interior and surrounding countryside. Charming for intimate weddings and private gatherings.",
       "city": "Amsterdam",
@@ -738,12 +1010,16 @@
       "capacity": 30,
       "rating": 4.8,
       "reviewCount": 74,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space53/600/400",
       "createdAt": "2024-02-29T10:00:00Z"
     },
     {
-      "id": 54,
+      "id": "54",
       "name": "Convention Hall Alpha",
       "description": "A massive convention hall with divisible space, rigging, and a loading dock. Suits trade shows, expos, and large-scale corporate conferences.",
       "city": "Las Vegas",
@@ -752,26 +1028,37 @@
       "capacity": 1500,
       "rating": 4.4,
       "reviewCount": 53,
-      "amenities": ["WiFi", "AV Equipment", "Parking", "Catering", "Lighting", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Parking",
+        "Catering",
+        "Lighting",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space54/600/400",
       "createdAt": "2024-01-02T08:00:00Z"
     },
     {
-      "id": 55,
+      "id": "55",
       "name": "The Lush Treehouse",
       "description": "An elevated treehouse retreat nestled in an ancient forest canopy. Magical for intimate ceremonies, photo shoots, and executive escapes.",
       "city": "Portland",
       "category": "Unique",
       "price": 850,
       "capacity": 15,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 82,
-      "amenities": ["WiFi", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space55/600/400",
       "createdAt": "2024-03-25T09:00:00Z"
     },
     {
-      "id": 56,
+      "id": "56",
       "name": "Postmodern Art Space",
       "description": "A white-cube gallery with rotating contemporary art and raw concrete accents. Ideal for exhibitions, collector dinners, and brand partnerships.",
       "city": "Berlin",
@@ -780,12 +1067,17 @@
       "capacity": 65,
       "rating": 4.6,
       "reviewCount": 49,
-      "amenities": ["WiFi", "Lighting", "AV Equipment", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space56/600/400",
       "createdAt": "2024-01-16T13:00:00Z"
     },
     {
-      "id": 57,
+      "id": "57",
       "name": "Music Hall & Bandstand",
       "description": "A classic Victorian music hall with an original bandstand and tiered balconies. Perfect for live performances, concerts, and awards ceremonies.",
       "city": "Liverpool",
@@ -794,12 +1086,18 @@
       "capacity": 300,
       "rating": 4.7,
       "reviewCount": 134,
-      "amenities": ["WiFi", "Sound System", "AV Equipment", "Lighting", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "AV Equipment",
+        "Lighting",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space57/600/400",
       "createdAt": "2024-02-04T18:00:00Z"
     },
     {
-      "id": 58,
+      "id": "58",
       "name": "Hillside Vineyard Terrace",
       "description": "A sun-drenched terrace perched on a working vineyard hillside. A romantic and picturesque setting for wedding receptions and wine-pairing dinners.",
       "city": "Cape Town",
@@ -808,12 +1106,18 @@
       "capacity": 100,
       "rating": 4.9,
       "reviewCount": 222,
-      "amenities": ["WiFi", "Bar", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space58/600/400",
       "createdAt": "2024-03-10T10:00:00Z"
     },
     {
-      "id": 59,
+      "id": "59",
       "name": "Brutalist Conference Bunker",
       "description": "A decommissioned Cold War bunker repurposed as a dramatic conference venue. An unusual setting for intense strategy sessions and off-site meetings.",
       "city": "London",
@@ -822,12 +1126,17 @@
       "capacity": 50,
       "rating": 4.5,
       "reviewCount": 31,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard", "Security"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space59/600/400",
       "createdAt": "2024-01-09T08:00:00Z"
     },
     {
-      "id": 60,
+      "id": "60",
       "name": "Canopy Jungle Camp",
       "description": "A glamping-style jungle camp beneath a dense tropical canopy. Adventure awaits for team-building events and leadership development programs.",
       "city": "Bali",
@@ -836,12 +1145,17 @@
       "capacity": 40,
       "rating": 4.8,
       "reviewCount": 177,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space60/600/400",
       "createdAt": "2024-02-09T07:00:00Z"
     },
     {
-      "id": 61,
+      "id": "61",
       "name": "Harlem Soulful Supper Club",
       "description": "A soulful supper club with jazz performances and Southern-inspired cuisine. A vibrant venue for private dinners and milestone celebrations.",
       "city": "New York",
@@ -850,12 +1164,17 @@
       "capacity": 80,
       "rating": 4.7,
       "reviewCount": 140,
-      "amenities": ["WiFi", "Catering", "Bar", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space61/600/400",
       "createdAt": "2024-03-13T19:00:00Z"
     },
     {
-      "id": 62,
+      "id": "62",
       "name": "Urban Rooftop Farm",
       "description": "A working rooftop farm with garden beds, a herb station, and a stunning city skyline backdrop. Perfect for farm-to-table dinners and wellness events.",
       "city": "Chicago",
@@ -864,12 +1183,16 @@
       "capacity": 50,
       "rating": 4.8,
       "reviewCount": 66,
-      "amenities": ["WiFi", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space62/600/400",
       "createdAt": "2024-01-21T10:00:00Z"
     },
     {
-      "id": 63,
+      "id": "63",
       "name": "Desert Glass Retreat",
       "description": "A minimalist glass-and-steel retreat embedded in the red desert landscape. An extraordinary setting for high-concept events and creative residencies.",
       "city": "Phoenix",
@@ -878,12 +1201,17 @@
       "capacity": 30,
       "rating": 4.9,
       "reviewCount": 58,
-      "amenities": ["WiFi", "Catering", "Parking", "Pool"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Parking",
+        "Pool"
+      ],
       "imageUrl": "https://picsum.photos/seed/space63/600/400",
       "createdAt": "2024-02-23T10:00:00Z"
     },
     {
-      "id": 64,
+      "id": "64",
       "name": "Old Town Plaza",
       "description": "A historic cobblestone plaza in the heart of the old city, beautifully lit for evening events. Ideal for open-air concerts, markets, and cultural festivals.",
       "city": "Prague",
@@ -892,26 +1220,37 @@
       "capacity": 600,
       "rating": 4.7,
       "reviewCount": 189,
-      "amenities": ["Outdoor", "Sound System", "Lighting", "Catering"],
+      "amenities": [
+        "Outdoor",
+        "Sound System",
+        "Lighting",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space64/600/400",
       "createdAt": "2024-03-01T09:00:00Z"
     },
     {
-      "id": 65,
+      "id": "65",
       "name": "Glass Beach Bungalow",
       "description": "An elegant glass-walled beach bungalow with direct ocean access. Perfect for exclusive seaside weddings and intimate retreats.",
       "city": "Maldives",
       "category": "Unique",
       "price": 6000,
       "capacity": 30,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 195,
-      "amenities": ["WiFi", "Bar", "Catering", "Outdoor", "Pool"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Catering",
+        "Outdoor",
+        "Pool"
+      ],
       "imageUrl": "https://picsum.photos/seed/space65/600/400",
       "createdAt": "2024-01-19T10:00:00Z"
     },
     {
-      "id": 66,
+      "id": "66",
       "name": "Startup Sprint Space",
       "description": "A dynamic co-working space with standing desks, phone booths, and collaboration walls. Tailored for hackathons, innovation sprints, and team strategy days.",
       "city": "Austin",
@@ -920,26 +1259,37 @@
       "capacity": 50,
       "rating": 4.5,
       "reviewCount": 37,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space66/600/400",
       "createdAt": "2024-02-13T09:00:00Z"
     },
     {
-      "id": 67,
+      "id": "67",
       "name": "Palazzo Grand Sala",
       "description": "A monumental Baroque sala in a 17th-century Venetian palazzo. An unmatched setting for luxury product launches and exclusive corporate galas.",
       "city": "Venice",
       "category": "Ballroom",
       "price": 7000,
       "capacity": 180,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 213,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space67/600/400",
       "createdAt": "2024-01-04T10:00:00Z"
     },
     {
-      "id": 68,
+      "id": "68",
       "name": "Cliffside Yoga Deck",
       "description": "An open-air yoga deck built into a seaside cliff with unobstructed ocean views. A serene setting for wellness retreats and mindfulness workshops.",
       "city": "Bali",
@@ -948,12 +1298,16 @@
       "capacity": 20,
       "rating": 4.9,
       "reviewCount": 261,
-      "amenities": ["WiFi", "Outdoor", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space68/600/400",
       "createdAt": "2024-02-18T07:00:00Z"
     },
     {
-      "id": 69,
+      "id": "69",
       "name": "The Copper Distillery",
       "description": "A boutique craft distillery with copper pot stills and a private tasting room. Excellent for corporate entertaining, whisky masterclasses, and team events.",
       "city": "Glasgow",
@@ -962,12 +1316,16 @@
       "capacity": 35,
       "rating": 4.7,
       "reviewCount": 88,
-      "amenities": ["WiFi", "Bar", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space69/600/400",
       "createdAt": "2024-03-04T10:00:00Z"
     },
     {
-      "id": 70,
+      "id": "70",
       "name": "Underground Grotto",
       "description": "A mystical natural limestone grotto illuminated by ambient lighting. A one-of-a-kind venue for immersive dining experiences and theatrical events.",
       "city": "Budapest",
@@ -976,12 +1334,17 @@
       "capacity": 55,
       "rating": 4.8,
       "reviewCount": 102,
-      "amenities": ["WiFi", "Catering", "Bar", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space70/600/400",
       "createdAt": "2024-01-11T13:00:00Z"
     },
     {
-      "id": 71,
+      "id": "71",
       "name": "Midcentury Ranch Estate",
       "description": "A sprawling mid-century modern ranch estate with a pool, fire pits, and wide-open desert views. Perfect for executive retreats and luxury incentive events.",
       "city": "Palm Springs",
@@ -990,12 +1353,19 @@
       "capacity": 100,
       "rating": 4.8,
       "reviewCount": 151,
-      "amenities": ["WiFi", "Pool", "Bar", "Catering", "Parking", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Pool",
+        "Bar",
+        "Catering",
+        "Parking",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space71/600/400",
       "createdAt": "2024-02-06T10:00:00Z"
     },
     {
-      "id": 72,
+      "id": "72",
       "name": "Pixel VR Event Space",
       "description": "A tech-forward event space with a dedicated VR experience zone and immersive LED tunnels. Ideal for gaming launches and tech company events.",
       "city": "Seoul",
@@ -1004,12 +1374,17 @@
       "capacity": 80,
       "rating": 4.6,
       "reviewCount": 57,
-      "amenities": ["WiFi", "AV Equipment", "Sound System", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Sound System",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space72/600/400",
       "createdAt": "2024-03-17T10:00:00Z"
     },
     {
-      "id": 73,
+      "id": "73",
       "name": "Seaside Lighthouse Venue",
       "description": "A converted 19th-century lighthouse on a rocky cape with sweeping ocean views. A romantic and dramatic setting for intimate ceremonies.",
       "city": "Cape Cod",
@@ -1018,12 +1393,17 @@
       "capacity": 40,
       "rating": 4.9,
       "reviewCount": 127,
-      "amenities": ["WiFi", "Outdoor", "Catering", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space73/600/400",
       "createdAt": "2024-01-24T10:00:00Z"
     },
     {
-      "id": 74,
+      "id": "74",
       "name": "Concrete Jungle Lab",
       "description": "A creative experimental space in a brutalist building with raw textures and spray-paint murals. Popular for art installations and underground music events.",
       "city": "Berlin",
@@ -1032,12 +1412,16 @@
       "capacity": 70,
       "rating": 4.4,
       "reviewCount": 43,
-      "amenities": ["WiFi", "Sound System", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space74/600/400",
       "createdAt": "2024-02-27T18:00:00Z"
     },
     {
-      "id": 75,
+      "id": "75",
       "name": "Tropical Poolside Venue",
       "description": "A resort-style poolside event space framed by palm trees and tiki torches. Perfect for themed parties, product launches, and summer events.",
       "city": "Miami",
@@ -1046,12 +1430,18 @@
       "capacity": 150,
       "rating": 4.7,
       "reviewCount": 174,
-      "amenities": ["Bar", "Pool", "Outdoor", "Sound System", "Catering"],
+      "amenities": [
+        "Bar",
+        "Pool",
+        "Outdoor",
+        "Sound System",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space75/600/400",
       "createdAt": "2024-03-06T10:00:00Z"
     },
     {
-      "id": 76,
+      "id": "76",
       "name": "East Village Poetry Den",
       "description": "A cozy underground literary den with mismatched furniture and a small stage. Beloved for book launches, poetry slams, and creative workshops.",
       "city": "New York",
@@ -1060,12 +1450,16 @@
       "capacity": 30,
       "rating": 4.6,
       "reviewCount": 64,
-      "amenities": ["WiFi", "Sound System", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space76/600/400",
       "createdAt": "2024-01-27T18:00:00Z"
     },
     {
-      "id": 77,
+      "id": "77",
       "name": "Golden Gate Meeting Suite",
       "description": "A premium meeting suite with direct Golden Gate Bridge views and built-in teleconferencing. Perfect for executive meetings and board presentations.",
       "city": "San Francisco",
@@ -1074,12 +1468,17 @@
       "capacity": 22,
       "rating": 4.8,
       "reviewCount": 47,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space77/600/400",
       "createdAt": "2024-02-15T09:00:00Z"
     },
     {
-      "id": 78,
+      "id": "78",
       "name": "Champagne Terrace Bar",
       "description": "A sophisticated champagne terrace bar on the 7th floor of a Belle Époque building. Ideal for networking soirées and celebratory toasts.",
       "city": "Paris",
@@ -1088,12 +1487,17 @@
       "capacity": 60,
       "rating": 4.8,
       "reviewCount": 138,
-      "amenities": ["Bar", "WiFi", "Outdoor", "Catering"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space78/600/400",
       "createdAt": "2024-03-09T17:00:00Z"
     },
     {
-      "id": 79,
+      "id": "79",
       "name": "Shipyard Loft Venue",
       "description": "A converted shipyard loft on the waterfront with original timber beams and marine memorabilia. Ideal for nautical-themed events and private parties.",
       "city": "Hamburg",
@@ -1102,12 +1506,17 @@
       "capacity": 90,
       "rating": 4.6,
       "reviewCount": 56,
-      "amenities": ["WiFi", "Bar", "AV Equipment", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "AV Equipment",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space79/600/400",
       "createdAt": "2024-01-13T10:00:00Z"
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "The Marble Gallery",
       "description": "A grand neoclassical gallery with marble floors and Roman-inspired columns. A prestigious setting for charity auctions, formal dinners, and press events.",
       "city": "Washington D.C.",
@@ -1116,26 +1525,38 @@
       "capacity": 180,
       "rating": 4.9,
       "reviewCount": 201,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment", "Lighting", "Security"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment",
+        "Lighting",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space80/600/400",
       "createdAt": "2024-02-02T10:00:00Z"
     },
     {
-      "id": 81,
+      "id": "81",
       "name": "Jungle Treehouse Resort Suite",
       "description": "A luxury treehouse suite nestled 15 meters above a lush tropical jungle floor. Unforgettable for intimate dinners and exclusive executive retreats.",
       "city": "Costa Rica",
       "category": "Unique",
       "price": 3400,
       "capacity": 20,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 88,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space81/600/400",
       "createdAt": "2024-03-23T10:00:00Z"
     },
     {
-      "id": 82,
+      "id": "82",
       "name": "Courtyard Tapas Bar",
       "description": "A vibrant Spanish courtyard with mosaic walls, orange trees, and a tapas bar. Ideal for casual team dinners, cultural celebrations, and networking events.",
       "city": "Seville",
@@ -1144,12 +1565,17 @@
       "capacity": 55,
       "rating": 4.7,
       "reviewCount": 93,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space82/600/400",
       "createdAt": "2024-01-30T12:00:00Z"
     },
     {
-      "id": 83,
+      "id": "83",
       "name": "Micro Cinema & Event Space",
       "description": "An intimate 40-seat micro cinema with 4K projection and a bar. Perfect for film club events, private screenings, and creative presentations.",
       "city": "Amsterdam",
@@ -1158,12 +1584,17 @@
       "capacity": 40,
       "rating": 4.6,
       "reviewCount": 41,
-      "amenities": ["WiFi", "AV Equipment", "Bar", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Bar",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space83/600/400",
       "createdAt": "2024-02-21T14:00:00Z"
     },
     {
-      "id": 84,
+      "id": "84",
       "name": "Rooftop Infinity Pool Deck",
       "description": "A rooftop infinity pool deck overlooking the cityscape. An aspirational venue for brand photo shoots, influencer events, and product launches.",
       "city": "Bangkok",
@@ -1172,12 +1603,18 @@
       "capacity": 80,
       "rating": 4.8,
       "reviewCount": 195,
-      "amenities": ["Bar", "Pool", "WiFi", "Outdoor", "Catering"],
+      "amenities": [
+        "Bar",
+        "Pool",
+        "WiFi",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space84/600/400",
       "createdAt": "2024-03-16T10:00:00Z"
     },
     {
-      "id": 85,
+      "id": "85",
       "name": "Converted Church Hall",
       "description": "A beautifully converted Gothic church with soaring ceilings and stained glass windows. A dramatic and atmospheric venue for weddings and cultural events.",
       "city": "Bristol",
@@ -1186,12 +1623,18 @@
       "capacity": 200,
       "rating": 4.8,
       "reviewCount": 162,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space85/600/400",
       "createdAt": "2024-01-10T10:00:00Z"
     },
     {
-      "id": 86,
+      "id": "86",
       "name": "Pebble Beach Bonfire Venue",
       "description": "A private pebble beach with bonfires, driftwood seating, and ocean sound all around. Ideal for casual sunset parties and team-building retreats.",
       "city": "Cornwall",
@@ -1200,12 +1643,16 @@
       "capacity": 60,
       "rating": 4.7,
       "reviewCount": 78,
-      "amenities": ["Outdoor", "Catering", "Parking"],
+      "amenities": [
+        "Outdoor",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space86/600/400",
       "createdAt": "2024-02-24T16:00:00Z"
     },
     {
-      "id": 87,
+      "id": "87",
       "name": "Kathmandu Mountain Lodge",
       "description": "A cozy stone lodge with Himalayan views and traditional Nepalese décor. Ideal for cultural immersion retreats and spiritual corporate programs.",
       "city": "Kathmandu",
@@ -1214,12 +1661,16 @@
       "capacity": 25,
       "rating": 4.7,
       "reviewCount": 55,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space87/600/400",
       "createdAt": "2024-03-21T09:00:00Z"
     },
     {
-      "id": 88,
+      "id": "88",
       "name": "Skyline Penthouse Studio",
       "description": "A dual-purpose photography and events studio with 360° floor-to-ceiling city views. Ideal for editorial shoots, intimate product launches, and VIP meetups.",
       "city": "Tokyo",
@@ -1228,12 +1679,17 @@
       "capacity": 35,
       "rating": 4.8,
       "reviewCount": 99,
-      "amenities": ["WiFi", "AV Equipment", "Lighting", "Bar"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Lighting",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space88/600/400",
       "createdAt": "2024-01-01T10:00:00Z"
     },
     {
-      "id": 89,
+      "id": "89",
       "name": "River Barge Dining Vessel",
       "description": "A private river barge converted into a floating restaurant and event venue. Offers a moving dining experience along the city's historic waterways.",
       "city": "Paris",
@@ -1242,12 +1698,17 @@
       "capacity": 65,
       "rating": 4.8,
       "reviewCount": 183,
-      "amenities": ["Bar", "Catering", "WiFi", "Sound System"],
+      "amenities": [
+        "Bar",
+        "Catering",
+        "WiFi",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space89/600/400",
       "createdAt": "2024-02-10T18:00:00Z"
     },
     {
-      "id": 90,
+      "id": "90",
       "name": "Salsa Dance Studio",
       "description": "A vibrant Latin dance studio with sprung floors and a full sound system. Perfect for energetic team events, dance workshops, and themed parties.",
       "city": "Bogotá",
@@ -1256,12 +1717,16 @@
       "capacity": 40,
       "rating": 4.6,
       "reviewCount": 70,
-      "amenities": ["WiFi", "Sound System", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space90/600/400",
       "createdAt": "2024-03-11T18:00:00Z"
     },
     {
-      "id": 91,
+      "id": "91",
       "name": "Mountaintop Observatory",
       "description": "A working astronomical observatory open for private event hire. Stargazing dinners and scientific presentations under an inky mountain sky.",
       "city": "Santiago",
@@ -1270,12 +1735,17 @@
       "capacity": 30,
       "rating": 4.9,
       "reviewCount": 66,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space91/600/400",
       "createdAt": "2024-01-15T20:00:00Z"
     },
     {
-      "id": 92,
+      "id": "92",
       "name": "Fashion Week Showroom",
       "description": "A sleek, purpose-built fashion showroom with runway track lighting and full-length mirrored walls. Ideal for collection reveals and industry press days.",
       "city": "Milan",
@@ -1284,12 +1754,17 @@
       "capacity": 75,
       "rating": 4.7,
       "reviewCount": 81,
-      "amenities": ["WiFi", "Lighting", "AV Equipment", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space92/600/400",
       "createdAt": "2024-02-14T10:00:00Z"
     },
     {
-      "id": 93,
+      "id": "93",
       "name": "Historic Guildhall",
       "description": "A restored medieval guildhall with original timber roofing and heraldic crests. A prestigious setting for award ceremonies, corporate dinners, and gala events.",
       "city": "York",
@@ -1298,12 +1773,17 @@
       "capacity": 140,
       "rating": 4.8,
       "reviewCount": 119,
-      "amenities": ["WiFi", "Catering", "AV Equipment", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "AV Equipment",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space93/600/400",
       "createdAt": "2024-03-05T10:00:00Z"
     },
     {
-      "id": 94,
+      "id": "94",
       "name": "Hacienda Event Space",
       "description": "A sweeping traditional Mexican hacienda with terracotta-tiled courtyards, adobe walls, and a colorful cantina. A vibrant setting for fiestas and celebrations.",
       "city": "Mexico City",
@@ -1312,12 +1792,18 @@
       "capacity": 200,
       "rating": 4.7,
       "reviewCount": 152,
-      "amenities": ["WiFi", "Bar", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space94/600/400",
       "createdAt": "2024-01-22T10:00:00Z"
     },
     {
-      "id": 95,
+      "id": "95",
       "name": "Balinese Water Temple",
       "description": "A private sacred compound inspired by Balinese water temples with lotus ponds and carved stone gates. Serene for ceremonial events and cultural retreats.",
       "city": "Bali",
@@ -1326,12 +1812,16 @@
       "capacity": 50,
       "rating": 4.9,
       "reviewCount": 204,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space95/600/400",
       "createdAt": "2024-02-28T10:00:00Z"
     },
     {
-      "id": 96,
+      "id": "96",
       "name": "The Roaming Food Hall",
       "description": "A modular indoor food hall with multiple vendor stalls and communal tables. Ideal for corporate food festivals, team lunches, and casual networking events.",
       "city": "London",
@@ -1340,12 +1830,17 @@
       "capacity": 250,
       "rating": 4.5,
       "reviewCount": 74,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space96/600/400",
       "createdAt": "2024-03-18T12:00:00Z"
     },
     {
-      "id": 97,
+      "id": "97",
       "name": "Glass Cube Pavilion",
       "description": "A standalone all-glass pavilion in the middle of a sculpture park. A transparent, light-filled space for gallery openings, brand launches, and private dinners.",
       "city": "Chicago",
@@ -1354,12 +1849,17 @@
       "capacity": 70,
       "rating": 4.7,
       "reviewCount": 86,
-      "amenities": ["WiFi", "AV Equipment", "Catering", "Parking"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space97/600/400",
       "createdAt": "2024-01-03T10:00:00Z"
     },
     {
-      "id": 98,
+      "id": "98",
       "name": "Hammam Spa & Event Suite",
       "description": "A luxury hammam spa with private marble chambers and scented steam rooms. An indulgent setting for bachelorette parties and wellness corporate days.",
       "city": "Istanbul",
@@ -1368,12 +1868,16 @@
       "capacity": 25,
       "rating": 4.8,
       "reviewCount": 130,
-      "amenities": ["WiFi", "Catering", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space98/600/400",
       "createdAt": "2024-02-07T09:00:00Z"
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "Neon Art District Studio",
       "description": "A pop-art inspired creative studio adorned with neon installations and street art murals. Perfect for influencer events, brand content days, and immersive art activations.",
       "city": "Los Angeles",
@@ -1382,12 +1886,17 @@
       "capacity": 60,
       "rating": 4.6,
       "reviewCount": 95,
-      "amenities": ["WiFi", "Lighting", "AV Equipment", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space99/600/400",
       "createdAt": "2024-03-01T10:00:00Z"
     },
     {
-      "id": 100,
+      "id": "100",
       "name": "The Grand Observatory Deck",
       "description": "An enclosed panoramic observation deck atop a 60-floor tower. A jaw-dropping setting for executive cocktail parties and prestige corporate events.",
       "city": "Toronto",
@@ -1396,12 +1905,18 @@
       "capacity": 110,
       "rating": 4.8,
       "reviewCount": 162,
-      "amenities": ["Bar", "WiFi", "Catering", "Security", "AV Equipment"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering",
+        "Security",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space100/600/400",
       "createdAt": "2024-01-05T18:00:00Z"
     },
     {
-      "id": 101,
+      "id": "101",
       "name": "Fireside Whisky Library",
       "description": "An intimate library lounge warmed by a roaring fireplace and lined with a 500-bottle whisky collection. Perfect for private tastings and executive dinners.",
       "city": "Edinburgh",
@@ -1410,12 +1925,17 @@
       "capacity": 28,
       "rating": 4.9,
       "reviewCount": 107,
-      "amenities": ["Bar", "WiFi", "Catering", "Fireplace"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space101/600/400",
       "createdAt": "2024-02-16T18:00:00Z"
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Tropical Rainforest Stage",
       "description": "A purpose-built stage inside a climate-controlled tropical greenhouse. Hosts live music, theatrical performances, and unique brand activations.",
       "city": "Singapore",
@@ -1424,12 +1944,18 @@
       "capacity": 180,
       "rating": 4.7,
       "reviewCount": 69,
-      "amenities": ["WiFi", "Sound System", "AV Equipment", "Lighting", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "AV Equipment",
+        "Lighting",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space102/600/400",
       "createdAt": "2024-03-09T10:00:00Z"
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "Crumbling Ruins Amphitheatre",
       "description": "An authentic ancient amphitheatre partially reclaimed by nature. An extraordinary setting for open-air performances and archaeological-themed corporate events.",
       "city": "Athens",
@@ -1438,12 +1964,16 @@
       "capacity": 350,
       "rating": 4.9,
       "reviewCount": 225,
-      "amenities": ["Outdoor", "Sound System", "Lighting"],
+      "amenities": [
+        "Outdoor",
+        "Sound System",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space103/600/400",
       "createdAt": "2024-01-18T10:00:00Z"
     },
     {
-      "id": 104,
+      "id": "104",
       "name": "Waterfall Retreat Garden",
       "description": "A lush private garden with a cascading waterfall and koi pond. A peaceful and naturally beautiful venue for intimate weddings and wellness events.",
       "city": "Kyoto",
@@ -1452,12 +1982,16 @@
       "capacity": 60,
       "rating": 4.9,
       "reviewCount": 233,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space104/600/400",
       "createdAt": "2024-02-12T10:00:00Z"
     },
     {
-      "id": 105,
+      "id": "105",
       "name": "Abandoned Factory Chic",
       "description": "A partially derelict factory space with peeling murals, high ceilings, and moody atmosphere. Wildly popular for underground events and editorial photo shoots.",
       "city": "Detroit",
@@ -1466,12 +2000,17 @@
       "capacity": 200,
       "rating": 4.5,
       "reviewCount": 62,
-      "amenities": ["WiFi", "Sound System", "Lighting", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "Lighting",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space105/600/400",
       "createdAt": "2024-03-12T10:00:00Z"
     },
     {
-      "id": 106,
+      "id": "106",
       "name": "High Altitude Snowsphere",
       "description": "A dome venue built on an alpine ski slope at 2,400m altitude. Offers panoramic mountain views and après-ski ambiance for winter corporate events.",
       "city": "Verbier",
@@ -1480,12 +2019,17 @@
       "capacity": 60,
       "rating": 4.8,
       "reviewCount": 48,
-      "amenities": ["Bar", "Catering", "WiFi", "Sound System"],
+      "amenities": [
+        "Bar",
+        "Catering",
+        "WiFi",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space106/600/400",
       "createdAt": "2024-01-26T10:00:00Z"
     },
     {
-      "id": 107,
+      "id": "107",
       "name": "The Founders Club",
       "description": "A members-style private club for entrepreneurs, featuring a dedicated event space, podcast studio, and roof deck. Ideal for startup showcases.",
       "city": "San Francisco",
@@ -1494,12 +2038,18 @@
       "capacity": 65,
       "rating": 4.7,
       "reviewCount": 53,
-      "amenities": ["WiFi", "AV Equipment", "Bar", "Outdoor", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Bar",
+        "Outdoor",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space107/600/400",
       "createdAt": "2024-02-20T10:00:00Z"
     },
     {
-      "id": 108,
+      "id": "108",
       "name": "Riverside Pagoda",
       "description": "A traditional wooden pagoda overlooking a serene river with cherry blossoms in spring. A culturally rich setting for ceremonial events and cultural celebrations.",
       "city": "Hiroshima",
@@ -1508,12 +2058,16 @@
       "capacity": 40,
       "rating": 4.8,
       "reviewCount": 142,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space108/600/400",
       "createdAt": "2024-03-15T10:00:00Z"
     },
     {
-      "id": 109,
+      "id": "109",
       "name": "Avant-Garde Creative Bunker",
       "description": "A underground creative bunker with projection-mapped walls and a recording studio. A haven for musicians, artists, and edgy brand events.",
       "city": "Berlin",
@@ -1522,12 +2076,17 @@
       "capacity": 45,
       "rating": 4.6,
       "reviewCount": 39,
-      "amenities": ["WiFi", "Sound System", "AV Equipment", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "AV Equipment",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space109/600/400",
       "createdAt": "2024-01-28T18:00:00Z"
     },
     {
-      "id": 110,
+      "id": "110",
       "name": "Lakeside Pergola Venue",
       "description": "A beautifully draped lakeside pergola surrounded by weeping willows and floating lanterns at night. Perfect for outdoor wedding receptions.",
       "city": "Lugano",
@@ -1536,26 +2095,38 @@
       "capacity": 120,
       "rating": 4.9,
       "reviewCount": 196,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor", "Parking", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Parking",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space110/600/400",
       "createdAt": "2024-02-05T10:00:00Z"
     },
     {
-      "id": 111,
+      "id": "111",
       "name": "Empire Suite",
       "description": "An ornate Napoleon III-style private suite in a Haussmann building with gilded ceilings and bespoke French furnishings. Ideal for VIP dinners and diplomatic gatherings.",
       "city": "Paris",
       "category": "Mansion",
       "price": 4600,
       "capacity": 30,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 77,
-      "amenities": ["WiFi", "Catering", "Bar", "Fireplace"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space111/600/400",
       "createdAt": "2024-03-19T10:00:00Z"
     },
     {
-      "id": 112,
+      "id": "112",
       "name": "Container City Event Hub",
       "description": "A dynamic event hub built from repurposed shipping containers. Trendy and versatile for pop-up markets, street food festivals, and outdoor brand activations.",
       "city": "Cape Town",
@@ -1564,12 +2135,18 @@
       "capacity": 250,
       "rating": 4.5,
       "reviewCount": 81,
-      "amenities": ["Outdoor", "Bar", "Sound System", "WiFi", "Parking"],
+      "amenities": [
+        "Outdoor",
+        "Bar",
+        "Sound System",
+        "WiFi",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space112/600/400",
       "createdAt": "2024-01-09T10:00:00Z"
     },
     {
-      "id": 113,
+      "id": "113",
       "name": "Nordic Ice Bar",
       "description": "A year-round ice bar sculpted from Arctic ice with sub-zero temperatures and fur coats provided. A truly memorable experience for groups.",
       "city": "Stockholm",
@@ -1578,26 +2155,36 @@
       "capacity": 45,
       "rating": 4.7,
       "reviewCount": 178,
-      "amenities": ["Bar", "WiFi"],
+      "amenities": [
+        "Bar",
+        "WiFi"
+      ],
       "imageUrl": "https://picsum.photos/seed/space113/600/400",
       "createdAt": "2024-02-13T18:00:00Z"
     },
     {
-      "id": 114,
+      "id": "114",
       "name": "Private Island Resort",
       "description": "A fully exclusive private island resort with beaches, overwater bungalows, and a main event pavilion. The ultimate for ultra-luxury incentive events.",
       "city": "Maldives",
       "category": "Unique",
       "price": 25000,
       "capacity": 80,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 44,
-      "amenities": ["WiFi", "Pool", "Bar", "Catering", "Outdoor", "Security"],
+      "amenities": [
+        "WiFi",
+        "Pool",
+        "Bar",
+        "Catering",
+        "Outdoor",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space114/600/400",
       "createdAt": "2024-03-04T10:00:00Z"
     },
     {
-      "id": 115,
+      "id": "115",
       "name": "Mid-Century Jazz Club",
       "description": "A retro jazz club with velvet curtains, low lighting, and a resident house band. Perfect for private listening parties and sophisticated corporate dinners.",
       "city": "New York",
@@ -1606,12 +2193,17 @@
       "capacity": 85,
       "rating": 4.8,
       "reviewCount": 132,
-      "amenities": ["Bar", "Sound System", "WiFi", "Catering"],
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "WiFi",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space115/600/400",
       "createdAt": "2024-01-12T19:00:00Z"
     },
     {
-      "id": 116,
+      "id": "116",
       "name": "Summit Basecamp Lodge",
       "description": "A rugged mountain basecamp lodge at the foot of a famous peak. Equipped for adventure corporate retreats, leadership programs, and team challenges.",
       "city": "Innsbruck",
@@ -1620,12 +2212,18 @@
       "capacity": 45,
       "rating": 4.7,
       "reviewCount": 58,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking", "Fireplace"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space116/600/400",
       "createdAt": "2024-02-22T10:00:00Z"
     },
     {
-      "id": 117,
+      "id": "117",
       "name": "Pink Floyd Planetarium",
       "description": "A full-dome digital planetarium available for private hire with laser show capabilities. An awe-inspiring space for immersive presentations and special events.",
       "city": "London",
@@ -1634,12 +2232,16 @@
       "capacity": 100,
       "rating": 4.8,
       "reviewCount": 110,
-      "amenities": ["WiFi", "AV Equipment", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space117/600/400",
       "createdAt": "2024-03-06T10:00:00Z"
     },
     {
-      "id": 118,
+      "id": "118",
       "name": "Aerial Photography Studio",
       "description": "A purpose-built photography studio with a retractable skylight, cyc wall, and full lighting grid. The top choice for fashion, product, and commercial shoots.",
       "city": "Los Angeles",
@@ -1648,12 +2250,16 @@
       "capacity": 25,
       "rating": 4.7,
       "reviewCount": 67,
-      "amenities": ["WiFi", "Lighting", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space118/600/400",
       "createdAt": "2024-01-17T09:00:00Z"
     },
     {
-      "id": 119,
+      "id": "119",
       "name": "Grand Atrium Hall",
       "description": "A soaring atrium with a ten-story glass ceiling flooded with natural light. A spectacular setting for large conferences, awards shows, and product unveilings.",
       "city": "Amsterdam",
@@ -1662,12 +2268,19 @@
       "capacity": 700,
       "rating": 4.8,
       "reviewCount": 136,
-      "amenities": ["WiFi", "AV Equipment", "Catering", "Parking", "Lighting", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Catering",
+        "Parking",
+        "Lighting",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space119/600/400",
       "createdAt": "2024-02-03T10:00:00Z"
     },
     {
-      "id": 120,
+      "id": "120",
       "name": "Canvas Pop-Up Gallery",
       "description": "A fully adaptable modular gallery system that can be configured into any layout. Ideal for rotating exhibitions, creative showcases, and pop-up retail.",
       "city": "Melbourne",
@@ -1676,12 +2289,16 @@
       "capacity": 70,
       "rating": 4.5,
       "reviewCount": 52,
-      "amenities": ["WiFi", "Lighting", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space120/600/400",
       "createdAt": "2024-03-20T10:00:00Z"
     },
     {
-      "id": 121,
+      "id": "121",
       "name": "Sahara Glamping Venue",
       "description": "A luxury glamping camp in the Sahara desert with silk-draped Bedouin tents, fire pits, and starlit dining. Unforgettable for corporate incentive travel.",
       "city": "Marrakech",
@@ -1690,26 +2307,35 @@
       "capacity": 50,
       "rating": 4.9,
       "reviewCount": 94,
-      "amenities": ["Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space121/600/400",
       "createdAt": "2024-01-14T10:00:00Z"
     },
     {
-      "id": 122,
+      "id": "122",
       "name": "Executive Yacht Charter",
       "description": "A private motor yacht available for day charters on the harbor. Holds up to 30 guests for VIP sailing events, product presentations, and sunset cruises.",
       "city": "Monaco",
       "category": "Unique",
       "price": 8000,
       "capacity": 30,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 62,
-      "amenities": ["Bar", "Catering", "WiFi", "Outdoor"],
+      "amenities": [
+        "Bar",
+        "Catering",
+        "WiFi",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space122/600/400",
       "createdAt": "2024-02-18T10:00:00Z"
     },
     {
-      "id": 123,
+      "id": "123",
       "name": "Downtown Penthouse Terrace",
       "description": "A sophisticated penthouse with an expansive wraparound terrace and fully equipped kitchen. Ideal for intimate private dinners and small business gatherings.",
       "city": "Chicago",
@@ -1718,12 +2344,17 @@
       "capacity": 55,
       "rating": 4.7,
       "reviewCount": 84,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space123/600/400",
       "createdAt": "2024-03-02T10:00:00Z"
     },
     {
-      "id": 124,
+      "id": "124",
       "name": "Staircase House Live Set",
       "description": "A modernist home with a dramatic spiral staircase at its center, available for private concerts, film sets, and avant-garde creative shoots.",
       "city": "São Paulo",
@@ -1732,26 +2363,35 @@
       "capacity": 40,
       "rating": 4.6,
       "reviewCount": 37,
-      "amenities": ["WiFi", "Sound System", "Lighting", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "Lighting",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space124/600/400",
       "createdAt": "2024-01-20T14:00:00Z"
     },
     {
-      "id": 125,
+      "id": "125",
       "name": "Northern Lights Glass Cabin",
       "description": "A heated glass-roofed cabin in the Arctic wilderness, purpose-built for viewing the Northern Lights. A bucket-list experience for executive retreats.",
       "city": "Tromsø",
       "category": "Unique",
       "price": 5500,
       "capacity": 12,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 55,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space125/600/400",
       "createdAt": "2024-02-09T10:00:00Z"
     },
     {
-      "id": 126,
+      "id": "126",
       "name": "Uptown Supper Club",
       "description": "A plush supper club with velvet banquettes, crystal glassware, and a legendary cocktail menu. Great for milestone celebrations and black-tie dinners.",
       "city": "New York",
@@ -1760,12 +2400,17 @@
       "capacity": 70,
       "rating": 4.8,
       "reviewCount": 155,
-      "amenities": ["WiFi", "Bar", "Catering", "Sound System"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Catering",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space126/600/400",
       "createdAt": "2024-03-14T19:00:00Z"
     },
     {
-      "id": 127,
+      "id": "127",
       "name": "Zen Monastery Retreat",
       "description": "A working Zen monastery offering a dedicated retreat wing for secular groups. Immersive mindfulness programs, meditation sessions, and silent dinners.",
       "city": "Kyoto",
@@ -1774,12 +2419,16 @@
       "capacity": 30,
       "rating": 4.9,
       "reviewCount": 114,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space127/600/400",
       "createdAt": "2024-01-25T07:00:00Z"
     },
     {
-      "id": 128,
+      "id": "128",
       "name": "Street Art Warehouse",
       "description": "A giant warehouse completely covered in commissioned street art from international artists. Raw, colorful, and full of energy for music videos and creative events.",
       "city": "London",
@@ -1788,12 +2437,17 @@
       "capacity": 250,
       "rating": 4.6,
       "reviewCount": 78,
-      "amenities": ["WiFi", "Parking", "Sound System", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "Parking",
+        "Sound System",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space128/600/400",
       "createdAt": "2024-02-24T10:00:00Z"
     },
     {
-      "id": 129,
+      "id": "129",
       "name": "Oasis Spa Resort Pavilion",
       "description": "A freestanding pavilion within a luxury spa resort, surrounded by infinity pools and lush tropical gardens. Ideal for wellness retreats and high-end incentives.",
       "city": "Bali",
@@ -1802,12 +2456,18 @@
       "capacity": 60,
       "rating": 4.9,
       "reviewCount": 238,
-      "amenities": ["WiFi", "Pool", "Bar", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Pool",
+        "Bar",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space129/600/400",
       "createdAt": "2024-03-08T10:00:00Z"
     },
     {
-      "id": 130,
+      "id": "130",
       "name": "Marina Club Terrace",
       "description": "A private terrace within an exclusive yacht club overlooking a forest of masts and sapphire-blue water. Perfect for networking receptions and sailing club events.",
       "city": "Sydney",
@@ -1816,12 +2476,17 @@
       "capacity": 100,
       "rating": 4.8,
       "reviewCount": 107,
-      "amenities": ["Bar", "WiFi", "Outdoor", "Catering"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space130/600/400",
       "createdAt": "2024-01-31T10:00:00Z"
     },
     {
-      "id": 131,
+      "id": "131",
       "name": "Cobalt Blue Loft",
       "description": "An artist's live-work loft painted floor-to-ceiling in deep cobalt blue with sculptural furniture. A bold backdrop for fashion shoots and art-world events.",
       "city": "New York",
@@ -1830,12 +2495,16 @@
       "capacity": 40,
       "rating": 4.5,
       "reviewCount": 45,
-      "amenities": ["WiFi", "Lighting", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space131/600/400",
       "createdAt": "2024-02-11T13:00:00Z"
     },
     {
-      "id": 132,
+      "id": "132",
       "name": "Catacombs Dining Experience",
       "description": "A dramatic subterranean dining space carved into ancient catacombs beneath the city. Perfect for immersive dining and Halloween-themed corporate events.",
       "city": "Paris",
@@ -1844,12 +2513,17 @@
       "capacity": 60,
       "rating": 4.8,
       "reviewCount": 121,
-      "amenities": ["Catering", "Bar", "Lighting", "WiFi"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Lighting",
+        "WiFi"
+      ],
       "imageUrl": "https://picsum.photos/seed/space132/600/400",
       "createdAt": "2024-03-23T20:00:00Z"
     },
     {
-      "id": 133,
+      "id": "133",
       "name": "Prairie Wind Farm Event Barn",
       "description": "A charming working farm event barn with wildflower meadow surroundings and prairie sky sunsets. A genuine rural escape for rustic weddings.",
       "city": "Kansas City",
@@ -1858,12 +2532,17 @@
       "capacity": 120,
       "rating": 4.7,
       "reviewCount": 96,
-      "amenities": ["WiFi", "Catering", "Parking", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Parking",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space133/600/400",
       "createdAt": "2024-01-16T10:00:00Z"
     },
     {
-      "id": 134,
+      "id": "134",
       "name": "Himalayan Base Camp Dining Tent",
       "description": "A luxury dining tent at high altitude with sweeping Himalayan valley views. A truly epic setting for small group adventure dinners and executive expeditions.",
       "city": "Kathmandu",
@@ -1872,12 +2551,15 @@
       "capacity": 20,
       "rating": 4.9,
       "reviewCount": 41,
-      "amenities": ["Catering", "Outdoor"],
+      "amenities": [
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space134/600/400",
       "createdAt": "2024-02-27T10:00:00Z"
     },
     {
-      "id": 135,
+      "id": "135",
       "name": "Boutique Flower Market",
       "description": "A closed-after-hours flower market filled with thousands of blooms and market stalls. A fragrant and whimsical venue for wedding showers and brand events.",
       "city": "Amsterdam",
@@ -1886,12 +2568,17 @@
       "capacity": 100,
       "rating": 4.7,
       "reviewCount": 88,
-      "amenities": ["WiFi", "Catering", "AV Equipment", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "AV Equipment",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space135/600/400",
       "createdAt": "2024-03-10T08:00:00Z"
     },
     {
-      "id": 136,
+      "id": "136",
       "name": "Red Rock Amphitheatre",
       "description": "A private natural red rock formation with a built-in performance area. Spectacular for outdoor concerts, sunrise yoga events, and unique corporate gatherings.",
       "city": "Denver",
@@ -1900,12 +2587,17 @@
       "capacity": 200,
       "rating": 4.8,
       "reviewCount": 147,
-      "amenities": ["Outdoor", "Sound System", "Parking", "Catering"],
+      "amenities": [
+        "Outdoor",
+        "Sound System",
+        "Parking",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space136/600/400",
       "createdAt": "2024-01-06T10:00:00Z"
     },
     {
-      "id": 137,
+      "id": "137",
       "name": "Boutique Cocktail Laboratory",
       "description": "A molecular cocktail laboratory with lab equipment repurposed for mixology. Perfect for team cocktail masterclasses and bespoke corporate entertaining.",
       "city": "London",
@@ -1914,12 +2606,16 @@
       "capacity": 25,
       "rating": 4.8,
       "reviewCount": 109,
-      "amenities": ["Bar", "WiFi", "Catering"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space137/600/400",
       "createdAt": "2024-02-15T18:00:00Z"
     },
     {
-      "id": 138,
+      "id": "138",
       "name": "Glass Atelier Workshop",
       "description": "A master glassblower's working atelier available for corporate events. Watch glass art being created while enjoying cocktails and artisanal dining.",
       "city": "Venice",
@@ -1928,12 +2624,16 @@
       "capacity": 30,
       "rating": 4.9,
       "reviewCount": 76,
-      "amenities": ["WiFi", "Catering", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space138/600/400",
       "createdAt": "2024-03-13T10:00:00Z"
     },
     {
-      "id": 139,
+      "id": "139",
       "name": "Urban Cycling Hub",
       "description": "A cyclist's community hub with velodrome, workshop space, and event floor. Great for active team events, sports company launches, and lifestyle brand activations.",
       "city": "Copenhagen",
@@ -1942,12 +2642,17 @@
       "capacity": 60,
       "rating": 4.5,
       "reviewCount": 34,
-      "amenities": ["WiFi", "Bar", "Parking", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Parking",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space139/600/400",
       "createdAt": "2024-01-23T10:00:00Z"
     },
     {
-      "id": 140,
+      "id": "140",
       "name": "The Mirrored Hall",
       "description": "A hall of mirrors extending endlessly in every direction. A disorienting and fascinating space for immersive art events, fashion shows, and brand installations.",
       "city": "Paris",
@@ -1956,12 +2661,17 @@
       "capacity": 90,
       "rating": 4.8,
       "reviewCount": 133,
-      "amenities": ["WiFi", "Lighting", "AV Equipment", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space140/600/400",
       "createdAt": "2024-02-08T10:00:00Z"
     },
     {
-      "id": 141,
+      "id": "141",
       "name": "Gold Coast Beach Venue",
       "description": "A beachfront event space right on one of Australia's most iconic beaches. Sunsets, sand, and surf make this perfect for casual outdoor celebrations.",
       "city": "Gold Coast",
@@ -1970,12 +2680,18 @@
       "capacity": 150,
       "rating": 4.7,
       "reviewCount": 118,
-      "amenities": ["Bar", "Outdoor", "Sound System", "Catering", "Parking"],
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Sound System",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space141/600/400",
       "createdAt": "2024-03-16T10:00:00Z"
     },
     {
-      "id": 142,
+      "id": "142",
       "name": "Biodynamic Farm & Kitchen",
       "description": "A certified biodynamic farm with an attached event kitchen. Host farm-to-table dinners, agricultural workshops, and sustainable corporate events.",
       "city": "Hudson Valley",
@@ -1984,12 +2700,17 @@
       "capacity": 50,
       "rating": 4.8,
       "reviewCount": 74,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space142/600/400",
       "createdAt": "2024-01-29T10:00:00Z"
     },
     {
-      "id": 143,
+      "id": "143",
       "name": "Crystal Ballroom",
       "description": "A magnificent crystal chandelier ballroom in the heart of the city's most iconic hotel. Timeless elegance for weddings, galas, and prestige corporate events.",
       "city": "Vienna",
@@ -1998,12 +2719,19 @@
       "capacity": 380,
       "rating": 4.9,
       "reviewCount": 267,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment", "Lighting", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment",
+        "Lighting",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space143/600/400",
       "createdAt": "2024-02-02T10:00:00Z"
     },
     {
-      "id": 144,
+      "id": "144",
       "name": "Indoor Jungle Café",
       "description": "A lush indoor jungle café with 500 tropical plant species and living walls. A unique and calming venue for creative meetings, team lunches, and wellness days.",
       "city": "Berlin",
@@ -2012,12 +2740,16 @@
       "capacity": 55,
       "rating": 4.7,
       "reviewCount": 88,
-      "amenities": ["WiFi", "Catering", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space144/600/400",
       "createdAt": "2024-03-24T10:00:00Z"
     },
     {
-      "id": 145,
+      "id": "145",
       "name": "Peñón Rock Viewpoint",
       "description": "A private terrace venue directly overlooking the iconic Peñón formation. A dramatic backdrop for Instagrammable product launches and milestone celebrations.",
       "city": "Gibraltar",
@@ -2026,12 +2758,17 @@
       "capacity": 60,
       "rating": 4.7,
       "reviewCount": 49,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space145/600/400",
       "createdAt": "2024-01-07T10:00:00Z"
     },
     {
-      "id": 146,
+      "id": "146",
       "name": "Beaux-Arts Event Room",
       "description": "An opulent Beaux-Arts reception room with painted ceilings and a dramatic marble fireplace. Ideal for luxury brand events and upscale networking receptions.",
       "city": "New York",
@@ -2040,26 +2777,36 @@
       "capacity": 100,
       "rating": 4.8,
       "reviewCount": 153,
-      "amenities": ["WiFi", "Catering", "Bar", "Fireplace", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Fireplace",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space146/600/400",
       "createdAt": "2024-02-19T10:00:00Z"
     },
     {
-      "id": 147,
+      "id": "147",
       "name": "Floating Glass Greenhouse",
       "description": "A custom-built glass greenhouse on a private lake, accessible by small boat. A fairytale setting for intimate weddings and bespoke private dinners.",
       "city": "Stockholm",
       "category": "Unique",
       "price": 3400,
       "capacity": 25,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 61,
-      "amenities": ["WiFi", "Catering", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space147/600/400",
       "createdAt": "2024-03-21T10:00:00Z"
     },
     {
-      "id": 148,
+      "id": "148",
       "name": "Opera House Green Room",
       "description": "The legendary green room of a world-famous opera house, available for private hire on dark nights. A storied and glamorous venue for exclusive gatherings.",
       "city": "Sydney",
@@ -2068,12 +2815,16 @@
       "capacity": 50,
       "rating": 4.9,
       "reviewCount": 72,
-      "amenities": ["Bar", "WiFi", "Catering"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space148/600/400",
       "createdAt": "2024-01-11T10:00:00Z"
     },
     {
-      "id": 149,
+      "id": "149",
       "name": "Surfer's Shack Event Lounge",
       "description": "A laid-back surf shack event lounge steps from the beach with a sand floor, surfboard tables, and craft beer on tap. Perfect for casual beach parties.",
       "city": "Byron Bay",
@@ -2082,12 +2833,16 @@
       "capacity": 70,
       "rating": 4.5,
       "reviewCount": 63,
-      "amenities": ["Bar", "Outdoor", "Sound System"],
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space149/600/400",
       "createdAt": "2024-02-26T12:00:00Z"
     },
     {
-      "id": 150,
+      "id": "150",
       "name": "High-Rise Sky Lounge",
       "description": "A sleek sky lounge on the 45th floor of a luxury tower with 270° city panoramas. The perfect backdrop for investor meet and greets and influencer parties.",
       "city": "Singapore",
@@ -2096,12 +2851,17 @@
       "capacity": 85,
       "rating": 4.8,
       "reviewCount": 172,
-      "amenities": ["Bar", "WiFi", "Catering", "AV Equipment"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space150/600/400",
       "createdAt": "2024-03-07T18:00:00Z"
     },
     {
-      "id": 151,
+      "id": "151",
       "name": "Rustic Stone Farmhouse",
       "description": "A centuries-old stone farmhouse with exposed beams, flagstone floors, and a garden orchard. A charming setting for intimate farm dinners and family celebrations.",
       "city": "Tuscany",
@@ -2110,26 +2870,35 @@
       "capacity": 40,
       "rating": 4.9,
       "reviewCount": 141,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space151/600/400",
       "createdAt": "2024-01-19T10:00:00Z"
     },
     {
-      "id": 152,
+      "id": "152",
       "name": "Glacial Ice Cave Experience",
       "description": "A guided private tour and event inside a natural glacial ice cave, deep electric blue and awe-inspiring. An unforgettable bucket-list event experience.",
       "city": "Reykjavik",
       "category": "Unique",
       "price": 4000,
       "capacity": 15,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 38,
-      "amenities": ["Outdoor", "Catering"],
+      "amenities": [
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space152/600/400",
       "createdAt": "2024-02-25T10:00:00Z"
     },
     {
-      "id": 153,
+      "id": "153",
       "name": "The Rooftop Chapel",
       "description": "A charming non-denominational rooftop chapel with panoramic views and a floral arch. Perfect for intimate weddings and renewal-of-vows ceremonies.",
       "city": "Rome",
@@ -2138,12 +2907,16 @@
       "capacity": 30,
       "rating": 4.9,
       "reviewCount": 186,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space153/600/400",
       "createdAt": "2024-03-11T10:00:00Z"
     },
     {
-      "id": 154,
+      "id": "154",
       "name": "The Glassmaker Quarter Loft",
       "description": "A light-filled Bohemian loft in an old glassmaking quarter with arched windows and colorful glass accents. Excellent for photography and creative workshops.",
       "city": "Prague",
@@ -2152,12 +2925,16 @@
       "capacity": 35,
       "rating": 4.6,
       "reviewCount": 47,
-      "amenities": ["WiFi", "AV Equipment", "Lighting"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space154/600/400",
       "createdAt": "2024-01-24T13:00:00Z"
     },
     {
-      "id": 155,
+      "id": "155",
       "name": "Rooftop Helipad Venue",
       "description": "A decommissioned helipad on a downtown skyscraper repurposed as an exclusive event deck. A dramatic elevated setting with unmatched aerial city views.",
       "city": "Dubai",
@@ -2166,12 +2943,18 @@
       "capacity": 90,
       "rating": 4.9,
       "reviewCount": 143,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering", "Security"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space155/600/400",
       "createdAt": "2024-02-04T16:00:00Z"
     },
     {
-      "id": 156,
+      "id": "156",
       "name": "French Quarter Courtyard",
       "description": "A lush New Orleans French Quarter courtyard with Spanish moss, cast iron railings, and a fountain. Perfect for jazz brunches and corporate cocktail receptions.",
       "city": "New Orleans",
@@ -2180,12 +2963,17 @@
       "capacity": 80,
       "rating": 4.7,
       "reviewCount": 105,
-      "amenities": ["WiFi", "Bar", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space156/600/400",
       "createdAt": "2024-03-03T12:00:00Z"
     },
     {
-      "id": 157,
+      "id": "157",
       "name": "Bauhaus Design Studio",
       "description": "A restored original Bauhaus studio in the historic Dessau building. A rare and historically significant space for design thinking workshops and architectural events.",
       "city": "Dessau",
@@ -2194,12 +2982,16 @@
       "capacity": 40,
       "rating": 4.8,
       "reviewCount": 36,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard"
+      ],
       "imageUrl": "https://picsum.photos/seed/space157/600/400",
       "createdAt": "2024-01-08T10:00:00Z"
     },
     {
-      "id": 158,
+      "id": "158",
       "name": "Midnight Sun Terrace",
       "description": "A wooden terrace on a fjord in the land of the midnight sun. Experience 24-hour daylight events in summer, perfect for unique team retreats.",
       "city": "Bergen",
@@ -2208,26 +3000,34 @@
       "capacity": 50,
       "rating": 4.8,
       "reviewCount": 62,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space158/600/400",
       "createdAt": "2024-02-17T10:00:00Z"
     },
     {
-      "id": 159,
+      "id": "159",
       "name": "Noma-Style Chef's Table",
       "description": "A private 12-seat chef's table in a New Nordic restaurant's development kitchen. A culinary pilgrimage for corporate entertaining and gastronomic experiences.",
       "city": "Copenhagen",
       "category": "Kitchen",
       "price": 3200,
       "capacity": 12,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 49,
-      "amenities": ["WiFi", "Catering", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space159/600/400",
       "createdAt": "2024-03-25T19:00:00Z"
     },
     {
-      "id": 160,
+      "id": "160",
       "name": "Saloon at the Silver Mine",
       "description": "A historic Wild West saloon built over a real silver mine shaft, complete with swinging doors and a period bar. Memorable for themed events and team nights out.",
       "city": "Denver",
@@ -2236,12 +3036,16 @@
       "capacity": 65,
       "rating": 4.5,
       "reviewCount": 72,
-      "amenities": ["Bar", "WiFi", "Sound System"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Sound System"
+      ],
       "imageUrl": "https://picsum.photos/seed/space160/600/400",
       "createdAt": "2024-01-13T18:00:00Z"
     },
     {
-      "id": 161,
+      "id": "161",
       "name": "The Grand Terrace Suites",
       "description": "A series of interconnecting private terrace suites atop a five-star hotel. Each suite has its own outdoor garden and can be combined for larger events.",
       "city": "Barcelona",
@@ -2250,12 +3054,18 @@
       "capacity": 120,
       "rating": 4.9,
       "reviewCount": 198,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering", "Pool"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering",
+        "Pool"
+      ],
       "imageUrl": "https://picsum.photos/seed/space161/600/400",
       "createdAt": "2024-02-21T10:00:00Z"
     },
     {
-      "id": 162,
+      "id": "162",
       "name": "Deep Woods Camp",
       "description": "A rustic woodland camp deep in a national forest with cabin spaces, fire pits, and hiking trails. Best for immersive team-building weekends and leadership camps.",
       "city": "Vancouver",
@@ -2264,12 +3074,17 @@
       "capacity": 55,
       "rating": 4.7,
       "reviewCount": 83,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space162/600/400",
       "createdAt": "2024-03-17T10:00:00Z"
     },
     {
-      "id": 163,
+      "id": "163",
       "name": "The Sunken Garden",
       "description": "A naturally bowl-shaped sunken garden with tiered stone seating and a central water feature. An organic and beautiful setting for outdoor ceremonies.",
       "city": "London",
@@ -2278,12 +3093,17 @@
       "capacity": 140,
       "rating": 4.7,
       "reviewCount": 116,
-      "amenities": ["WiFi", "Outdoor", "Catering", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space163/600/400",
       "createdAt": "2024-01-22T10:00:00Z"
     },
     {
-      "id": 164,
+      "id": "164",
       "name": "Industrial Roastery Event Space",
       "description": "A specialty coffee roastery with industrial equipment and the intoxicating aroma of roasting beans. Coffee-curious events, brand mornings, and networking breakfasts.",
       "city": "Melbourne",
@@ -2292,12 +3112,16 @@
       "capacity": 50,
       "rating": 4.7,
       "reviewCount": 59,
-      "amenities": ["WiFi", "Catering", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space164/600/400",
       "createdAt": "2024-02-14T08:00:00Z"
     },
     {
-      "id": 165,
+      "id": "165",
       "name": "Bay Window Boardroom",
       "description": "A beautifully appointed boardroom in a Georgian townhouse with sweeping bay window views over a quiet garden square. Classic and discreet for executive meetings.",
       "city": "London",
@@ -2306,26 +3130,35 @@
       "capacity": 14,
       "rating": 4.8,
       "reviewCount": 41,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space165/600/400",
       "createdAt": "2024-03-06T09:00:00Z"
     },
     {
-      "id": 166,
+      "id": "166",
       "name": "Geothermal Hot Spring Venue",
       "description": "A private natural hot spring pool surrounded by volcanic rock. An extraordinary setting for intimate wellness events and executive incentive groups.",
       "city": "Reykjavik",
       "category": "Unique",
       "price": 3500,
       "capacity": 20,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 51,
-      "amenities": ["Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space166/600/400",
       "createdAt": "2024-01-27T10:00:00Z"
     },
     {
-      "id": 167,
+      "id": "167",
       "name": "Marble Quarry Dining Space",
       "description": "A disused Italian marble quarry transformed into an open-air event space with cathedral-like stone walls. An awe-inspiring setting for large outdoor dinners.",
       "city": "Carrara",
@@ -2334,12 +3167,17 @@
       "capacity": 120,
       "rating": 4.9,
       "reviewCount": 79,
-      "amenities": ["Catering", "Bar", "Outdoor", "Lighting"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space167/600/400",
       "createdAt": "2024-02-20T10:00:00Z"
     },
     {
-      "id": 168,
+      "id": "168",
       "name": "Floating Market Venue",
       "description": "A private floating market set on traditional longboats along a canal. Immersive cultural experience for product launches and unique brand activations.",
       "city": "Bangkok",
@@ -2348,12 +3186,16 @@
       "capacity": 70,
       "rating": 4.7,
       "reviewCount": 92,
-      "amenities": ["Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space168/600/400",
       "createdAt": "2024-03-09T10:00:00Z"
     },
     {
-      "id": 169,
+      "id": "169",
       "name": "Cathedral Cloister Garden",
       "description": "The ancient cloister garden of a historic cathedral, enclosed by Gothic arches and carpeted with lawn. A profound and beautiful setting for ceremonies.",
       "city": "Salisbury",
@@ -2362,12 +3204,17 @@
       "capacity": 100,
       "rating": 4.9,
       "reviewCount": 124,
-      "amenities": ["WiFi", "Catering", "Outdoor", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space169/600/400",
       "createdAt": "2024-01-15T10:00:00Z"
     },
     {
-      "id": 170,
+      "id": "170",
       "name": "Brooklyn Brewery Hall",
       "description": "The private event space inside an iconic Brooklyn craft brewery, surrounded by massive copper fermentation tanks. Casual, authentic, and fun for team events.",
       "city": "Brooklyn",
@@ -2376,12 +3223,17 @@
       "capacity": 100,
       "rating": 4.6,
       "reviewCount": 111,
-      "amenities": ["Bar", "WiFi", "Catering", "AV Equipment"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space170/600/400",
       "createdAt": "2024-02-06T18:00:00Z"
     },
     {
-      "id": 171,
+      "id": "171",
       "name": "Domed Planetarium Lounge",
       "description": "A reconfigured planetarium dome fitted with immersive soundscapes and lounge seating. Ideal for sensory brand experiences and immersive product storytelling.",
       "city": "Los Angeles",
@@ -2390,26 +3242,36 @@
       "capacity": 80,
       "rating": 4.7,
       "reviewCount": 69,
-      "amenities": ["WiFi", "AV Equipment", "Sound System", "Bar"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Sound System",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space171/600/400",
       "createdAt": "2024-03-22T10:00:00Z"
     },
     {
-      "id": 172,
+      "id": "172",
       "name": "Cliffside Infinity Dining Terrace",
       "description": "A breathtaking infinity-edge terrace carved into a Mediterranean cliff face. Guests dine suspended above the sea with views to the horizon.",
       "city": "Positano",
       "category": "Restaurant",
       "price": 3700,
       "capacity": 45,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 267,
-      "amenities": ["Bar", "Catering", "WiFi", "Outdoor"],
+      "amenities": [
+        "Bar",
+        "Catering",
+        "WiFi",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space172/600/400",
       "createdAt": "2024-01-11T19:00:00Z"
     },
     {
-      "id": 173,
+      "id": "173",
       "name": "Deep Sea Aquanaut Dome",
       "description": "An underwater viewing dome attached to an oceanarium. Guests dine while sharks and rays glide overhead — extraordinary for corporate special events.",
       "city": "Lisbon",
@@ -2418,12 +3280,17 @@
       "capacity": 40,
       "rating": 4.9,
       "reviewCount": 98,
-      "amenities": ["Catering", "Bar", "WiFi", "Lighting"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "WiFi",
+        "Lighting"
+      ],
       "imageUrl": "https://picsum.photos/seed/space173/600/400",
       "createdAt": "2024-02-23T10:00:00Z"
     },
     {
-      "id": 174,
+      "id": "174",
       "name": "Coastal Surf Club Pavilion",
       "description": "A weatherboarded pavilion perched above a world-famous surf break. Classic Australiana atmosphere for informal beach events and team celebrations.",
       "city": "Sydney",
@@ -2432,12 +3299,17 @@
       "capacity": 90,
       "rating": 4.6,
       "reviewCount": 85,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space174/600/400",
       "createdAt": "2024-03-15T10:00:00Z"
     },
     {
-      "id": 175,
+      "id": "175",
       "name": "Midnight Rave Bunker",
       "description": "A purpose-built underground rave bunker with festival-grade sound and lighting. Available for private DJ events, label launch parties, and late-night celebrations.",
       "city": "Berlin",
@@ -2446,12 +3318,17 @@
       "capacity": 300,
       "rating": 4.7,
       "reviewCount": 128,
-      "amenities": ["Sound System", "Lighting", "Bar", "Security"],
+      "amenities": [
+        "Sound System",
+        "Lighting",
+        "Bar",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space175/600/400",
       "createdAt": "2024-01-02T23:00:00Z"
     },
     {
-      "id": 176,
+      "id": "176",
       "name": "Silk Road Caravanserai",
       "description": "A restored Central Asian caravanserai with domed ceilings, intricate tilework, and a central open courtyard. Mesmerizing for cultural events and trade launches.",
       "city": "Samarkand",
@@ -2460,12 +3337,16 @@
       "capacity": 80,
       "rating": 4.8,
       "reviewCount": 54,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space176/600/400",
       "createdAt": "2024-02-11T10:00:00Z"
     },
     {
-      "id": 177,
+      "id": "177",
       "name": "High Line Terrace",
       "description": "A private terrace elevated above the famous High Line walkway with Hudson River views. A stylish New York venue for cocktail parties and brand moments.",
       "city": "New York",
@@ -2474,12 +3355,17 @@
       "capacity": 75,
       "rating": 4.8,
       "reviewCount": 144,
-      "amenities": ["WiFi", "Bar", "Outdoor", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space177/600/400",
       "createdAt": "2024-03-03T16:00:00Z"
     },
     {
-      "id": 178,
+      "id": "178",
       "name": "The Print Works Studio",
       "description": "A converted Victorian print works with original presses and lead type on display. A characterful setting for creative industry events and literary launches.",
       "city": "Manchester",
@@ -2488,26 +3374,35 @@
       "capacity": 120,
       "rating": 4.6,
       "reviewCount": 61,
-      "amenities": ["WiFi", "Bar", "AV Equipment", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "AV Equipment",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space178/600/400",
       "createdAt": "2024-01-16T10:00:00Z"
     },
     {
-      "id": 179,
+      "id": "179",
       "name": "Underwater Hotel Lounge",
       "description": "A submersible lounge in an underwater hotel with panoramic views of the Indian Ocean floor. Reserve for a truly one-of-a-kind VIP dining experience.",
       "city": "Maldives",
       "category": "Unique",
       "price": 15000,
       "capacity": 14,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 29,
-      "amenities": ["WiFi", "Catering", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space179/600/400",
       "createdAt": "2024-02-16T10:00:00Z"
     },
     {
-      "id": 180,
+      "id": "180",
       "name": "Palm Court Atrium",
       "description": "An elegant Edwardian palm court atrium with a glass-vaulted ceiling and tinkling fountain. A refined setting for afternoon teas, press days, and charity lunches.",
       "city": "London",
@@ -2516,12 +3411,17 @@
       "capacity": 130,
       "rating": 4.8,
       "reviewCount": 148,
-      "amenities": ["WiFi", "Catering", "Bar", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space180/600/400",
       "createdAt": "2024-03-04T11:00:00Z"
     },
     {
-      "id": 181,
+      "id": "181",
       "name": "Geodesic Dome Glamping Site",
       "description": "A cluster of five geodesic dome glamping suites in a mountain meadow. Ideal for exclusive multi-day corporate retreats with team workshops included.",
       "city": "Queenstown",
@@ -2530,12 +3430,17 @@
       "capacity": 25,
       "rating": 4.9,
       "reviewCount": 77,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Fireplace"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space181/600/400",
       "createdAt": "2024-01-21T10:00:00Z"
     },
     {
-      "id": 182,
+      "id": "182",
       "name": "Olive Grove Banquet",
       "description": "A long communal dining table set beneath a canopy of ancient olive trees in a working grove. An earthy and romantic setting for outdoor banquets.",
       "city": "Athens",
@@ -2544,12 +3449,17 @@
       "capacity": 70,
       "rating": 4.8,
       "reviewCount": 131,
-      "amenities": ["Catering", "Bar", "Outdoor", "WiFi"],
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "WiFi"
+      ],
       "imageUrl": "https://picsum.photos/seed/space182/600/400",
       "createdAt": "2024-02-08T12:00:00Z"
     },
     {
-      "id": 183,
+      "id": "183",
       "name": "Tech Campus Amphitheatre",
       "description": "A state-of-the-art outdoor amphitheatre on a major tech campus. Ideal for all-hands presentations, speaker series, and tech industry panels.",
       "city": "San Jose",
@@ -2558,12 +3468,18 @@
       "capacity": 300,
       "rating": 4.6,
       "reviewCount": 57,
-      "amenities": ["WiFi", "AV Equipment", "Sound System", "Catering", "Parking"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Sound System",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space183/600/400",
       "createdAt": "2024-03-10T09:00:00Z"
     },
     {
-      "id": 184,
+      "id": "184",
       "name": "Montmartre Artists' Studio",
       "description": "A historic Montmartre atelier once used by Impressionist painters, filled with natural light and creative energy. Perfect for art workshops and intimate launches.",
       "city": "Paris",
@@ -2572,26 +3488,35 @@
       "capacity": 25,
       "rating": 4.8,
       "reviewCount": 113,
-      "amenities": ["WiFi", "AV Equipment", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space184/600/400",
       "createdAt": "2024-01-28T14:00:00Z"
     },
     {
-      "id": 185,
+      "id": "185",
       "name": "Lagoon View Overwater Pavilion",
       "description": "An overwater pavilion on stilts above a crystal-clear turquoise lagoon. Stunning for small ceremonies, sunset dinners, and elite incentive groups.",
       "city": "Tahiti",
       "category": "Unique",
       "price": 7500,
       "capacity": 25,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 43,
-      "amenities": ["WiFi", "Bar", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space185/600/400",
       "createdAt": "2024-02-29T10:00:00Z"
     },
     {
-      "id": 186,
+      "id": "186",
       "name": "Cornish Tipi Field",
       "description": "A field of luxuriously furnished tipis on the Cornish coast. Magical for outdoor festivals, group retreats, and rustic summer celebrations.",
       "city": "Cornwall",
@@ -2600,12 +3525,16 @@
       "capacity": 80,
       "rating": 4.6,
       "reviewCount": 77,
-      "amenities": ["Outdoor", "Catering", "Parking"],
+      "amenities": [
+        "Outdoor",
+        "Catering",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space186/600/400",
       "createdAt": "2024-03-20T10:00:00Z"
     },
     {
-      "id": 187,
+      "id": "187",
       "name": "Kasbah Desert Fort",
       "description": "A sand-coloured desert kasbah fort with labyrinthine interiors and rooftop terraces. A dramatic and authentic venue for immersive cultural events.",
       "city": "Ouarzazate",
@@ -2614,12 +3543,17 @@
       "capacity": 100,
       "rating": 4.8,
       "reviewCount": 87,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space187/600/400",
       "createdAt": "2024-01-05T10:00:00Z"
     },
     {
-      "id": 188,
+      "id": "188",
       "name": "Penthouse Recording Suite",
       "description": "A luxury penthouse apartment converted into a professional recording suite with Neve console and isolation booths. Unique for music industry events and listening sessions.",
       "city": "Los Angeles",
@@ -2628,12 +3562,17 @@
       "capacity": 20,
       "rating": 4.8,
       "reviewCount": 47,
-      "amenities": ["WiFi", "Sound System", "Bar", "AV Equipment"],
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "Bar",
+        "AV Equipment"
+      ],
       "imageUrl": "https://picsum.photos/seed/space188/600/400",
       "createdAt": "2024-02-17T18:00:00Z"
     },
     {
-      "id": 189,
+      "id": "189",
       "name": "City Cloister Courtyard",
       "description": "An inner cloister courtyard in a historic city center convent, draped in bougainvillea and cooled by a fountain. Ideal for private lunches and quiet celebrations.",
       "city": "Lisbon",
@@ -2642,12 +3581,17 @@
       "capacity": 65,
       "rating": 4.8,
       "reviewCount": 96,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space189/600/400",
       "createdAt": "2024-03-14T12:00:00Z"
     },
     {
-      "id": 190,
+      "id": "190",
       "name": "The Jewel Box Conservatory",
       "description": "A Victorian jewel box conservatory dripping with exotic orchids and specimen ferns. An enchanting and fragrant space for intimate weddings and garden parties.",
       "city": "Dublin",
@@ -2656,12 +3600,17 @@
       "capacity": 60,
       "rating": 4.8,
       "reviewCount": 102,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space190/600/400",
       "createdAt": "2024-01-17T10:00:00Z"
     },
     {
-      "id": 191,
+      "id": "191",
       "name": "Watermill Event House",
       "description": "A converted working watermill with millstream, water wheel, and meadow grounds. A picturesque and uniquely relaxing venue for rural celebrations.",
       "city": "Cotswolds",
@@ -2670,12 +3619,18 @@
       "capacity": 80,
       "rating": 4.9,
       "reviewCount": 153,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor", "Parking"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Parking"
+      ],
       "imageUrl": "https://picsum.photos/seed/space191/600/400",
       "createdAt": "2024-02-25T10:00:00Z"
     },
     {
-      "id": 192,
+      "id": "192",
       "name": "Obsidian Sky Lounge",
       "description": "A bold, ultra-dark lounge with obsidian surfaces and star-lit ceiling. A dramatic and exclusive setting for after-hours receptions and VIP dinners.",
       "city": "New York",
@@ -2684,12 +3639,17 @@
       "capacity": 65,
       "rating": 4.7,
       "reviewCount": 88,
-      "amenities": ["Bar", "WiFi", "Sound System", "Catering"],
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Sound System",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space192/600/400",
       "createdAt": "2024-03-24T20:00:00Z"
     },
     {
-      "id": 193,
+      "id": "193",
       "name": "Solar Panel Eco Hub",
       "description": "A zero-carbon event hub powered entirely by rooftop solar. Purpose-built for sustainability summits, ESG conferences, and green brand launches.",
       "city": "Amsterdam",
@@ -2698,12 +3658,17 @@
       "capacity": 90,
       "rating": 4.6,
       "reviewCount": 45,
-      "amenities": ["WiFi", "AV Equipment", "Whiteboard", "Catering"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space193/600/400",
       "createdAt": "2024-01-10T10:00:00Z"
     },
     {
-      "id": 194,
+      "id": "194",
       "name": "The Marble Hammam",
       "description": "An Ottoman-era marble hammam restored as a private event space. Luminous and atmospheric for wellness events, luxury brand launches, and immersive dinners.",
       "city": "Istanbul",
@@ -2712,26 +3677,33 @@
       "capacity": 40,
       "rating": 4.9,
       "reviewCount": 117,
-      "amenities": ["WiFi", "Catering", "Bar"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar"
+      ],
       "imageUrl": "https://picsum.photos/seed/space194/600/400",
       "createdAt": "2024-02-13T10:00:00Z"
     },
     {
-      "id": 195,
+      "id": "195",
       "name": "Glacial Lagoon Event Terrace",
       "description": "A terrace overlooking a striking glacial lagoon filled with floating icebergs. An otherworldly setting for small group events and photography expeditions.",
       "city": "Jökulsárlón",
       "category": "Outdoor",
       "price": 4500,
       "capacity": 20,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 33,
-      "amenities": ["Outdoor", "Catering"],
+      "amenities": [
+        "Outdoor",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space195/600/400",
       "createdAt": "2024-03-05T10:00:00Z"
     },
     {
-      "id": 196,
+      "id": "196",
       "name": "Bamboo Pavilion Forest",
       "description": "A series of connected bamboo pavilions open to a dense bamboo forest. A naturally calming space for mindfulness corporate programs and creative retreats.",
       "city": "Kyoto",
@@ -2740,12 +3712,16 @@
       "capacity": 50,
       "rating": 4.9,
       "reviewCount": 147,
-      "amenities": ["WiFi", "Catering", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space196/600/400",
       "createdAt": "2024-01-20T09:00:00Z"
     },
     {
-      "id": 197,
+      "id": "197",
       "name": "The Jazz Station",
       "description": "A converted railway station repurposed as a jazz venue with original platform canopy and carriage seating. Ideal for live music events and music industry gatherings.",
       "city": "New Orleans",
@@ -2754,12 +3730,17 @@
       "capacity": 120,
       "rating": 4.7,
       "reviewCount": 104,
-      "amenities": ["WiFi", "Bar", "Sound System", "Catering"],
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Sound System",
+        "Catering"
+      ],
       "imageUrl": "https://picsum.photos/seed/space197/600/400",
       "createdAt": "2024-02-07T18:00:00Z"
     },
     {
-      "id": 198,
+      "id": "198",
       "name": "Lighthouse Keeper's Cottage",
       "description": "A charming converted lighthouse keeper's cottage perched on an Atlantic headland. Perfect for intimate creative residencies and exclusive group retreats.",
       "city": "West Cork",
@@ -2768,26 +3749,36 @@
       "capacity": 14,
       "rating": 4.8,
       "reviewCount": 67,
-      "amenities": ["WiFi", "Catering", "Outdoor", "Fireplace"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Fireplace"
+      ],
       "imageUrl": "https://picsum.photos/seed/space198/600/400",
       "createdAt": "2024-03-18T10:00:00Z"
     },
     {
-      "id": 199,
+      "id": "199",
       "name": "Floating Cherry Blossom Deck",
       "description": "A purpose-built floating deck moored beneath a forest of cherry blossom trees in spring. A deeply romantic and ephemeral setting for seasonal events.",
       "city": "Tokyo",
       "category": "Unique",
       "price": 2200,
       "capacity": 35,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 172,
-      "amenities": ["WiFi", "Catering", "Bar", "Outdoor"],
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
       "imageUrl": "https://picsum.photos/seed/space199/600/400",
       "createdAt": "2024-01-03T10:00:00Z"
     },
     {
-      "id": 200,
+      "id": "200",
       "name": "Solar Pyramid Event Center",
       "description": "A monumental glass pyramid event center with a central oculus and symmetrical wings. A bold and iconic space for large conferences, product unveils, and award ceremonies.",
       "city": "Las Vegas",
@@ -2796,9 +3787,250 @@
       "capacity": 1000,
       "rating": 4.8,
       "reviewCount": 176,
-      "amenities": ["WiFi", "AV Equipment", "Parking", "Catering", "Lighting", "Sound System", "Security"],
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Parking",
+        "Catering",
+        "Lighting",
+        "Sound System",
+        "Security"
+      ],
       "imageUrl": "https://picsum.photos/seed/space200/600/400",
       "createdAt": "2024-02-01T10:00:00Z"
     }
-  ]
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "spaceId": 1,
+      "spaceName": "Skyline Rooftop Lounge",
+      "date": "2025-02-10",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 1200
+    },
+    {
+      "id": "2",
+      "spaceId": 2,
+      "spaceName": "Minimalist Creative Studio",
+      "date": "2025-02-14",
+      "type": "Half Day",
+      "status": "Pending",
+      "amount": 225
+    },
+    {
+      "id": "3",
+      "spaceId": 3,
+      "spaceName": "The Glass Pavilion",
+      "date": "2025-02-18",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 3500
+    },
+    {
+      "id": "4",
+      "spaceId": 4,
+      "spaceName": "Warehouse District Loft",
+      "date": "2025-02-20",
+      "type": "Evening",
+      "status": "Cancelled",
+      "amount": 800
+    },
+    {
+      "id": "5",
+      "spaceId": 5,
+      "spaceName": "Harborview Conference Center",
+      "date": "2025-02-22",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 950
+    },
+    {
+      "id": "6",
+      "spaceId": 1,
+      "spaceName": "Skyline Rooftop Lounge",
+      "date": "2025-03-01",
+      "type": "Half Day",
+      "status": "Pending",
+      "amount": 600
+    },
+    {
+      "id": "7",
+      "spaceId": 6,
+      "spaceName": "The Zen Garden Studio",
+      "date": "2025-03-05",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 380
+    },
+    {
+      "id": "8",
+      "spaceId": 2,
+      "spaceName": "Minimalist Creative Studio",
+      "date": "2025-03-08",
+      "type": "Full Day",
+      "status": "Cancelled",
+      "amount": 450
+    },
+    {
+      "id": "9",
+      "spaceId": 3,
+      "spaceName": "The Glass Pavilion",
+      "date": "2025-03-12",
+      "type": "Half Day",
+      "status": "Pending",
+      "amount": 1750
+    },
+    {
+      "id": "10",
+      "spaceId": 4,
+      "spaceName": "Warehouse District Loft",
+      "date": "2025-03-15",
+      "type": "Evening",
+      "status": "Confirmed",
+      "amount": 800
+    },
+    {
+      "id": "11",
+      "spaceId": 5,
+      "spaceName": "Harborview Conference Center",
+      "date": "2025-03-20",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 950
+    },
+    {
+      "id": "12",
+      "spaceId": 6,
+      "spaceName": "The Zen Garden Studio",
+      "date": "2025-03-25",
+      "type": "Evening",
+      "status": "Pending",
+      "amount": 380
+    },
+    {
+      "id": "13",
+      "spaceId": 1,
+      "spaceName": "Skyline Rooftop Lounge",
+      "date": "2025-04-01",
+      "type": "Full Day",
+      "status": "Cancelled",
+      "amount": 1200
+    },
+    {
+      "id": "14",
+      "spaceId": 3,
+      "spaceName": "The Glass Pavilion",
+      "date": "2025-04-05",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 3500
+    },
+    {
+      "id": "15",
+      "spaceId": 2,
+      "spaceName": "Minimalist Creative Studio",
+      "date": "2025-04-10",
+      "type": "Half Day",
+      "status": "Pending",
+      "amount": 225
+    },
+    {
+      "id": "16",
+      "spaceId": 4,
+      "spaceName": "Warehouse District Loft",
+      "date": "2025-04-14",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 800
+    },
+    {
+      "id": "17",
+      "spaceId": 5,
+      "spaceName": "Harborview Conference Center",
+      "date": "2025-04-18",
+      "type": "Half Day",
+      "status": "Cancelled",
+      "amount": 475
+    },
+    {
+      "id": "18",
+      "spaceId": 6,
+      "spaceName": "The Zen Garden Studio",
+      "date": "2025-04-22",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 380
+    },
+    {
+      "id": "19",
+      "spaceId": 1,
+      "spaceName": "Skyline Rooftop Lounge",
+      "date": "2025-05-02",
+      "type": "Evening",
+      "status": "Cancelled",
+      "amount": 600
+    },
+    {
+      "id": "20",
+      "spaceId": 3,
+      "spaceName": "The Glass Pavilion",
+      "date": "2025-05-08",
+      "type": "Full Day",
+      "status": "Cancelled",
+      "amount": 3500
+    },
+    {
+      "id": "21",
+      "spaceId": 2,
+      "spaceName": "Minimalist Creative Studio",
+      "date": "2025-05-12",
+      "type": "Full Day",
+      "status": "Cancelled",
+      "amount": 450
+    },
+    {
+      "id": "22",
+      "spaceId": 4,
+      "spaceName": "Warehouse District Loft",
+      "date": "2025-05-16",
+      "type": "Evening",
+      "status": "Cancelled",
+      "amount": 400
+    },
+    {
+      "id": "23",
+      "spaceId": 5,
+      "spaceName": "Harborview Conference Center",
+      "date": "2025-05-20",
+      "type": "Full Day",
+      "status": "Cancelled",
+      "amount": 950
+    },
+    {
+      "id": "24",
+      "spaceId": 6,
+      "spaceName": "The Zen Garden Studio",
+      "date": "2025-05-25",
+      "type": "Full Day",
+      "status": "Cancelled",
+      "amount": 380
+    }
+  ],
+  "saved": [
+    {
+      "spaceId": "200",
+      "id": "SBM8Ep1JAtw"
+    },
+    {
+      "spaceId": "199",
+      "id": "h72Y2pVzxnI"
+    },
+    {
+      "spaceId": "196",
+      "id": "cPSwN04_OgM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

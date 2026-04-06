@@ -7,12 +7,18 @@ import React, {
   useState,
   useEffect,
   useMemo,
+  useCallback,
 } from "react";
+
+interface SavedEntry {
+  id: number;
+  spaceId: number;
+}
 
 interface SpacesContextType {
   allSpaces: Space[];
   savedIds: Set<number>;
-  toggleSave: (id: number) => void;
+  toggleSave: (spaceId: number) => Promise<void>;
   isLoading: boolean;
   isError: boolean;
 }
@@ -21,22 +27,25 @@ const SpacesContext = createContext<SpacesContextType | undefined>(undefined);
 
 export const SpacesProvider = ({ children }: { children: React.ReactNode }) => {
   const [allSpaces, setAllSpaces] = useState<Space[]>([]);
-  const [savedIds, setSavedIds] = useState<Set<number>>(new Set());
+  const [savedEntries, setSavedEntries] = useState<SavedEntry[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
 
-  // 1. Master Fetch (Happens once for the whole app)
+  // Fetch spaces + saved entries on mount
   useEffect(() => {
     const loadData = async () => {
       try {
-        const res = await fetch("http://localhost:3001/spaces");
-        if (!res.ok) throw new Error();
-        const data = await res.json();
-        setAllSpaces(data);
-
-        // Load saved items from localStorage
-        const saved = localStorage.getItem("saved_spaces");
-        if (saved) setSavedIds(new Set(JSON.parse(saved)));
+        const [spacesRes, savedRes] = await Promise.all([
+          fetch("http://localhost:3001/spaces"),
+          fetch("http://localhost:3001/saved"),
+        ]);
+        if (!spacesRes.ok || !savedRes.ok) throw new Error();
+        const [spaces, saved] = await Promise.all([
+          spacesRes.json(),
+          savedRes.json(),
+        ]);
+        setAllSpaces(spaces);
+        setSavedEntries(saved);
       } catch {
         setIsError(true);
       } finally {
@@ -46,28 +55,54 @@ export const SpacesProvider = ({ children }: { children: React.ReactNode }) => {
     loadData();
   }, []);
 
-  // 2. Optimized Toggle Logic
-  const toggleSave = (id: number) => {
-    setSavedIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
+  // Derive a Set<spaceId> from entries for O(1) lookup
+  const savedIds = useMemo(
+    () => new Set(savedEntries.map((e) => e.spaceId)),
+    [savedEntries],
+  );
 
-      // Persist to disk
-      localStorage.setItem("saved_spaces", JSON.stringify(Array.from(next)));
-      return next;
-    });
-  };
+  const toggleSave = useCallback(
+    async (spaceId: number) => {
+      const existing = savedEntries.find((e) => e.spaceId === spaceId);
+
+      if (existing) {
+        // Optimistic remove
+        setSavedEntries((prev) => prev.filter((e) => e.spaceId !== spaceId));
+        try {
+          await fetch(`http://localhost:3001/saved/${existing.id}`, {
+            method: "DELETE",
+          });
+        } catch {
+          // Revert on failure
+          setSavedEntries((prev) => [...prev, existing]);
+        }
+      } else {
+        // Optimistic add
+        const optimistic: SavedEntry = { id: Date.now(), spaceId };
+        setSavedEntries((prev) => [...prev, optimistic]);
+        try {
+          const res = await fetch("http://localhost:3001/saved", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ spaceId }),
+          });
+          const real: SavedEntry = await res.json();
+          // Replace optimistic entry with real server entry
+          setSavedEntries((prev) =>
+            prev.map((e) => (e.id === optimistic.id ? real : e)),
+          );
+        } catch {
+          // Revert on failure
+          setSavedEntries((prev) => prev.filter((e) => e.id !== optimistic.id));
+        }
+      }
+    },
+    [savedEntries],
+  );
 
   const value = useMemo(
-    () => ({
-      allSpaces,
-      savedIds,
-      toggleSave,
-      isLoading,
-      isError,
-    }),
-    [allSpaces, savedIds, isLoading, isError],
+    () => ({ allSpaces, savedIds, toggleSave, isLoading, isError }),
+    [allSpaces, savedIds, toggleSave, isLoading, isError],
   );
 
   return (
@@ -75,7 +110,6 @@ export const SpacesProvider = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-// Custom hook to consume the "Store"
 export const useSpacesData = () => {
   const context = useContext(SpacesContext);
   if (!context)
