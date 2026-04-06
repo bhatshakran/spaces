@@ -121,6 +121,7 @@ export const DiscoveryView = () => {
         onClose={() => setIsFilterModalOpen(false)}
         filters={filters}
         setFilter={setFilter}
+        clearFilters={clearFilters}
       />
     </div>
   );

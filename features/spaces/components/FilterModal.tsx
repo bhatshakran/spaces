@@ -1,18 +1,29 @@
 "use client";
 
+import { SpaceFilters } from "../types/spaces";
 import { FilterPanel } from "./FilterPanel";
 
+interface FilterModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  filters: SpaceFilters;
+  setFilter: <K extends keyof SpaceFilters>(
+    key: K,
+    value: SpaceFilters[K],
+  ) => void;
+  clearFilters: () => void;
+}
 export const FilterModal = ({
   isOpen,
   onClose,
   filters,
   setFilter,
   clearFilters,
-}: any) => {
+}: FilterModalProps) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-100 flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
         className="absolute inset-0 bg-[#1A110A]/50 backdrop-blur-sm"

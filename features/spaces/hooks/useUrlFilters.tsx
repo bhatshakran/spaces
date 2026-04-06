@@ -2,6 +2,7 @@
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useCallback, useMemo } from "react";
+import { SpaceFilters } from "../types/spaces";
 
 export const useUrlFilters = () => {
   const router = useRouter();
@@ -33,7 +34,7 @@ export const useUrlFilters = () => {
   }, [searchString]);
 
   const setFilter = useCallback(
-    (name: string, value: any) => {
+    <K extends keyof SpaceFilters>(name: K, value: SpaceFilters[K]) => {
       const params = new URLSearchParams(searchString);
 
       if (

@@ -2,21 +2,32 @@
 
 import { useMemo } from "react";
 import { useSpacesData } from "@/features/spaces/context/SpacesContext";
+import { SpaceFilters, Space } from "../types/spaces"; // Ensure these are exported from your types file
 
-export const useSpaces = (filters: any) => {
+export const useSpaces = (filters: SpaceFilters) => {
   // 1. Grab global data from Context
+  // Assuming useSpacesData returns an array of type Space[]
   const { allSpaces, isLoading, isError } = useSpacesData();
-
-  // 2. The Filtering Logic (Calculated locally from the global array)
+  // Deconstruct everything used inside the useMemo
+  const {
+    search,
+    categories,
+    minPrice,
+    maxPrice,
+    minCapacity,
+    rating,
+    amenities,
+    sort,
+  } = filters;
+  // 2. The Filtering Logic
   const filteredSpaces = useMemo(() => {
-    // If data hasn't arrived yet, return empty
-    if (!allSpaces.length) return [];
+    if (!allSpaces || allSpaces.length === 0) return [];
 
     return allSpaces
-      .filter((space) => {
+      .filter((space: Space) => {
         // Search filter
-        if (filters.search) {
-          const searchLower = filters.search.toLowerCase();
+        if (search) {
+          const searchLower = search.toLowerCase();
           const matchesSearch =
             space.name.toLowerCase().includes(searchLower) ||
             space.city.toLowerCase().includes(searchLower) ||
@@ -25,24 +36,24 @@ export const useSpaces = (filters: any) => {
         }
 
         // Category filter
-        if (filters.categories?.length > 0) {
-          if (!filters.categories.includes(space.category)) return false;
+        if (categories && categories.length > 0) {
+          if (!categories.includes(space.category)) return false;
         }
 
-        // Price Range filter
-        if (filters.minPrice && space.price < filters.minPrice) return false;
-        if (filters.maxPrice && space.price > filters.maxPrice) return false;
+        // Price Range filter (Ensuring we compare numbers to numbers)
+        if (minPrice && space.price < Number(minPrice)) return false;
+        if (maxPrice && space.price > Number(maxPrice)) return false;
 
         // Capacity filter
-        if (filters.minCapacity && space.capacity < filters.minCapacity)
-          return false;
+        if (minCapacity && space.capacity < Number(minCapacity)) return false;
 
         // Rating filter
-        if (filters.rating && space.rating < filters.rating) return false;
+        if (rating && space.rating < Number(rating)) return false;
 
         // Amenities filter
-        if (filters.amenities?.length > 0) {
-          const hasAllAmenities = filters.amenities.every((amt: string) =>
+        if (amenities && amenities.length > 0) {
+          // Space amenities are likely strings, so we check if every filter is present
+          const hasAllAmenities = amenities.every((amt: string) =>
             space.amenities.includes(amt),
           );
           if (!hasAllAmenities) return false;
@@ -52,22 +63,33 @@ export const useSpaces = (filters: any) => {
       })
       .sort((a, b) => {
         // Sorting Logic
-        switch (filters.sort) {
+        switch (sort) {
           case "price_asc":
             return a.price - b.price;
           case "price_desc":
             return b.price - a.price;
-          case "capacity":
-            return b.capacity - a.capacity;
+          case "top_rated": // Fixed to match your DiscoveryView option
+            return (b.rating || 0) - (a.rating || 0);
           case "newest":
           default:
-            return b.id - a.id;
+            // Assuming IDs are numeric for the sort, or use a date field if available
+            return Number(b.id) - Number(a.id);
         }
       });
 
-    // IMPORTANT: We stringify filters so that the reference change
-    // of the object doesn't cause an infinite re-render loop.
-  }, [allSpaces, JSON.stringify(filters)]);
+    // We use JSON.stringify(filters) as the dependency because 'filters'
+    // is often a new object reference on every render from the URL hook.
+  }, [
+    allSpaces,
+    search,
+    categories,
+    minPrice,
+    maxPrice,
+    minCapacity,
+    rating,
+    amenities,
+    sort,
+  ]);
 
   return {
     filteredSpaces,

@@ -25,3 +25,5 @@ export interface SpaceCardProps {
   space: Space;
   onRemove?: () => void;
 }
+
+export type FilterKey = keyof SpaceFilters;

@@ -1,9 +1,20 @@
-export const ActiveFilters = ({ filters, onRemove, onClear }: any) => {
-  const hasFilters = Object.keys(filters).some((key) => {
-    const val = filters[key];
+import { FilterKey, SpaceFilters } from "../types/spaces";
+
+interface ActiveFiltersProps {
+  filters: SpaceFilters;
+  onRemove: (key: FilterKey, value: string | string[]) => void;
+  onClear: () => void;
+}
+export const ActiveFilters = ({
+  filters,
+  onRemove,
+  onClear,
+}: ActiveFiltersProps) => {
+  // Check if any filter (excluding sort) has a value
+  const hasFilters = Object.entries(filters).some(([key, val]) => {
+    if (key === "sort") return false; // We don't count sorting as an "active filter" chip
     return Array.isArray(val) ? val.length > 0 : !!val;
   });
-
   if (!hasFilters) return null;
 
   return (
@@ -15,7 +26,7 @@ export const ActiveFilters = ({ filters, onRemove, onClear }: any) => {
           onRemove={() =>
             onRemove(
               "categories",
-              filters.categories.filter((c: string) => c !== cat),
+              filters.categories!.filter((c: string) => c !== cat),
             )
           }
         />
@@ -27,7 +38,7 @@ export const ActiveFilters = ({ filters, onRemove, onClear }: any) => {
           onRemove={() =>
             onRemove(
               "amenities",
-              filters.amenities.filter((a: string) => a !== amt),
+              filters.amenities!.filter((a: string) => a !== amt),
             )
           }
         />

@@ -1,9 +1,23 @@
 "use client";
 
 import { AMENITIES, CATEGORIES } from "../constants/FIlterOptions";
+import { SpaceFilters } from "../types/spaces";
 
-export const FilterPanel = ({ filters, setFilter }: any) => {
-  const handleCheckboxChange = (list: string[], item: string, name: string) => {
+export const FilterPanel = ({
+  filters,
+  setFilter,
+}: {
+  filters: SpaceFilters;
+  setFilter: <K extends keyof SpaceFilters>(
+    key: K,
+    value: SpaceFilters[K],
+  ) => void;
+}) => {
+  const handleCheckboxChange = (
+    list: string[],
+    item: string,
+    name: keyof SpaceFilters,
+  ) => {
     const newList = list.includes(item)
       ? list.filter((i) => i !== item)
       : [...list, item];
@@ -29,7 +43,11 @@ export const FilterPanel = ({ filters, setFilter }: any) => {
                   type="checkbox"
                   checked={filters.categories?.includes(cat)}
                   onChange={() =>
-                    handleCheckboxChange(filters.categories, cat, "categories")
+                    handleCheckboxChange(
+                      filters.categories ?? [],
+                      cat,
+                      "categories",
+                    )
                   }
                   className="w-4 h-4 rounded border-stone-300 text-[#C05A32] accent-[#C05A32] focus:ring-[#C05A32]/20"
                 />
@@ -51,7 +69,7 @@ export const FilterPanel = ({ filters, setFilter }: any) => {
               type="number"
               placeholder="e.g. 50"
               value={filters.minCapacity || ""}
-              onChange={(e) => setFilter("minCapacity", e.target.value)}
+              onChange={(e) => setFilter("minCapacity", Number(e.target.value))}
               className="w-full px-3 py-2.5 text-sm border border-stone-200 rounded-xl
                 focus:outline-none focus:border-[#C05A32] focus:ring-2 focus:ring-[#C05A32]/10
                 text-stone-700 placeholder:text-stone-300 transition-all"
@@ -67,7 +85,7 @@ export const FilterPanel = ({ filters, setFilter }: any) => {
                 type="number"
                 placeholder="Min"
                 value={filters.minPrice || ""}
-                onChange={(e) => setFilter("minPrice", e.target.value)}
+                onChange={(e) => setFilter("minPrice", Number(e.target.value))}
                 className="w-full px-3 py-2.5 text-sm border border-stone-200 rounded-xl
                   focus:outline-none focus:border-[#C05A32] focus:ring-2 focus:ring-[#C05A32]/10
                   text-stone-700 placeholder:text-stone-300 transition-all"
@@ -77,7 +95,7 @@ export const FilterPanel = ({ filters, setFilter }: any) => {
                 type="number"
                 placeholder="Max"
                 value={filters.maxPrice || ""}
-                onChange={(e) => setFilter("maxPrice", e.target.value)}
+                onChange={(e) => setFilter("maxPrice", Number(e.target.value))}
                 className="w-full px-3 py-2.5 text-sm border border-stone-200 rounded-xl
                   focus:outline-none focus:border-[#C05A32] focus:ring-2 focus:ring-[#C05A32]/10
                   text-stone-700 placeholder:text-stone-300 transition-all"
@@ -120,7 +138,7 @@ export const FilterPanel = ({ filters, setFilter }: any) => {
             <button
               key={amt}
               onClick={() =>
-                handleCheckboxChange(filters.amenities, amt, "amenities")
+                handleCheckboxChange(filters.amenities ?? [], amt, "amenities")
               }
               className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${
                 filters.amenities?.includes(amt)

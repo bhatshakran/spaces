@@ -2,9 +2,10 @@
 
 import { VirtuosoGrid } from "react-virtuoso";
 import { SpaceCard } from "./SpaceCard";
+import { Space } from "../types/spaces";
 
 interface DiscoveryGridProps {
-  spaces: any[];
+  spaces: Space[];
   isLoading: boolean;
 }
 

@@ -2,7 +2,12 @@
 
 import { CATEGORIES } from "../constants/FIlterOptions";
 
-export const CategoryBar = ({ selected, onSelect }: any) => {
+interface CategoryBarProps {
+  selected?: string;
+  // onSelect accepts the category string or null if "All Spaces" is clicked
+  onSelect: (category: string | null) => void;
+}
+export const CategoryBar = ({ selected, onSelect }: CategoryBarProps) => {
   return (
     <div className="flex items-center gap-8 overflow-x-auto no-scrollbar pb-2">
       <button
