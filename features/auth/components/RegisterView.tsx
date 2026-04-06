@@ -5,34 +5,12 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "../context/AuthContext";
 import { RegisterCredentials } from "../types";
+import { FormField } from "@/components/ui/FormField";
+import { TextInput } from "@/components/ui/TextInput";
+import { PasswordInput } from "@/components/ui/PasswordInput";
+import { Button } from "@/components/ui/Button";
 
 type FieldErrors = Partial<Record<keyof RegisterCredentials, string>>;
-
-const Field = ({
-  label,
-  error,
-  children,
-}: {
-  label: string;
-  error?: string;
-  children: React.ReactNode;
-}) => (
-  <div>
-    <label className="block text-xs font-medium text-stone-600 mb-1.5">
-      {label}
-    </label>
-    {children}
-    {error && <p className="text-xs text-red-500 mt-1.5">{error}</p>}
-  </div>
-);
-
-const inputClass = (hasError: boolean) =>
-  `w-full px-4 py-3 bg-white border rounded-xl text-sm text-stone-700
-  placeholder:text-stone-300 focus:outline-none focus:ring-2 transition-all ${
-    hasError
-      ? "border-red-300 focus:border-red-400 focus:ring-red-100"
-      : "border-stone-200 focus:border-[#C05A32] focus:ring-[#C05A32]/10"
-  }`;
 
 export const RegisterView = () => {
   const { register } = useAuth();
@@ -46,8 +24,6 @@ export const RegisterView = () => {
     password: "",
     confirmPassword: "",
   });
-  const [showPassword, setShowPassword] = useState(false);
-  const [showConfirm, setShowConfirm] = useState(false);
   const [errors, setErrors] = useState<FieldErrors>({});
   const [isLoading, setIsLoading] = useState(false);
 
@@ -141,156 +117,71 @@ export const RegisterView = () => {
           <form onSubmit={handleSubmit} className="space-y-4">
             {/* Name row */}
             <div className="grid grid-cols-2 gap-3">
-              <Field label="First name" error={errors.firstName}>
-                <input
+              <FormField label="First name" error={errors.firstName}>
+                <TextInput
                   value={form.firstName}
                   onChange={set("firstName")}
                   placeholder="Jane"
-                  className={inputClass(!!errors.firstName)}
+                  error={!!errors.firstName}
                 />
-              </Field>
-              <Field label="Last name" error={errors.lastName}>
-                <input
+              </FormField>
+              <FormField label="Last name" error={errors.lastName}>
+                <TextInput
                   value={form.lastName}
                   onChange={set("lastName")}
                   placeholder="Smith"
-                  className={inputClass(!!errors.lastName)}
+                  error={!!errors.lastName}
                 />
-              </Field>
+              </FormField>
             </div>
 
-            <Field label="Email" error={errors.email}>
-              <input
+            <FormField label="Email" error={errors.email}>
+              <TextInput
                 type="email"
                 value={form.email}
                 onChange={set("email")}
                 placeholder="you@example.com"
-                className={inputClass(!!errors.email)}
+                error={!!errors.email}
               />
-            </Field>
+            </FormField>
 
-            <Field label="Phone" error={errors.phone}>
-              <input
+            <FormField label="Phone" error={errors.phone}>
+              <TextInput
                 type="tel"
                 value={form.phone}
                 onChange={set("phone")}
                 placeholder="+1 (555) 000-0000"
-                className={inputClass(!!errors.phone)}
+                error={!!errors.phone}
               />
-            </Field>
+            </FormField>
 
-            <Field label="Password" error={errors.password}>
-              <div className="relative">
-                <input
-                  type={showPassword ? "text" : "password"}
-                  value={form.password}
-                  onChange={set("password")}
-                  placeholder="Minimum 8 characters"
-                  className={inputClass(!!errors.password) + " pr-11"}
-                />
-                <button
-                  type="button"
-                  onClick={() => setShowPassword((p) => !p)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600"
-                >
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    {showPassword ? (
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.8}
-                        d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"
-                      />
-                    ) : (
-                      <>
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={1.8}
-                          d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
-                        />
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={1.8}
-                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                        />
-                      </>
-                    )}
-                  </svg>
-                </button>
-              </div>
-            </Field>
+            <FormField label="Password" error={errors.password}>
+              <PasswordInput
+                value={form.password}
+                onChange={set("password")}
+                placeholder="Minimum 8 characters"
+                error={!!errors.password}
+              />
+            </FormField>
 
-            <Field label="Confirm password" error={errors.confirmPassword}>
-              <div className="relative">
-                <input
-                  type={showConfirm ? "text" : "password"}
-                  value={form.confirmPassword}
-                  onChange={set("confirmPassword")}
-                  placeholder="Repeat your password"
-                  className={inputClass(!!errors.confirmPassword) + " pr-11"}
-                />
-                <button
-                  type="button"
-                  onClick={() => setShowConfirm((p) => !p)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600"
-                >
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    {showConfirm ? (
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.8}
-                        d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"
-                      />
-                    ) : (
-                      <>
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={1.8}
-                          d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
-                        />
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={1.8}
-                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                        />
-                      </>
-                    )}
-                  </svg>
-                </button>
-              </div>
-            </Field>
+            <FormField label="Confirm password" error={errors.confirmPassword}>
+              <PasswordInput
+                value={form.confirmPassword}
+                onChange={set("confirmPassword")}
+                placeholder="Repeat your password"
+                error={!!errors.confirmPassword}
+              />
+            </FormField>
 
-            <button
+            <Button
               type="submit"
-              disabled={isLoading}
-              className="w-full py-3 mt-2 bg-stone-900 text-[#F6F2EC] rounded-xl text-sm font-medium
-                hover:bg-[#C05A32] transition-colors duration-300 disabled:opacity-60
-                disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              size="lg"
+              className="w-full mt-2"
+              isLoading={isLoading}
+              loadingLabel="Creating account…"
             >
-              {isLoading ? (
-                <>
-                  <div className="w-4 h-4 border-2 border-[#F6F2EC]/30 border-t-[#F6F2EC] rounded-full animate-spin" />
-                  Creating account…
-                </>
-              ) : (
-                "Create account"
-              )}
-            </button>
+              Create account
+            </Button>
           </form>
         </div>
       </div>

@@ -76,7 +76,7 @@ export const DashboardView = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#F6F2EC]">
       {/* Header */}
-      <header className="sticky top-0 z-40 bg-[#F6F2EC]/90 backdrop-blur-md border-b border-stone-200/70">
+      <header className="sticky top-0 z-40 bg-[#F6F2EC]/90 backdrop-blur-md">
         <div className="max-w-[1400px] mx-auto px-6 py-4 flex items-center gap-4">
           <span className="font-cormorant text-[22px] font-semibold text-stone-800 tracking-tight">
             Overview

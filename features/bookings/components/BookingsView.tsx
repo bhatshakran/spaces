@@ -74,31 +74,9 @@ export const BookingsView = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#F6F2EC]">
       {/* Header */}
-      <header className="sticky top-0 z-40 bg-[#F6F2EC]/90 backdrop-blur-md border-b border-stone-200/70">
+      <header className="sticky top-0 z-40 bg-[#F6F2EC]/90 backdrop-blur-md ">
         <div className="max-w-[1400px] mx-auto px-6 py-4">
           <div className="flex items-center gap-4">
-            <Link
-              href="/discover"
-              className="flex items-center gap-1.5 text-sm text-stone-400 hover:text-[#C05A32] transition-colors shrink-0"
-            >
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.8}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-              Discover
-            </Link>
-
-            <span className="text-stone-200">|</span>
-
             <span className="font-cormorant text-[22px] font-semibold text-stone-800 tracking-tight">
               Bookings
             </span>
@@ -135,7 +113,7 @@ export const BookingsView = () => {
           </div>
 
           {/* Filter row */}
-          <div className="mt-3 pt-3 border-t border-stone-200/60 flex items-center gap-3 flex-wrap">
+          <div className="mt-3 pt-3 flex items-center gap-3 flex-wrap">
             {/* Status pills */}
             <div className="flex gap-2">
               {STATUSES.map((s) => (
