@@ -1,11 +1,10 @@
 "use client";
 
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { useCallback, useMemo } from "react";
 import { SpaceFilters } from "../types/spaces";
 
 export const useUrlFilters = () => {
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -55,17 +54,15 @@ export const useUrlFilters = () => {
 
       // 4. Critical: Only push to router if the URL actually changed
       if (newSearch !== currentSearch) {
-        router.replace(`${pathname}?${newSearch}`, { scroll: false });
+        window.history.replaceState(null, "", `${pathname}?${newSearch}`);
       }
     },
-    [pathname, router, searchString, searchParams],
+    [pathname, searchString, searchParams],
   );
 
   const clearFilters = useCallback(() => {
-    if (searchParams.toString() !== "") {
-      router.replace(pathname, { scroll: false });
-    }
-  }, [pathname, router, searchParams]);
+    window.history.replaceState(null, "", pathname);
+  }, [pathname]);
 
   return { filters, setFilter, clearFilters };
 };
