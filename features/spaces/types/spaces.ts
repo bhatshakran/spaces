@@ -11,7 +11,16 @@ export interface Space {
   imageUrl: string;
   description: string;
 }
-
+export interface SpaceFilters {
+  search?: string;
+  categories?: string[];
+  amenities?: string[];
+  minPrice?: number;
+  maxPrice?: number;
+  minCapacity?: number;
+  rating?: number;
+  sort?: string;
+}
 export interface SpaceCardProps {
   space: Space;
   onRemove?: () => void;

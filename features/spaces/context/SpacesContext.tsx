@@ -1,6 +1,6 @@
 "use client";
 
-import { Space } from "@/features/types/spaces";
+import { Space } from "@/features/spaces/types/spaces";
 import React, {
   createContext,
   useContext,

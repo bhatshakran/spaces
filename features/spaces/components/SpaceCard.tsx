@@ -1,6 +1,6 @@
 "use client";
 
-import { SpaceCardProps } from "@/features/types/spaces";
+import { SpaceCardProps } from "@/features/spaces/types/spaces";
 import { useState } from "react";
 import { useSavedSpaces } from "@/features/spaces/hooks/useSavedSpaces";
 import Image from "next/image";
