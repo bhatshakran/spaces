@@ -1,6 +1,4 @@
-"use client";
-
-import { useState, useEffect, useMemo } from "react";
+import { useMemo } from "react";
 import { useSpacesData } from "@/features/spaces/context/SpacesContext";
 import { Booking } from "@/features/bookings/types";
 
@@ -10,24 +8,9 @@ interface MonthlyData {
   bookings: number;
 }
 
-export const useDashboard = () => {
+export const useDashboard = (initialBookings: Booking[] = []) => {
   const { savedIds, isLoading: spacesLoading } = useSpacesData();
-  const [bookings, setBookings] = useState<Booking[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [isError, setIsError] = useState(false);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/bookings")
-      .then((r) => r.json())
-      .then((data) => {
-        setBookings(data);
-        setIsLoading(false);
-      })
-      .catch(() => {
-        setIsError(true);
-        setIsLoading(false);
-      });
-  }, []);
+  const bookings = initialBookings;
 
   const stats = useMemo(() => {
     const now = new Date();
@@ -122,7 +105,6 @@ export const useDashboard = () => {
     stats,
     monthlyData,
     upcomingBookings,
-    isLoading: isLoading || spacesLoading,
-    isError,
+    isLoading: spacesLoading,
   };
 };

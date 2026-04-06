@@ -3801,20 +3801,146 @@
     }
   ],
   "bookings": [
-    { "id": 1, "spaceId": 1, "spaceName": "Skyline Rooftop Lounge", "date": "2025-12-10", "type": "Full Day", "status": "Confirmed", "amount": 1200 },
-    { "id": 2, "spaceId": 2, "spaceName": "Minimalist Creative Studio", "date": "2026-01-14", "type": "Half Day", "status": "Confirmed", "amount": 225 },
-    { "id": 3, "spaceId": 3, "spaceName": "The Glass Pavilion", "date": "2026-02-18", "type": "Full Day", "status": "Confirmed", "amount": 3500 },
-    { "id": 4, "spaceId": 4, "spaceName": "Warehouse District Loft", "date": "2026-03-20", "type": "Evening", "status": "Cancelled", "amount": 800 },
-    { "id": 5, "spaceId": 5, "spaceName": "Harborview Conference Center", "date": "2026-04-10", "type": "Full Day", "status": "Confirmed", "amount": 950 },
-    { "id": 6, "spaceId": 1, "spaceName": "Skyline Rooftop Lounge", "date": "2026-04-15", "type": "Half Day", "status": "Pending", "amount": 600 },
-    { "id": 7, "spaceId": 6, "spaceName": "The Zen Garden Studio", "date": "2026-04-22", "type": "Full Day", "status": "Confirmed", "amount": 380 },
-    { "id": 8, "spaceId": 10, "spaceName": "Industrial Brick Gallery", "date": "2026-05-05", "type": "Full Day", "status": "Pending", "amount": 550 },
-    { "id": 9, "spaceId": 12, "spaceName": "The Concrete Bunker", "date": "2026-05-12", "type": "Evening", "status": "Confirmed", "amount": 425 },
-    { "id": 10, "spaceId": 15, "spaceName": "Velvet Underground Club", "date": "2026-06-01", "type": "Full Day", "status": "Confirmed", "amount": 1100 },
-    { "id": 11, "spaceId": 3, "spaceName": "The Glass Pavilion", "date": "2026-06-15", "type": "Full Day", "status": "Pending", "amount": 3500 },
-    { "id": 12, "spaceId": 18, "spaceName": "Brutalist Stone Chapel", "date": "2026-07-04", "type": "Full Day", "status": "Confirmed", "amount": 900 },
-    { "id": 13, "spaceId": 1, "spaceName": "Skyline Rooftop Lounge", "date": "2026-08-10", "type": "Full Day", "status": "Confirmed", "amount": 1200 },
-    { "id": 14, "spaceId": 22, "spaceName": "Neon Cyberpunk Alley", "date": "2026-09-20", "type": "Evening", "status": "Confirmed", "amount": 500 }
+    {
+      "id": "1",
+      "spaceId": 1,
+      "spaceName": "Skyline Rooftop Lounge",
+      "date": "2025-12-10",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 1200
+    },
+    {
+      "id": "2",
+      "spaceId": 2,
+      "spaceName": "Minimalist Creative Studio",
+      "date": "2026-01-14",
+      "type": "Half Day",
+      "status": "Confirmed",
+      "amount": 225
+    },
+    {
+      "id": "3",
+      "spaceId": 3,
+      "spaceName": "The Glass Pavilion",
+      "date": "2026-02-18",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 3500
+    },
+    {
+      "id": "4",
+      "spaceId": 4,
+      "spaceName": "Warehouse District Loft",
+      "date": "2026-03-20",
+      "type": "Evening",
+      "status": "Cancelled",
+      "amount": 800
+    },
+    {
+      "id": "5",
+      "spaceId": 5,
+      "spaceName": "Harborview Conference Center",
+      "date": "2026-04-10",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 950
+    },
+    {
+      "id": "6",
+      "spaceId": 1,
+      "spaceName": "Skyline Rooftop Lounge",
+      "date": "2026-04-15",
+      "type": "Half Day",
+      "status": "Pending",
+      "amount": 600
+    },
+    {
+      "id": "7",
+      "spaceId": 6,
+      "spaceName": "The Zen Garden Studio",
+      "date": "2026-04-22",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 380
+    },
+    {
+      "id": "8",
+      "spaceId": 10,
+      "spaceName": "Industrial Brick Gallery",
+      "date": "2026-05-05",
+      "type": "Full Day",
+      "status": "Pending",
+      "amount": 550
+    },
+    {
+      "id": "9",
+      "spaceId": 12,
+      "spaceName": "The Concrete Bunker",
+      "date": "2026-05-12",
+      "type": "Evening",
+      "status": "Confirmed",
+      "amount": 425
+    },
+    {
+      "id": "10",
+      "spaceId": 15,
+      "spaceName": "Velvet Underground Club",
+      "date": "2026-06-01",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 1100
+    },
+    {
+      "id": "11",
+      "spaceId": 3,
+      "spaceName": "The Glass Pavilion",
+      "date": "2026-06-15",
+      "type": "Full Day",
+      "status": "Pending",
+      "amount": 3500
+    },
+    {
+      "id": "12",
+      "spaceId": 18,
+      "spaceName": "Brutalist Stone Chapel",
+      "date": "2026-07-04",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 900
+    },
+    {
+      "id": "13",
+      "spaceId": 1,
+      "spaceName": "Skyline Rooftop Lounge",
+      "date": "2026-08-10",
+      "type": "Full Day",
+      "status": "Confirmed",
+      "amount": 1200
+    },
+    {
+      "id": "14",
+      "spaceId": 22,
+      "spaceName": "Neon Cyberpunk Alley",
+      "date": "2026-09-20",
+      "type": "Evening",
+      "status": "Confirmed",
+      "amount": 500
+    }
   ],
-  "saved":[]
+  "saved": [
+    {
+      "spaceId": "200",
+      "id": "G6zuxNR6dBI"
+    },
+    {
+      "spaceId": "199",
+      "id": "Oqm__XWzrzE"
+    },
+    {
+      "spaceId": "198",
+      "id": "G2XpEw8n3NY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

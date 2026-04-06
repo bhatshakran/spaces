@@ -1,10 +1,10 @@
 "use client";
-
 import Link from "next/link";
 import { useDashboard } from "../hooks/useDashboard";
 import { StatsCard } from "./StatsCard";
 import { ActivityChart } from "./ActivityChart";
 import { UpcomingBookings } from "./UpcomingBookings";
+import { Booking } from "@/features/bookings/types";
 
 const IconSpaces = () => (
   <svg
@@ -70,9 +70,36 @@ const IconWallet = () => (
   </svg>
 );
 
-export const DashboardView = () => {
-  const { stats, monthlyData, upcomingBookings, isLoading } = useDashboard();
+interface DashboardViewProps {
+  initialBookings?: Booking[];
+  serverError: boolean;
+}
 
+export const DashboardView = ({
+  initialBookings = [],
+  serverError,
+}: DashboardViewProps) => {
+  const { stats, monthlyData, upcomingBookings, isLoading } =
+    useDashboard(initialBookings);
+
+  if (serverError) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen bg-[#F6F2EC] p-6 text-center">
+        <h2 className="font-cormorant text-2xl text-stone-800 mb-2">
+          Something went sideways
+        </h2>
+        <p className="text-stone-500 mb-6">
+          We couldn't load your dashboard stats right now.
+        </p>
+        <button
+          onClick={() => window.location.reload()}
+          className="px-6 py-2 bg-stone-900 text-white rounded-xl hover:bg-[#C05A32] transition-colors"
+        >
+          Try Again
+        </button>
+      </div>
+    );
+  }
   return (
     <div className="flex flex-col min-h-screen bg-[#F6F2EC]">
       {/* Header */}
