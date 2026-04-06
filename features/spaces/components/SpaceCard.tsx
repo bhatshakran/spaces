@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface Space {
   id: number;
@@ -26,37 +26,52 @@ export const SpaceCard = ({
 }: SpaceCardProps) => {
   const [isSaved, setIsSaved] = useState(isSavedInitial);
 
-  const toggleSave = (e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setIsSaved(!isSaved);
-    // TODO: Implement API call to PATCH /saved or POST /saved
-  };
-
   return (
-    <div className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full">
-      {/* Image Container */}
+    <div
+      className="group bg-white rounded-[18px] border border-stone-100 overflow-hidden
+      hover:shadow-[0_8px_40px_rgba(26,17,10,0.10)] hover:-translate-y-1
+      transition-all duration-500 flex flex-col h-full"
+    >
+      {/* Image */}
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
           src={space.imageUrl}
           alt={space.name}
-          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out"
           loading="lazy"
         />
+        <div
+          className="absolute inset-0 bg-gradient-to-t from-[#1A110A]/35 via-transparent to-transparent
+          opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+        />
 
-        {/* Wishlist Toggle */}
+        {/* Category badge */}
+        <div className="absolute top-3 left-3">
+          <span
+            className="px-3 py-1 rounded-full bg-[#1A110A]/70 backdrop-blur-sm
+            text-[#F6F2EC]/90 text-[10px] font-semibold uppercase tracking-[0.08em]"
+          >
+            {space.category}
+          </span>
+        </div>
+
+        {/* Save button */}
         <button
-          onClick={toggleSave}
-          className="absolute top-3 right-3 p-2 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white transition-colors shadow-sm"
-          aria-label={isSaved ? "Remove from saved" : "Save space"}
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            setIsSaved(!isSaved);
+          }}
+          className="absolute top-3 right-3 w-[34px] h-[34px] rounded-full bg-[#F6F2EC]/90 backdrop-blur-sm
+            border-none flex items-center justify-center hover:bg-white transition-all active:scale-90 shadow-sm"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill={isSaved ? "#ef4444" : "none"}
+            fill={isSaved ? "#C05A32" : "none"}
+            stroke={isSaved ? "#C05A32" : "#8B7B6E"}
             viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke={isSaved ? "#ef4444" : "currentColor"}
-            className="w-5 h-5 transition-colors"
+            strokeWidth={1.8}
+            className="w-4 h-4 transition-colors duration-200"
           >
             <path
               strokeLinecap="round"
@@ -65,63 +80,76 @@ export const SpaceCard = ({
             />
           </svg>
         </button>
-
-        {/* Category Badge */}
-        <div className="absolute bottom-3 left-3">
-          <span className="px-2 py-1 bg-black/60 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider rounded">
-            {space.category}
-          </span>
-        </div>
       </div>
 
-      {/* Content */}
-      <div className="p-4 flex flex-col flex-1">
-        <div className="flex justify-between items-start mb-1">
-          <h3 className="font-bold text-gray-900 line-clamp-1 group-hover:text-blue-600 transition-colors">
+      {/* Body */}
+      <div className="p-5 flex flex-col flex-1">
+        <div className="flex items-start justify-between gap-3 mb-1.5">
+          <h3
+            className="font-cormorant font-semibold text-[19px] leading-snug text-stone-800
+            group-hover:text-[#C05A32] transition-colors line-clamp-1 flex-1"
+          >
             {space.name}
           </h3>
-          <div className="flex items-center gap-1 shrink-0">
-            <span className="text-yellow-500 text-sm">★</span>
-            <span className="text-sm font-semibold">{space.rating}</span>
+          <div className="flex items-center gap-1 bg-amber-50 px-2 py-1 rounded-lg shrink-0">
+            <span className="text-amber-500 text-[11px]">★</span>
+            <span className="text-[12px] font-semibold text-stone-700">
+              {space.rating}
+            </span>
           </div>
         </div>
 
-        <p className="text-sm text-gray-500 mb-3 flex items-center gap-1">
-          <span className="opacity-70">📍</span> {space.city}
+        <p className="flex items-center gap-1.5 text-[12px] text-stone-400 mb-4">
+          <span className="w-[5px] h-[5px] rounded-full bg-[#C05A32] flex-shrink-0" />
+          {space.city}
         </p>
 
-        {/* Amenities Preview */}
-        <div className="flex flex-wrap gap-1 mb-4">
-          {space.amenities.slice(0, 3).map((amt) => (
+        {/* Amenities */}
+        <div className="flex flex-wrap gap-1.5 mb-auto">
+          {space.amenities.slice(0, 3).map((a: string) => (
             <span
-              key={amt}
-              className="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded"
+              key={a}
+              className="text-[10px] font-medium bg-stone-50 text-stone-400
+              border border-stone-100 px-2.5 py-1 rounded-md"
             >
-              {amt}
+              {a}
             </span>
           ))}
           {space.amenities.length > 3 && (
-            <span className="text-[10px] text-gray-400">
+            <span className="text-[10px] font-semibold text-stone-300 self-center ml-0.5">
               +{space.amenities.length - 3}
             </span>
           )}
         </div>
 
-        {/* Footer / Price */}
-        <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
+        {/* Footer */}
+        <div className="mt-4 pt-4 border-t border-stone-50 flex items-end justify-between">
           <div>
-            <span className="text-lg font-bold text-gray-900">
-              ${space.price}
-            </span>
-            <span className="text-xs text-gray-500 ml-1">/ day</span>
+            <p className="text-[10px] font-medium text-stone-300 uppercase tracking-[0.07em] mb-0.5">
+              From
+            </p>
+            <div className="flex items-baseline gap-1">
+              <span className="font-cormorant text-[24px] font-semibold text-stone-800">
+                ${space.price}
+              </span>
+              <span className="text-[11px] text-stone-400">/ day</span>
+            </div>
           </div>
-          <div className="text-xs text-gray-400 font-medium">
-            Up to {space.capacity} guests
+          <div className="text-right">
+            <p className="text-[10px] font-medium text-stone-300 uppercase tracking-[0.07em] mb-0.5">
+              Capacity
+            </p>
+            <p className="text-[13px] font-medium text-stone-600">
+              {space.capacity} guests
+            </p>
           </div>
         </div>
 
-        <button className="w-full mt-4 py-2 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-blue-600 transition-colors">
-          View Details
+        <button
+          className="w-full mt-4 py-[11px] rounded-xl bg-stone-900 text-[#F6F2EC] text-[13px]
+          font-medium tracking-wide hover:bg-[#C05A32] transition-colors duration-300"
+        >
+          Explore Space
         </button>
       </div>
     </div>

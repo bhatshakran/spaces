@@ -1,20 +1,6 @@
 "use client";
 
-const CATEGORIES = [
-  "Banquet Hall",
-  "Meeting Room",
-  "Coworking",
-  "Rooftop",
-  "Studio",
-];
-const AMENITIES = [
-  "Parking",
-  "Catering",
-  "AV Equipment",
-  "WiFi",
-  "Outdoor",
-  "Bar",
-];
+import { AMENITIES, CATEGORIES } from "../constants/FIlterOptions";
 
 export const FilterPanel = ({ filters, setFilter }: any) => {
   const handleCheckboxChange = (list: string[], item: string, name: string) => {
@@ -25,51 +11,108 @@ export const FilterPanel = ({ filters, setFilter }: any) => {
   };
 
   return (
-    <div className="space-y-8">
-      {/* Category Section */}
-      <div>
-        <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-500 mb-4">
-          Category
-        </h3>
-        <div className="space-y-2">
-          {CATEGORIES.map((cat) => (
-            <label
-              key={cat}
-              className="flex items-center gap-3 cursor-pointer group"
-            >
+    <div className="space-y-6">
+      {/* Top row: Category + Capacity side by side */}
+      <div className="grid grid-cols-2 gap-6">
+        {/* Category */}
+        <div>
+          <h3 className="text-[10px] font-semibold uppercase tracking-[0.1em] text-stone-400 mb-3">
+            Category
+          </h3>
+          <div className="space-y-2">
+            {CATEGORIES.map((cat) => (
+              <label
+                key={cat}
+                className="flex items-center gap-2.5 cursor-pointer group"
+              >
+                <input
+                  type="checkbox"
+                  checked={filters.categories?.includes(cat)}
+                  onChange={() =>
+                    handleCheckboxChange(filters.categories, cat, "categories")
+                  }
+                  className="w-4 h-4 rounded border-stone-300 text-[#C05A32] accent-[#C05A32] focus:ring-[#C05A32]/20"
+                />
+                <span className="text-sm text-stone-600 group-hover:text-[#C05A32] transition-colors">
+                  {cat}
+                </span>
+              </label>
+            ))}
+          </div>
+        </div>
+
+        {/* Capacity + Price */}
+        <div className="space-y-5">
+          <div>
+            <h3 className="text-[10px] font-semibold uppercase tracking-[0.1em] text-stone-400 mb-3">
+              Min Capacity
+            </h3>
+            <input
+              type="number"
+              placeholder="e.g. 50"
+              value={filters.minCapacity || ""}
+              onChange={(e) => setFilter("minCapacity", e.target.value)}
+              className="w-full px-3 py-2.5 text-sm border border-stone-200 rounded-xl
+                focus:outline-none focus:border-[#C05A32] focus:ring-2 focus:ring-[#C05A32]/10
+                text-stone-700 placeholder:text-stone-300 transition-all"
+            />
+          </div>
+
+          <div>
+            <h3 className="text-[10px] font-semibold uppercase tracking-[0.1em] text-stone-400 mb-3">
+              Price Range
+            </h3>
+            <div className="flex items-center gap-2">
               <input
-                type="checkbox"
-                checked={filters.categories?.includes(cat)}
-                onChange={() =>
-                  handleCheckboxChange(filters.categories, cat, "categories")
-                }
-                className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                type="number"
+                placeholder="Min"
+                value={filters.minPrice || ""}
+                onChange={(e) => setFilter("minPrice", e.target.value)}
+                className="w-full px-3 py-2.5 text-sm border border-stone-200 rounded-xl
+                  focus:outline-none focus:border-[#C05A32] focus:ring-2 focus:ring-[#C05A32]/10
+                  text-stone-700 placeholder:text-stone-300 transition-all"
               />
-              <span className="text-gray-700 group-hover:text-blue-600 transition-colors">
-                {cat}
-              </span>
-            </label>
-          ))}
+              <span className="text-stone-300 text-sm shrink-0">—</span>
+              <input
+                type="number"
+                placeholder="Max"
+                value={filters.maxPrice || ""}
+                onChange={(e) => setFilter("maxPrice", e.target.value)}
+                className="w-full px-3 py-2.5 text-sm border border-stone-200 rounded-xl
+                  focus:outline-none focus:border-[#C05A32] focus:ring-2 focus:ring-[#C05A32]/10
+                  text-stone-700 placeholder:text-stone-300 transition-all"
+              />
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-[10px] font-semibold uppercase tracking-[0.1em] text-stone-400 mb-3">
+              Min Rating
+            </h3>
+            <div className="flex gap-2">
+              {[3, 3.5, 4, 4.5].map((r) => (
+                <button
+                  key={r}
+                  onClick={() =>
+                    setFilter("rating", filters.rating === r ? undefined : r)
+                  }
+                  className={`flex-1 py-2 rounded-xl text-xs font-medium border transition-all ${
+                    filters.rating === r
+                      ? "bg-[#C05A32] border-[#C05A32] text-white"
+                      : "bg-white border-stone-200 text-stone-500 hover:border-[#C05A32]/40"
+                  }`}
+                >
+                  {r}★
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Capacity Section */}
+      {/* Amenities — full width */}
       <div>
-        <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-500 mb-4">
-          Min Capacity
-        </h3>
-        <input
-          type="number"
-          placeholder="e.g. 50"
-          value={filters.minCapacity || ""}
-          onChange={(e) => setFilter("minCapacity", e.target.value)}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
-        />
-      </div>
-
-      {/* Amenities Section */}
-      <div>
-        <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-500 mb-4">
+        <h3 className="text-[10px] font-semibold uppercase tracking-[0.1em] text-stone-400 mb-3">
           Amenities
         </h3>
         <div className="flex flex-wrap gap-2">
@@ -81,8 +124,8 @@ export const FilterPanel = ({ filters, setFilter }: any) => {
               }
               className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${
                 filters.amenities?.includes(amt)
-                  ? "bg-blue-600 border-blue-600 text-white"
-                  : "bg-white border-gray-300 text-gray-600 hover:border-blue-400"
+                  ? "bg-[#C05A32] border-[#C05A32] text-white"
+                  : "bg-white border-stone-200 text-stone-500 hover:border-[#C05A32]/40 hover:text-[#C05A32]"
               }`}
             >
               {amt}

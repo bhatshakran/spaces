@@ -8,28 +8,40 @@ export const useUrlFilters = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  // Create a clean object from the URL search params
+  // 1. Get the raw string. This is our "Source of Truth"
+  const searchString = searchParams.toString();
+
   const filters = useMemo(() => {
-    const params = Object.fromEntries(searchParams.entries());
+    // 2. Parse the string inside the memo
+    const params = Object.fromEntries(new URLSearchParams(searchString));
+
     return {
-      ...params,
       search: params.search || "",
       sort: params.sort || "newest",
-      // Convert comma-separated strings back into arrays for multi-selects
-      categories: params.categories ? params.categories.split(",") : [],
-      amenities: params.amenities ? params.amenities.split(",") : [],
+      categories: params.categories
+        ? params.categories.split(",").filter(Boolean)
+        : [],
+      amenities: params.amenities
+        ? params.amenities.split(",").filter(Boolean)
+        : [],
       minPrice: params.minPrice ? Number(params.minPrice) : undefined,
       maxPrice: params.maxPrice ? Number(params.maxPrice) : undefined,
       minCapacity: params.minCapacity ? Number(params.minCapacity) : undefined,
       rating: params.rating ? Number(params.rating) : undefined,
     };
-  }, [searchParams]);
+    // 3. This object reference will NOW only change if the URL string actually changes
+  }, [searchString]);
 
   const setFilter = useCallback(
-    (name: string, value: string | number | string[] | undefined | null) => {
-      const params = new URLSearchParams(searchParams.toString());
+    (name: string, value: any) => {
+      const params = new URLSearchParams(searchString);
 
-      if (!value || (Array.isArray(value) && value.length === 0)) {
+      if (
+        value === undefined ||
+        value === null ||
+        value === "" ||
+        (Array.isArray(value) && value.length === 0)
+      ) {
         params.delete(name);
       } else if (Array.isArray(value)) {
         params.set(name, value.join(","));
@@ -37,15 +49,22 @@ export const useUrlFilters = () => {
         params.set(name, String(value));
       }
 
-      // Use 'replace' to avoid cluttering browser history during rapid filtering
-      router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+      const newSearch = params.toString();
+      const currentSearch = searchParams.toString();
+
+      // 4. Critical: Only push to router if the URL actually changed
+      if (newSearch !== currentSearch) {
+        router.replace(`${pathname}?${newSearch}`, { scroll: false });
+      }
     },
-    [pathname, router, searchParams],
+    [pathname, router, searchString, searchParams],
   );
 
   const clearFilters = useCallback(() => {
-    router.replace(pathname, { scroll: false });
-  }, [pathname, router]);
+    if (searchParams.toString() !== "") {
+      router.replace(pathname, { scroll: false });
+    }
+  }, [pathname, router, searchParams]);
 
   return { filters, setFilter, clearFilters };
 };
