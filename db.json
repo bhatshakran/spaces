@@ -3798,6 +3798,5846 @@
       ],
       "imageUrl": "https://picsum.photos/seed/space200/600/400",
       "createdAt": "2024-02-01T10:00:00Z"
+    },
+    {
+      "id": "201",
+      "name": "Elite Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Rooftop",
+      "price": 1679,
+      "capacity": 204,
+      "rating": 4.9,
+      "reviewCount": 216,
+      "amenities": [
+        "Sound System",
+        "Pool",
+        "Security",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space201/600/400",
+      "createdAt": "2024-04-03T00:00:00Z"
+    },
+    {
+      "id": "202",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Ballroom",
+      "price": 4686,
+      "capacity": 480,
+      "rating": 4.6,
+      "reviewCount": 185,
+      "amenities": [
+        "Lighting",
+        "Outdoor",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space202/600/400",
+      "createdAt": "2024-02-17T00:00:00Z"
+    },
+    {
+      "id": "203",
+      "name": "Crystal Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Outdoor",
+      "price": 4091,
+      "capacity": 328,
+      "rating": 4.5,
+      "reviewCount": 237,
+      "amenities": [
+        "Parking",
+        "Sound System",
+        "WiFi",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space203/600/400",
+      "createdAt": "2024-03-06T00:00:00Z"
+    },
+    {
+      "id": "204",
+      "name": "Elite Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Ballroom",
+      "price": 4419,
+      "capacity": 379,
+      "rating": 4.7,
+      "reviewCount": 235,
+      "amenities": [
+        "Sound System",
+        "Pool",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space204/600/400",
+      "createdAt": "2024-01-30T00:00:00Z"
+    },
+    {
+      "id": "205",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Conference Room",
+      "price": 2882,
+      "capacity": 370,
+      "rating": 4.3,
+      "reviewCount": 193,
+      "amenities": [
+        "Bar",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space205/600/400",
+      "createdAt": "2024-01-17T00:00:00Z"
+    },
+    {
+      "id": "206",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Rooftop",
+      "price": 1344,
+      "capacity": 473,
+      "rating": 4.9,
+      "reviewCount": 125,
+      "amenities": [
+        "Security",
+        "Sound System",
+        "Lighting",
+        "WiFi",
+        "Whiteboard",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space206/600/400",
+      "createdAt": "2024-03-28T00:00:00Z"
+    },
+    {
+      "id": "207",
+      "name": "Grand Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Outdoor",
+      "price": 2499,
+      "capacity": 23,
+      "rating": 4.6,
+      "reviewCount": 264,
+      "amenities": [
+        "Whiteboard",
+        "Parking",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space207/600/400",
+      "createdAt": "2024-03-24T00:00:00Z"
+    },
+    {
+      "id": "208",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Lounge",
+      "price": 1394,
+      "capacity": 28,
+      "rating": 4.4,
+      "reviewCount": 68,
+      "amenities": [
+        "Lighting",
+        "Pool",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space208/600/400",
+      "createdAt": "2024-02-16T00:00:00Z"
+    },
+    {
+      "id": "209",
+      "name": "Golden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Unique",
+      "price": 4861,
+      "capacity": 311,
+      "rating": 4.9,
+      "reviewCount": 158,
+      "amenities": [
+        "Lighting",
+        "WiFi",
+        "Pool",
+        "Outdoor",
+        "AV Equipment",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space209/600/400",
+      "createdAt": "2024-01-25T00:00:00Z"
+    },
+    {
+      "id": "210",
+      "name": "Grand Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Loft",
+      "price": 249,
+      "capacity": 33,
+      "rating": 4.4,
+      "reviewCount": 275,
+      "amenities": [
+        "Security",
+        "Outdoor",
+        "WiFi",
+        "Bar",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space210/600/400",
+      "createdAt": "2024-04-04T00:00:00Z"
+    },
+    {
+      "id": "211",
+      "name": "Urban Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Unique",
+      "price": 1601,
+      "capacity": 353,
+      "rating": 4.9,
+      "reviewCount": 93,
+      "amenities": [
+        "Sound System",
+        "AV Equipment",
+        "Bar",
+        "Parking",
+        "Catering",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space211/600/400",
+      "createdAt": "2024-04-16T00:00:00Z"
+    },
+    {
+      "id": "212",
+      "name": "Sky Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Outdoor",
+      "price": 3664,
+      "capacity": 380,
+      "rating": 4.4,
+      "reviewCount": 52,
+      "amenities": [
+        "Outdoor",
+        "WiFi",
+        "Lighting",
+        "Security",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space212/600/400",
+      "createdAt": "2024-03-18T00:00:00Z"
+    },
+    {
+      "id": "213",
+      "name": "Sky Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Studio",
+      "price": 4914,
+      "capacity": 12,
+      "rating": 4.3,
+      "reviewCount": 149,
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Outdoor",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space213/600/400",
+      "createdAt": "2024-02-10T00:00:00Z"
+    },
+    {
+      "id": "214",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Unique",
+      "price": 4079,
+      "capacity": 426,
+      "rating": 4.9,
+      "reviewCount": 26,
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space214/600/400",
+      "createdAt": "2024-03-16T00:00:00Z"
+    },
+    {
+      "id": "215",
+      "name": "Hidden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Unique",
+      "price": 2960,
+      "capacity": 391,
+      "rating": 4.3,
+      "reviewCount": 180,
+      "amenities": [
+        "Outdoor",
+        "Lighting",
+        "Catering",
+        "WiFi",
+        "Sound System",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space215/600/400",
+      "createdAt": "2024-04-20T00:00:00Z"
+    },
+    {
+      "id": "216",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Ballroom",
+      "price": 2702,
+      "capacity": 282,
+      "rating": 4.3,
+      "reviewCount": 165,
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space216/600/400",
+      "createdAt": "2024-04-13T00:00:00Z"
+    },
+    {
+      "id": "217",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Restaurant",
+      "price": 1526,
+      "capacity": 383,
+      "rating": 4.7,
+      "reviewCount": 211,
+      "amenities": [
+        "Outdoor",
+        "Security",
+        "Bar",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space217/600/400",
+      "createdAt": "2024-04-17T00:00:00Z"
+    },
+    {
+      "id": "218",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Unique",
+      "price": 931,
+      "capacity": 185,
+      "rating": 5,
+      "reviewCount": 30,
+      "amenities": [
+        "Lighting",
+        "Pool",
+        "Outdoor",
+        "Security",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space218/600/400",
+      "createdAt": "2024-04-23T00:00:00Z"
+    },
+    {
+      "id": "219",
+      "name": "Elite Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Ballroom",
+      "price": 1101,
+      "capacity": 186,
+      "rating": 4.9,
+      "reviewCount": 272,
+      "amenities": [
+        "Security",
+        "AV Equipment",
+        "Lighting",
+        "WiFi",
+        "Sound System",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space219/600/400",
+      "createdAt": "2024-03-06T00:00:00Z"
+    },
+    {
+      "id": "220",
+      "name": "Grand Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Gallery",
+      "price": 2859,
+      "capacity": 402,
+      "rating": 4.7,
+      "reviewCount": 47,
+      "amenities": [
+        "Bar",
+        "Whiteboard",
+        "Catering",
+        "Security",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space220/600/400",
+      "createdAt": "2024-03-09T00:00:00Z"
+    },
+    {
+      "id": "221",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Restaurant",
+      "price": 2330,
+      "capacity": 38,
+      "rating": 4.7,
+      "reviewCount": 206,
+      "amenities": [
+        "Catering",
+        "Whiteboard",
+        "Pool",
+        "WiFi",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space221/600/400",
+      "createdAt": "2024-03-01T00:00:00Z"
+    },
+    {
+      "id": "222",
+      "name": "Grand Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Conference Room",
+      "price": 4556,
+      "capacity": 247,
+      "rating": 4.6,
+      "reviewCount": 132,
+      "amenities": [
+        "Sound System",
+        "Bar",
+        "AV Equipment",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space222/600/400",
+      "createdAt": "2024-04-08T00:00:00Z"
+    },
+    {
+      "id": "223",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Lounge",
+      "price": 3273,
+      "capacity": 419,
+      "rating": 4.8,
+      "reviewCount": 283,
+      "amenities": [
+        "Bar",
+        "Whiteboard",
+        "Security",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space223/600/400",
+      "createdAt": "2024-01-08T00:00:00Z"
+    },
+    {
+      "id": "224",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Ballroom",
+      "price": 1258,
+      "capacity": 154,
+      "rating": 5,
+      "reviewCount": 237,
+      "amenities": [
+        "Whiteboard",
+        "WiFi",
+        "AV Equipment",
+        "Parking",
+        "Pool",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space224/600/400",
+      "createdAt": "2024-03-20T00:00:00Z"
+    },
+    {
+      "id": "225",
+      "name": "Grand Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Restaurant",
+      "price": 4815,
+      "capacity": 426,
+      "rating": 4.4,
+      "reviewCount": 147,
+      "amenities": [
+        "Parking",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space225/600/400",
+      "createdAt": "2024-01-16T00:00:00Z"
+    },
+    {
+      "id": "226",
+      "name": "Elite Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Gallery",
+      "price": 4084,
+      "capacity": 208,
+      "rating": 4.4,
+      "reviewCount": 188,
+      "amenities": [
+        "Outdoor",
+        "Security",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space226/600/400",
+      "createdAt": "2024-02-14T00:00:00Z"
+    },
+    {
+      "id": "227",
+      "name": "Modern Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Studio",
+      "price": 535,
+      "capacity": 16,
+      "rating": 4.9,
+      "reviewCount": 37,
+      "amenities": [
+        "Parking",
+        "AV Equipment",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space227/600/400",
+      "createdAt": "2024-03-20T00:00:00Z"
+    },
+    {
+      "id": "228",
+      "name": "Grand Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Gallery",
+      "price": 376,
+      "capacity": 73,
+      "rating": 4.7,
+      "reviewCount": 244,
+      "amenities": [
+        "Parking",
+        "Outdoor",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space228/600/400",
+      "createdAt": "2024-04-01T00:00:00Z"
+    },
+    {
+      "id": "229",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Unique",
+      "price": 2932,
+      "capacity": 362,
+      "rating": 4.8,
+      "reviewCount": 174,
+      "amenities": [
+        "Security",
+        "WiFi",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space229/600/400",
+      "createdAt": "2024-02-29T00:00:00Z"
+    },
+    {
+      "id": "230",
+      "name": "Hidden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Gallery",
+      "price": 4099,
+      "capacity": 414,
+      "rating": 4.4,
+      "reviewCount": 26,
+      "amenities": [
+        "Whiteboard",
+        "Bar",
+        "WiFi",
+        "Catering",
+        "Parking",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space230/600/400",
+      "createdAt": "2024-04-21T00:00:00Z"
+    },
+    {
+      "id": "231",
+      "name": "Elite Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Lounge",
+      "price": 813,
+      "capacity": 60,
+      "rating": 4.8,
+      "reviewCount": 37,
+      "amenities": [
+        "AV Equipment",
+        "WiFi",
+        "Bar",
+        "Sound System",
+        "Pool",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space231/600/400",
+      "createdAt": "2024-04-16T00:00:00Z"
+    },
+    {
+      "id": "232",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Outdoor",
+      "price": 2690,
+      "capacity": 82,
+      "rating": 4.4,
+      "reviewCount": 56,
+      "amenities": [
+        "Catering",
+        "Outdoor",
+        "Parking",
+        "Security",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space232/600/400",
+      "createdAt": "2024-03-31T00:00:00Z"
+    },
+    {
+      "id": "233",
+      "name": "Urban Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Lounge",
+      "price": 1130,
+      "capacity": 230,
+      "rating": 4.3,
+      "reviewCount": 62,
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "Lighting",
+        "WiFi",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space233/600/400",
+      "createdAt": "2024-04-17T00:00:00Z"
+    },
+    {
+      "id": "234",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Restaurant",
+      "price": 3626,
+      "capacity": 354,
+      "rating": 4.7,
+      "reviewCount": 149,
+      "amenities": [
+        "AV Equipment",
+        "Outdoor",
+        "Security",
+        "Bar",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space234/600/400",
+      "createdAt": "2024-02-04T00:00:00Z"
+    },
+    {
+      "id": "235",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Lounge",
+      "price": 3730,
+      "capacity": 14,
+      "rating": 4.6,
+      "reviewCount": 79,
+      "amenities": [
+        "Outdoor",
+        "Bar",
+        "Sound System",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space235/600/400",
+      "createdAt": "2024-03-24T00:00:00Z"
+    },
+    {
+      "id": "236",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Studio",
+      "price": 1371,
+      "capacity": 343,
+      "rating": 4.5,
+      "reviewCount": 268,
+      "amenities": [
+        "Security",
+        "Parking",
+        "Whiteboard",
+        "Outdoor",
+        "AV Equipment",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space236/600/400",
+      "createdAt": "2024-04-11T00:00:00Z"
+    },
+    {
+      "id": "237",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Unique",
+      "price": 477,
+      "capacity": 418,
+      "rating": 4.5,
+      "reviewCount": 298,
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Outdoor",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space237/600/400",
+      "createdAt": "2024-01-14T00:00:00Z"
+    },
+    {
+      "id": "238",
+      "name": "Crystal Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Lounge",
+      "price": 3517,
+      "capacity": 291,
+      "rating": 4.3,
+      "reviewCount": 60,
+      "amenities": [
+        "Whiteboard",
+        "Bar",
+        "Outdoor",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space238/600/400",
+      "createdAt": "2024-04-14T00:00:00Z"
+    },
+    {
+      "id": "239",
+      "name": "Modern Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Ballroom",
+      "price": 4227,
+      "capacity": 120,
+      "rating": 4.8,
+      "reviewCount": 140,
+      "amenities": [
+        "WiFi",
+        "Whiteboard",
+        "Sound System",
+        "Parking",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space239/600/400",
+      "createdAt": "2024-03-17T00:00:00Z"
+    },
+    {
+      "id": "240",
+      "name": "Grand Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Restaurant",
+      "price": 1500,
+      "capacity": 102,
+      "rating": 4.4,
+      "reviewCount": 31,
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Pool",
+        "Catering",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space240/600/400",
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "241",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Conference Room",
+      "price": 2184,
+      "capacity": 61,
+      "rating": 4.9,
+      "reviewCount": 231,
+      "amenities": [
+        "Whiteboard",
+        "AV Equipment",
+        "Bar",
+        "WiFi",
+        "Catering",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space241/600/400",
+      "createdAt": "2024-02-25T00:00:00Z"
+    },
+    {
+      "id": "242",
+      "name": "Hidden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Ballroom",
+      "price": 1046,
+      "capacity": 301,
+      "rating": 4.5,
+      "reviewCount": 121,
+      "amenities": [
+        "Outdoor",
+        "Security",
+        "AV Equipment",
+        "Sound System",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space242/600/400",
+      "createdAt": "2024-04-19T00:00:00Z"
+    },
+    {
+      "id": "243",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Loft",
+      "price": 3308,
+      "capacity": 154,
+      "rating": 4.9,
+      "reviewCount": 144,
+      "amenities": [
+        "Security",
+        "WiFi",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space243/600/400",
+      "createdAt": "2024-03-29T00:00:00Z"
+    },
+    {
+      "id": "244",
+      "name": "Hidden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Conference Room",
+      "price": 3292,
+      "capacity": 347,
+      "rating": 4.9,
+      "reviewCount": 238,
+      "amenities": [
+        "Whiteboard",
+        "Outdoor",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space244/600/400",
+      "createdAt": "2024-03-28T00:00:00Z"
+    },
+    {
+      "id": "245",
+      "name": "Hidden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Loft",
+      "price": 592,
+      "capacity": 269,
+      "rating": 4.8,
+      "reviewCount": 152,
+      "amenities": [
+        "Lighting",
+        "Pool",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space245/600/400",
+      "createdAt": "2024-04-11T00:00:00Z"
+    },
+    {
+      "id": "246",
+      "name": "Crystal Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Loft",
+      "price": 4677,
+      "capacity": 284,
+      "rating": 5,
+      "reviewCount": 203,
+      "amenities": [
+        "WiFi",
+        "Whiteboard",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space246/600/400",
+      "createdAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "247",
+      "name": "Sky Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Gallery",
+      "price": 3703,
+      "capacity": 158,
+      "rating": 4.7,
+      "reviewCount": 281,
+      "amenities": [
+        "Whiteboard",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space247/600/400",
+      "createdAt": "2024-03-24T00:00:00Z"
+    },
+    {
+      "id": "248",
+      "name": "Golden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Conference Room",
+      "price": 1954,
+      "capacity": 188,
+      "rating": 4.7,
+      "reviewCount": 103,
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space248/600/400",
+      "createdAt": "2024-04-09T00:00:00Z"
+    },
+    {
+      "id": "249",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Gallery",
+      "price": 4078,
+      "capacity": 243,
+      "rating": 5,
+      "reviewCount": 29,
+      "amenities": [
+        "WiFi",
+        "Whiteboard",
+        "Outdoor",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space249/600/400",
+      "createdAt": "2024-02-08T00:00:00Z"
+    },
+    {
+      "id": "250",
+      "name": "Grand Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Rooftop",
+      "price": 2512,
+      "capacity": 16,
+      "rating": 4.6,
+      "reviewCount": 291,
+      "amenities": [
+        "Sound System",
+        "Parking",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space250/600/400",
+      "createdAt": "2024-04-29T00:00:00Z"
+    },
+    {
+      "id": "251",
+      "name": "Grand Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Loft",
+      "price": 4216,
+      "capacity": 116,
+      "rating": 4.8,
+      "reviewCount": 139,
+      "amenities": [
+        "Sound System",
+        "Catering",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space251/600/400",
+      "createdAt": "2024-02-11T00:00:00Z"
+    },
+    {
+      "id": "252",
+      "name": "Elite Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Ballroom",
+      "price": 822,
+      "capacity": 334,
+      "rating": 4.8,
+      "reviewCount": 221,
+      "amenities": [
+        "Catering",
+        "Lighting",
+        "Sound System",
+        "AV Equipment",
+        "Bar",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space252/600/400",
+      "createdAt": "2024-01-14T00:00:00Z"
+    },
+    {
+      "id": "253",
+      "name": "Crystal Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Restaurant",
+      "price": 1699,
+      "capacity": 279,
+      "rating": 4.4,
+      "reviewCount": 266,
+      "amenities": [
+        "Parking",
+        "Lighting",
+        "Sound System",
+        "Security",
+        "Outdoor",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space253/600/400",
+      "createdAt": "2024-03-20T00:00:00Z"
+    },
+    {
+      "id": "254",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Loft",
+      "price": 501,
+      "capacity": 208,
+      "rating": 4.8,
+      "reviewCount": 199,
+      "amenities": [
+        "Bar",
+        "Security",
+        "Whiteboard",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space254/600/400",
+      "createdAt": "2024-04-22T00:00:00Z"
+    },
+    {
+      "id": "255",
+      "name": "Elite Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Rooftop",
+      "price": 819,
+      "capacity": 350,
+      "rating": 5,
+      "reviewCount": 28,
+      "amenities": [
+        "Outdoor",
+        "Catering",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space255/600/400",
+      "createdAt": "2024-03-31T00:00:00Z"
+    },
+    {
+      "id": "256",
+      "name": "Sky Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Ballroom",
+      "price": 859,
+      "capacity": 228,
+      "rating": 4.4,
+      "reviewCount": 252,
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Outdoor",
+        "Parking",
+        "Sound System",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space256/600/400",
+      "createdAt": "2024-01-13T00:00:00Z"
+    },
+    {
+      "id": "257",
+      "name": "Grand Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Loft",
+      "price": 4613,
+      "capacity": 260,
+      "rating": 4.4,
+      "reviewCount": 154,
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space257/600/400",
+      "createdAt": "2024-01-18T00:00:00Z"
+    },
+    {
+      "id": "258",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Restaurant",
+      "price": 2280,
+      "capacity": 347,
+      "rating": 4.4,
+      "reviewCount": 86,
+      "amenities": [
+        "Whiteboard",
+        "Security",
+        "Parking",
+        "Pool",
+        "Catering",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space258/600/400",
+      "createdAt": "2024-03-08T00:00:00Z"
+    },
+    {
+      "id": "259",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Lounge",
+      "price": 375,
+      "capacity": 347,
+      "rating": 4.8,
+      "reviewCount": 238,
+      "amenities": [
+        "Whiteboard",
+        "Sound System",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space259/600/400",
+      "createdAt": "2024-03-17T00:00:00Z"
+    },
+    {
+      "id": "260",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Gallery",
+      "price": 4495,
+      "capacity": 354,
+      "rating": 4.9,
+      "reviewCount": 93,
+      "amenities": [
+        "Parking",
+        "Whiteboard",
+        "Sound System",
+        "Lighting",
+        "WiFi",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space260/600/400",
+      "createdAt": "2024-03-08T00:00:00Z"
+    },
+    {
+      "id": "261",
+      "name": "Modern Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Loft",
+      "price": 2700,
+      "capacity": 495,
+      "rating": 4.4,
+      "reviewCount": 185,
+      "amenities": [
+        "Whiteboard",
+        "Security",
+        "AV Equipment",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space261/600/400",
+      "createdAt": "2024-02-19T00:00:00Z"
+    },
+    {
+      "id": "262",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Unique",
+      "price": 1909,
+      "capacity": 158,
+      "rating": 4.4,
+      "reviewCount": 60,
+      "amenities": [
+        "Outdoor",
+        "Sound System",
+        "WiFi",
+        "Whiteboard",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space262/600/400",
+      "createdAt": "2024-02-13T00:00:00Z"
+    },
+    {
+      "id": "263",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Ballroom",
+      "price": 1929,
+      "capacity": 214,
+      "rating": 4.8,
+      "reviewCount": 225,
+      "amenities": [
+        "Whiteboard",
+        "Sound System",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space263/600/400",
+      "createdAt": "2024-01-24T00:00:00Z"
+    },
+    {
+      "id": "264",
+      "name": "Golden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Loft",
+      "price": 1205,
+      "capacity": 190,
+      "rating": 4.8,
+      "reviewCount": 207,
+      "amenities": [
+        "Bar",
+        "Catering",
+        "Pool",
+        "WiFi",
+        "Security",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space264/600/400",
+      "createdAt": "2024-03-20T00:00:00Z"
+    },
+    {
+      "id": "265",
+      "name": "Sky Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Lounge",
+      "price": 3156,
+      "capacity": 342,
+      "rating": 4.8,
+      "reviewCount": 285,
+      "amenities": [
+        "Sound System",
+        "Outdoor",
+        "Pool",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space265/600/400",
+      "createdAt": "2024-02-11T00:00:00Z"
+    },
+    {
+      "id": "266",
+      "name": "Crystal Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Outdoor",
+      "price": 2029,
+      "capacity": 500,
+      "rating": 4.3,
+      "reviewCount": 94,
+      "amenities": [
+        "Security",
+        "Catering",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space266/600/400",
+      "createdAt": "2024-01-23T00:00:00Z"
+    },
+    {
+      "id": "267",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Conference Room",
+      "price": 534,
+      "capacity": 334,
+      "rating": 4.5,
+      "reviewCount": 27,
+      "amenities": [
+        "Pool",
+        "Sound System",
+        "Lighting",
+        "Parking",
+        "Security",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space267/600/400",
+      "createdAt": "2024-03-02T00:00:00Z"
+    },
+    {
+      "id": "268",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Gallery",
+      "price": 711,
+      "capacity": 94,
+      "rating": 4.9,
+      "reviewCount": 175,
+      "amenities": [
+        "AV Equipment",
+        "Lighting",
+        "Whiteboard",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space268/600/400",
+      "createdAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "269",
+      "name": "Sky Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Loft",
+      "price": 321,
+      "capacity": 199,
+      "rating": 4.9,
+      "reviewCount": 70,
+      "amenities": [
+        "AV Equipment",
+        "Catering",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space269/600/400",
+      "createdAt": "2024-04-19T00:00:00Z"
+    },
+    {
+      "id": "270",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Outdoor",
+      "price": 2417,
+      "capacity": 275,
+      "rating": 4.6,
+      "reviewCount": 282,
+      "amenities": [
+        "Outdoor",
+        "Parking",
+        "Bar",
+        "AV Equipment",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space270/600/400",
+      "createdAt": "2024-03-01T00:00:00Z"
+    },
+    {
+      "id": "271",
+      "name": "Grand Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Studio",
+      "price": 2575,
+      "capacity": 72,
+      "rating": 4.8,
+      "reviewCount": 109,
+      "amenities": [
+        "Whiteboard",
+        "WiFi",
+        "Sound System",
+        "Security",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space271/600/400",
+      "createdAt": "2024-04-26T00:00:00Z"
+    },
+    {
+      "id": "272",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Loft",
+      "price": 2910,
+      "capacity": 300,
+      "rating": 4.5,
+      "reviewCount": 88,
+      "amenities": [
+        "Security",
+        "Pool",
+        "AV Equipment",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space272/600/400",
+      "createdAt": "2024-01-05T00:00:00Z"
+    },
+    {
+      "id": "273",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Gallery",
+      "price": 1473,
+      "capacity": 480,
+      "rating": 4.8,
+      "reviewCount": 37,
+      "amenities": [
+        "Sound System",
+        "Lighting",
+        "Parking",
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space273/600/400",
+      "createdAt": "2024-03-09T00:00:00Z"
+    },
+    {
+      "id": "274",
+      "name": "Grand Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Restaurant",
+      "price": 2541,
+      "capacity": 434,
+      "rating": 4.7,
+      "reviewCount": 101,
+      "amenities": [
+        "AV Equipment",
+        "WiFi",
+        "Outdoor",
+        "Bar",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space274/600/400",
+      "createdAt": "2024-03-12T00:00:00Z"
+    },
+    {
+      "id": "275",
+      "name": "Sky Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Conference Room",
+      "price": 1710,
+      "capacity": 211,
+      "rating": 4.6,
+      "reviewCount": 197,
+      "amenities": [
+        "Parking",
+        "Pool",
+        "Catering",
+        "Security",
+        "Bar",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space275/600/400",
+      "createdAt": "2024-01-14T00:00:00Z"
+    },
+    {
+      "id": "276",
+      "name": "Golden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Studio",
+      "price": 4608,
+      "capacity": 239,
+      "rating": 4.7,
+      "reviewCount": 228,
+      "amenities": [
+        "Outdoor",
+        "Bar",
+        "WiFi",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space276/600/400",
+      "createdAt": "2024-04-18T00:00:00Z"
+    },
+    {
+      "id": "277",
+      "name": "Crystal Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Conference Room",
+      "price": 1575,
+      "capacity": 432,
+      "rating": 5,
+      "reviewCount": 296,
+      "amenities": [
+        "Parking",
+        "AV Equipment",
+        "WiFi",
+        "Security",
+        "Catering",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space277/600/400",
+      "createdAt": "2024-02-21T00:00:00Z"
+    },
+    {
+      "id": "278",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Gallery",
+      "price": 1714,
+      "capacity": 398,
+      "rating": 4.5,
+      "reviewCount": 144,
+      "amenities": [
+        "Bar",
+        "Security",
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space278/600/400",
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "279",
+      "name": "Sky Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Conference Room",
+      "price": 1038,
+      "capacity": 323,
+      "rating": 4.6,
+      "reviewCount": 74,
+      "amenities": [
+        "Pool",
+        "Outdoor",
+        "Whiteboard",
+        "Lighting",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space279/600/400",
+      "createdAt": "2024-03-31T00:00:00Z"
+    },
+    {
+      "id": "280",
+      "name": "Elite Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Gallery",
+      "price": 4322,
+      "capacity": 435,
+      "rating": 4.6,
+      "reviewCount": 71,
+      "amenities": [
+        "Catering",
+        "Security",
+        "Parking",
+        "Lighting",
+        "Bar",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space280/600/400",
+      "createdAt": "2024-01-18T00:00:00Z"
+    },
+    {
+      "id": "281",
+      "name": "Grand Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Gallery",
+      "price": 3746,
+      "capacity": 147,
+      "rating": 4.6,
+      "reviewCount": 70,
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space281/600/400",
+      "createdAt": "2024-04-10T00:00:00Z"
+    },
+    {
+      "id": "282",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Outdoor",
+      "price": 4136,
+      "capacity": 284,
+      "rating": 4.8,
+      "reviewCount": 27,
+      "amenities": [
+        "Sound System",
+        "Bar",
+        "Pool",
+        "Catering",
+        "Security",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space282/600/400",
+      "createdAt": "2024-03-26T00:00:00Z"
+    },
+    {
+      "id": "283",
+      "name": "Modern Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Outdoor",
+      "price": 1230,
+      "capacity": 425,
+      "rating": 4.3,
+      "reviewCount": 123,
+      "amenities": [
+        "Outdoor",
+        "Whiteboard",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space283/600/400",
+      "createdAt": "2024-03-20T00:00:00Z"
+    },
+    {
+      "id": "284",
+      "name": "Crystal Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Conference Room",
+      "price": 2066,
+      "capacity": 302,
+      "rating": 4.6,
+      "reviewCount": 242,
+      "amenities": [
+        "WiFi",
+        "Whiteboard",
+        "Lighting",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space284/600/400",
+      "createdAt": "2024-03-16T00:00:00Z"
+    },
+    {
+      "id": "285",
+      "name": "Hidden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Conference Room",
+      "price": 1766,
+      "capacity": 116,
+      "rating": 4.5,
+      "reviewCount": 148,
+      "amenities": [
+        "Security",
+        "Bar",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space285/600/400",
+      "createdAt": "2024-04-21T00:00:00Z"
+    },
+    {
+      "id": "286",
+      "name": "Grand Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Rooftop",
+      "price": 3907,
+      "capacity": 122,
+      "rating": 4.7,
+      "reviewCount": 293,
+      "amenities": [
+        "Security",
+        "Lighting",
+        "Whiteboard",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space286/600/400",
+      "createdAt": "2024-02-06T00:00:00Z"
+    },
+    {
+      "id": "287",
+      "name": "Hidden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Lounge",
+      "price": 1203,
+      "capacity": 17,
+      "rating": 4.7,
+      "reviewCount": 120,
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Pool",
+        "Parking",
+        "Security",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space287/600/400",
+      "createdAt": "2024-01-22T00:00:00Z"
+    },
+    {
+      "id": "288",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Restaurant",
+      "price": 2823,
+      "capacity": 108,
+      "rating": 5,
+      "reviewCount": 48,
+      "amenities": [
+        "Bar",
+        "Security",
+        "Whiteboard",
+        "Outdoor",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space288/600/400",
+      "createdAt": "2024-01-30T00:00:00Z"
+    },
+    {
+      "id": "289",
+      "name": "Crystal Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Loft",
+      "price": 1805,
+      "capacity": 45,
+      "rating": 4.6,
+      "reviewCount": 248,
+      "amenities": [
+        "Bar",
+        "AV Equipment",
+        "Parking",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space289/600/400",
+      "createdAt": "2024-01-05T00:00:00Z"
+    },
+    {
+      "id": "290",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Unique",
+      "price": 255,
+      "capacity": 355,
+      "rating": 4.6,
+      "reviewCount": 95,
+      "amenities": [
+        "Sound System",
+        "Whiteboard",
+        "AV Equipment",
+        "Parking",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space290/600/400",
+      "createdAt": "2024-04-22T00:00:00Z"
+    },
+    {
+      "id": "291",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Ballroom",
+      "price": 3983,
+      "capacity": 388,
+      "rating": 4.8,
+      "reviewCount": 199,
+      "amenities": [
+        "Lighting",
+        "Catering",
+        "Outdoor",
+        "Pool",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space291/600/400",
+      "createdAt": "2024-03-14T00:00:00Z"
+    },
+    {
+      "id": "292",
+      "name": "Crystal Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Restaurant",
+      "price": 4816,
+      "capacity": 55,
+      "rating": 4.8,
+      "reviewCount": 262,
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "Pool",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space292/600/400",
+      "createdAt": "2024-01-06T00:00:00Z"
+    },
+    {
+      "id": "293",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Restaurant",
+      "price": 3147,
+      "capacity": 500,
+      "rating": 5,
+      "reviewCount": 154,
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Parking",
+        "WiFi",
+        "Whiteboard",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space293/600/400",
+      "createdAt": "2024-02-04T00:00:00Z"
+    },
+    {
+      "id": "294",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Conference Room",
+      "price": 2876,
+      "capacity": 35,
+      "rating": 4.3,
+      "reviewCount": 139,
+      "amenities": [
+        "Outdoor",
+        "Lighting",
+        "Bar",
+        "Sound System",
+        "Security",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space294/600/400",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "295",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Ballroom",
+      "price": 2654,
+      "capacity": 290,
+      "rating": 4.9,
+      "reviewCount": 219,
+      "amenities": [
+        "AV Equipment",
+        "Sound System",
+        "Security",
+        "Parking",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space295/600/400",
+      "createdAt": "2024-04-24T00:00:00Z"
+    },
+    {
+      "id": "296",
+      "name": "Golden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Conference Room",
+      "price": 814,
+      "capacity": 498,
+      "rating": 4.6,
+      "reviewCount": 234,
+      "amenities": [
+        "Parking",
+        "Security",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space296/600/400",
+      "createdAt": "2024-04-20T00:00:00Z"
+    },
+    {
+      "id": "297",
+      "name": "Elite Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Loft",
+      "price": 510,
+      "capacity": 124,
+      "rating": 4.8,
+      "reviewCount": 139,
+      "amenities": [
+        "Catering",
+        "AV Equipment",
+        "Pool",
+        "Bar",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space297/600/400",
+      "createdAt": "2024-04-06T00:00:00Z"
+    },
+    {
+      "id": "298",
+      "name": "Grand Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Lounge",
+      "price": 4413,
+      "capacity": 78,
+      "rating": 4.5,
+      "reviewCount": 253,
+      "amenities": [
+        "Security",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space298/600/400",
+      "createdAt": "2024-03-15T00:00:00Z"
+    },
+    {
+      "id": "299",
+      "name": "Golden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Conference Room",
+      "price": 4555,
+      "capacity": 174,
+      "rating": 4.6,
+      "reviewCount": 296,
+      "amenities": [
+        "Catering",
+        "Pool",
+        "AV Equipment",
+        "WiFi",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space299/600/400",
+      "createdAt": "2024-03-01T00:00:00Z"
+    },
+    {
+      "id": "300",
+      "name": "Hidden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Conference Room",
+      "price": 3955,
+      "capacity": 119,
+      "rating": 4.4,
+      "reviewCount": 135,
+      "amenities": [
+        "Sound System",
+        "Outdoor",
+        "Bar",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space300/600/400",
+      "createdAt": "2024-04-08T00:00:00Z"
+    },
+    {
+      "id": "301",
+      "name": "Hidden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Unique",
+      "price": 3549,
+      "capacity": 64,
+      "rating": 4.5,
+      "reviewCount": 277,
+      "amenities": [
+        "Pool",
+        "Whiteboard",
+        "Parking",
+        "WiFi",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space301/600/400",
+      "createdAt": "2024-02-03T00:00:00Z"
+    },
+    {
+      "id": "302",
+      "name": "Grand Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Restaurant",
+      "price": 1669,
+      "capacity": 447,
+      "rating": 4.7,
+      "reviewCount": 271,
+      "amenities": [
+        "Outdoor",
+        "Lighting",
+        "Sound System",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space302/600/400",
+      "createdAt": "2024-02-26T00:00:00Z"
+    },
+    {
+      "id": "303",
+      "name": "Sky Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Gallery",
+      "price": 2473,
+      "capacity": 154,
+      "rating": 4.3,
+      "reviewCount": 112,
+      "amenities": [
+        "Sound System",
+        "Parking",
+        "Lighting",
+        "Catering",
+        "Bar",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space303/600/400",
+      "createdAt": "2024-03-21T00:00:00Z"
+    },
+    {
+      "id": "304",
+      "name": "Urban Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Gallery",
+      "price": 2729,
+      "capacity": 435,
+      "rating": 4.8,
+      "reviewCount": 129,
+      "amenities": [
+        "Whiteboard",
+        "Outdoor",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space304/600/400",
+      "createdAt": "2024-02-13T00:00:00Z"
+    },
+    {
+      "id": "305",
+      "name": "Crystal Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Ballroom",
+      "price": 1285,
+      "capacity": 456,
+      "rating": 4.4,
+      "reviewCount": 126,
+      "amenities": [
+        "Lighting",
+        "Outdoor",
+        "Security",
+        "Bar",
+        "AV Equipment",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space305/600/400",
+      "createdAt": "2024-01-31T00:00:00Z"
+    },
+    {
+      "id": "306",
+      "name": "Golden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Conference Room",
+      "price": 4007,
+      "capacity": 194,
+      "rating": 4.5,
+      "reviewCount": 139,
+      "amenities": [
+        "Outdoor",
+        "WiFi",
+        "Security",
+        "Whiteboard",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space306/600/400",
+      "createdAt": "2024-04-10T00:00:00Z"
+    },
+    {
+      "id": "307",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Outdoor",
+      "price": 1982,
+      "capacity": 256,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "amenities": [
+        "Catering",
+        "Pool",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space307/600/400",
+      "createdAt": "2024-03-17T00:00:00Z"
+    },
+    {
+      "id": "308",
+      "name": "Grand Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Ballroom",
+      "price": 3162,
+      "capacity": 492,
+      "rating": 4.9,
+      "reviewCount": 187,
+      "amenities": [
+        "Pool",
+        "Outdoor",
+        "Bar",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space308/600/400",
+      "createdAt": "2024-02-16T00:00:00Z"
+    },
+    {
+      "id": "309",
+      "name": "Sky Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Lounge",
+      "price": 4640,
+      "capacity": 185,
+      "rating": 4.7,
+      "reviewCount": 82,
+      "amenities": [
+        "Security",
+        "AV Equipment",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space309/600/400",
+      "createdAt": "2024-03-12T00:00:00Z"
+    },
+    {
+      "id": "310",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Loft",
+      "price": 3974,
+      "capacity": 474,
+      "rating": 4.5,
+      "reviewCount": 222,
+      "amenities": [
+        "Parking",
+        "Security",
+        "Pool",
+        "AV Equipment",
+        "Outdoor",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space310/600/400",
+      "createdAt": "2024-02-25T00:00:00Z"
+    },
+    {
+      "id": "311",
+      "name": "Hidden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Lounge",
+      "price": 4259,
+      "capacity": 58,
+      "rating": 4.5,
+      "reviewCount": 263,
+      "amenities": [
+        "Catering",
+        "Sound System",
+        "Bar",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space311/600/400",
+      "createdAt": "2024-03-26T00:00:00Z"
+    },
+    {
+      "id": "312",
+      "name": "Sky Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Loft",
+      "price": 4221,
+      "capacity": 110,
+      "rating": 4.7,
+      "reviewCount": 225,
+      "amenities": [
+        "AV Equipment",
+        "Whiteboard",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space312/600/400",
+      "createdAt": "2024-02-22T00:00:00Z"
+    },
+    {
+      "id": "313",
+      "name": "Elite Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Unique",
+      "price": 1205,
+      "capacity": 437,
+      "rating": 5,
+      "reviewCount": 41,
+      "amenities": [
+        "Bar",
+        "Whiteboard",
+        "Pool",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space313/600/400",
+      "createdAt": "2024-03-09T00:00:00Z"
+    },
+    {
+      "id": "314",
+      "name": "Sky Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Ballroom",
+      "price": 4469,
+      "capacity": 78,
+      "rating": 4.7,
+      "reviewCount": 135,
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space314/600/400",
+      "createdAt": "2024-01-25T00:00:00Z"
+    },
+    {
+      "id": "315",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Outdoor",
+      "price": 2565,
+      "capacity": 359,
+      "rating": 4.3,
+      "reviewCount": 170,
+      "amenities": [
+        "Parking",
+        "Outdoor",
+        "Sound System",
+        "Catering",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space315/600/400",
+      "createdAt": "2024-04-29T00:00:00Z"
+    },
+    {
+      "id": "316",
+      "name": "Elite Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Ballroom",
+      "price": 4095,
+      "capacity": 157,
+      "rating": 4.9,
+      "reviewCount": 199,
+      "amenities": [
+        "Catering",
+        "Pool",
+        "Security",
+        "AV Equipment",
+        "Lighting",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space316/600/400",
+      "createdAt": "2024-04-14T00:00:00Z"
+    },
+    {
+      "id": "317",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Lounge",
+      "price": 2507,
+      "capacity": 434,
+      "rating": 4.4,
+      "reviewCount": 163,
+      "amenities": [
+        "Sound System",
+        "Lighting",
+        "Catering",
+        "Parking",
+        "Security",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space317/600/400",
+      "createdAt": "2024-03-31T00:00:00Z"
+    },
+    {
+      "id": "318",
+      "name": "Sky Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Outdoor",
+      "price": 4589,
+      "capacity": 394,
+      "rating": 4.8,
+      "reviewCount": 163,
+      "amenities": [
+        "AV Equipment",
+        "Sound System",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space318/600/400",
+      "createdAt": "2024-02-22T00:00:00Z"
+    },
+    {
+      "id": "319",
+      "name": "Golden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Outdoor",
+      "price": 2237,
+      "capacity": 351,
+      "rating": 4.5,
+      "reviewCount": 289,
+      "amenities": [
+        "Parking",
+        "Security",
+        "Lighting",
+        "Pool",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space319/600/400",
+      "createdAt": "2024-01-08T00:00:00Z"
+    },
+    {
+      "id": "320",
+      "name": "Elite Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Studio",
+      "price": 1205,
+      "capacity": 294,
+      "rating": 5,
+      "reviewCount": 156,
+      "amenities": [
+        "Sound System",
+        "AV Equipment",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space320/600/400",
+      "createdAt": "2024-04-09T00:00:00Z"
+    },
+    {
+      "id": "321",
+      "name": "Grand Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Restaurant",
+      "price": 4260,
+      "capacity": 393,
+      "rating": 4.6,
+      "reviewCount": 267,
+      "amenities": [
+        "WiFi",
+        "Lighting",
+        "AV Equipment",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space321/600/400",
+      "createdAt": "2024-02-23T00:00:00Z"
+    },
+    {
+      "id": "322",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Unique",
+      "price": 3928,
+      "capacity": 403,
+      "rating": 4.9,
+      "reviewCount": 112,
+      "amenities": [
+        "Pool",
+        "Bar",
+        "Security",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space322/600/400",
+      "createdAt": "2024-04-13T00:00:00Z"
+    },
+    {
+      "id": "323",
+      "name": "Sky Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Outdoor",
+      "price": 862,
+      "capacity": 220,
+      "rating": 4.3,
+      "reviewCount": 134,
+      "amenities": [
+        "Pool",
+        "Security",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space323/600/400",
+      "createdAt": "2024-01-31T00:00:00Z"
+    },
+    {
+      "id": "324",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Studio",
+      "price": 1032,
+      "capacity": 361,
+      "rating": 4.7,
+      "reviewCount": 130,
+      "amenities": [
+        "Security",
+        "Lighting",
+        "Bar",
+        "Parking",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space324/600/400",
+      "createdAt": "2024-02-14T00:00:00Z"
+    },
+    {
+      "id": "325",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Unique",
+      "price": 1429,
+      "capacity": 29,
+      "rating": 4.9,
+      "reviewCount": 45,
+      "amenities": [
+        "WiFi",
+        "Parking",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space325/600/400",
+      "createdAt": "2024-02-04T00:00:00Z"
+    },
+    {
+      "id": "326",
+      "name": "Golden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Ballroom",
+      "price": 4414,
+      "capacity": 218,
+      "rating": 4.9,
+      "reviewCount": 260,
+      "amenities": [
+        "Catering",
+        "Sound System",
+        "Bar",
+        "AV Equipment",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space326/600/400",
+      "createdAt": "2024-01-07T00:00:00Z"
+    },
+    {
+      "id": "327",
+      "name": "Sky Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Ballroom",
+      "price": 1641,
+      "capacity": 147,
+      "rating": 4.9,
+      "reviewCount": 46,
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space327/600/400",
+      "createdAt": "2024-04-11T00:00:00Z"
+    },
+    {
+      "id": "328",
+      "name": "Sky Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Lounge",
+      "price": 2728,
+      "capacity": 251,
+      "rating": 4.4,
+      "reviewCount": 75,
+      "amenities": [
+        "Lighting",
+        "Parking",
+        "Whiteboard",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space328/600/400",
+      "createdAt": "2024-03-15T00:00:00Z"
+    },
+    {
+      "id": "329",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Conference Room",
+      "price": 2023,
+      "capacity": 217,
+      "rating": 4.6,
+      "reviewCount": 153,
+      "amenities": [
+        "Outdoor",
+        "Bar",
+        "Security",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space329/600/400",
+      "createdAt": "2024-04-26T00:00:00Z"
+    },
+    {
+      "id": "330",
+      "name": "Golden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Gallery",
+      "price": 4140,
+      "capacity": 420,
+      "rating": 4.5,
+      "reviewCount": 48,
+      "amenities": [
+        "AV Equipment",
+        "Outdoor",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space330/600/400",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "331",
+      "name": "Crystal Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Loft",
+      "price": 238,
+      "capacity": 412,
+      "rating": 4.6,
+      "reviewCount": 178,
+      "amenities": [
+        "Parking",
+        "Catering",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space331/600/400",
+      "createdAt": "2024-04-09T00:00:00Z"
+    },
+    {
+      "id": "332",
+      "name": "Golden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Lounge",
+      "price": 1871,
+      "capacity": 169,
+      "rating": 4.4,
+      "reviewCount": 53,
+      "amenities": [
+        "Parking",
+        "WiFi",
+        "Bar",
+        "Whiteboard",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space332/600/400",
+      "createdAt": "2024-01-13T00:00:00Z"
+    },
+    {
+      "id": "333",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Gallery",
+      "price": 4640,
+      "capacity": 439,
+      "rating": 4.9,
+      "reviewCount": 173,
+      "amenities": [
+        "Outdoor",
+        "Parking",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space333/600/400",
+      "createdAt": "2024-04-09T00:00:00Z"
+    },
+    {
+      "id": "334",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Studio",
+      "price": 1440,
+      "capacity": 461,
+      "rating": 4.9,
+      "reviewCount": 214,
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Security",
+        "WiFi",
+        "Parking",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space334/600/400",
+      "createdAt": "2024-04-11T00:00:00Z"
+    },
+    {
+      "id": "335",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Ballroom",
+      "price": 2268,
+      "capacity": 142,
+      "rating": 4.9,
+      "reviewCount": 68,
+      "amenities": [
+        "Catering",
+        "Pool",
+        "Lighting",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space335/600/400",
+      "createdAt": "2024-02-16T00:00:00Z"
+    },
+    {
+      "id": "336",
+      "name": "Golden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Rooftop",
+      "price": 3746,
+      "capacity": 309,
+      "rating": 4.4,
+      "reviewCount": 125,
+      "amenities": [
+        "Bar",
+        "Parking",
+        "Pool",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space336/600/400",
+      "createdAt": "2024-01-22T00:00:00Z"
+    },
+    {
+      "id": "337",
+      "name": "Elite Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Restaurant",
+      "price": 2299,
+      "capacity": 385,
+      "rating": 4.9,
+      "reviewCount": 190,
+      "amenities": [
+        "Catering",
+        "Security",
+        "Parking",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space337/600/400",
+      "createdAt": "2024-04-24T00:00:00Z"
+    },
+    {
+      "id": "338",
+      "name": "Elite Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Outdoor",
+      "price": 2780,
+      "capacity": 91,
+      "rating": 4.8,
+      "reviewCount": 22,
+      "amenities": [
+        "Pool",
+        "Bar",
+        "AV Equipment",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space338/600/400",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "339",
+      "name": "Modern Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Studio",
+      "price": 2261,
+      "capacity": 424,
+      "rating": 4.7,
+      "reviewCount": 73,
+      "amenities": [
+        "Lighting",
+        "WiFi",
+        "Bar",
+        "Catering",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space339/600/400",
+      "createdAt": "2024-03-17T00:00:00Z"
+    },
+    {
+      "id": "340",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Conference Room",
+      "price": 1375,
+      "capacity": 393,
+      "rating": 4.7,
+      "reviewCount": 283,
+      "amenities": [
+        "Catering",
+        "Outdoor",
+        "Sound System",
+        "AV Equipment",
+        "Security",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space340/600/400",
+      "createdAt": "2024-02-11T00:00:00Z"
+    },
+    {
+      "id": "341",
+      "name": "Elite Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Rooftop",
+      "price": 217,
+      "capacity": 51,
+      "rating": 4.4,
+      "reviewCount": 221,
+      "amenities": [
+        "Whiteboard",
+        "Parking",
+        "Security",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space341/600/400",
+      "createdAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "342",
+      "name": "Hidden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Conference Room",
+      "price": 2067,
+      "capacity": 487,
+      "rating": 4.5,
+      "reviewCount": 212,
+      "amenities": [
+        "Pool",
+        "Parking",
+        "AV Equipment",
+        "Sound System",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space342/600/400",
+      "createdAt": "2024-03-20T00:00:00Z"
+    },
+    {
+      "id": "343",
+      "name": "Hidden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Outdoor",
+      "price": 2656,
+      "capacity": 88,
+      "rating": 4.5,
+      "reviewCount": 173,
+      "amenities": [
+        "Whiteboard",
+        "Parking",
+        "Catering",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space343/600/400",
+      "createdAt": "2024-03-08T00:00:00Z"
+    },
+    {
+      "id": "344",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Lounge",
+      "price": 2954,
+      "capacity": 478,
+      "rating": 4.6,
+      "reviewCount": 146,
+      "amenities": [
+        "Outdoor",
+        "Security",
+        "Bar",
+        "Pool",
+        "Lighting",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space344/600/400",
+      "createdAt": "2024-02-05T00:00:00Z"
+    },
+    {
+      "id": "345",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Ballroom",
+      "price": 3192,
+      "capacity": 77,
+      "rating": 4.3,
+      "reviewCount": 286,
+      "amenities": [
+        "AV Equipment",
+        "Bar",
+        "Sound System",
+        "Outdoor",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space345/600/400",
+      "createdAt": "2024-01-03T00:00:00Z"
+    },
+    {
+      "id": "346",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Unique",
+      "price": 3005,
+      "capacity": 263,
+      "rating": 4.8,
+      "reviewCount": 247,
+      "amenities": [
+        "Pool",
+        "WiFi",
+        "Whiteboard",
+        "Security",
+        "Sound System",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space346/600/400",
+      "createdAt": "2024-02-27T00:00:00Z"
+    },
+    {
+      "id": "347",
+      "name": "Golden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Ballroom",
+      "price": 2693,
+      "capacity": 339,
+      "rating": 4.3,
+      "reviewCount": 230,
+      "amenities": [
+        "Lighting",
+        "Parking",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space347/600/400",
+      "createdAt": "2024-04-30T00:00:00Z"
+    },
+    {
+      "id": "348",
+      "name": "Elite Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Outdoor",
+      "price": 2392,
+      "capacity": 384,
+      "rating": 4.5,
+      "reviewCount": 156,
+      "amenities": [
+        "Security",
+        "Sound System",
+        "WiFi",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space348/600/400",
+      "createdAt": "2024-03-30T00:00:00Z"
+    },
+    {
+      "id": "349",
+      "name": "Golden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Loft",
+      "price": 2232,
+      "capacity": 394,
+      "rating": 4.7,
+      "reviewCount": 169,
+      "amenities": [
+        "AV Equipment",
+        "WiFi",
+        "Sound System",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space349/600/400",
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "350",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Conference Room",
+      "price": 4084,
+      "capacity": 63,
+      "rating": 4.4,
+      "reviewCount": 106,
+      "amenities": [
+        "Catering",
+        "Security",
+        "AV Equipment",
+        "Pool",
+        "Bar",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space350/600/400",
+      "createdAt": "2024-02-19T00:00:00Z"
+    },
+    {
+      "id": "351",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Lounge",
+      "price": 3738,
+      "capacity": 496,
+      "rating": 4.4,
+      "reviewCount": 34,
+      "amenities": [
+        "Whiteboard",
+        "Catering",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space351/600/400",
+      "createdAt": "2024-02-03T00:00:00Z"
+    },
+    {
+      "id": "352",
+      "name": "Crystal Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Outdoor",
+      "price": 2371,
+      "capacity": 391,
+      "rating": 4.8,
+      "reviewCount": 258,
+      "amenities": [
+        "Catering",
+        "WiFi",
+        "Lighting",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space352/600/400",
+      "createdAt": "2024-03-29T00:00:00Z"
+    },
+    {
+      "id": "353",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Gallery",
+      "price": 229,
+      "capacity": 452,
+      "rating": 4.5,
+      "reviewCount": 35,
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Pool",
+        "Security",
+        "Catering",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space353/600/400",
+      "createdAt": "2024-01-12T00:00:00Z"
+    },
+    {
+      "id": "354",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Studio",
+      "price": 4263,
+      "capacity": 150,
+      "rating": 4.7,
+      "reviewCount": 211,
+      "amenities": [
+        "Parking",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space354/600/400",
+      "createdAt": "2024-03-26T00:00:00Z"
+    },
+    {
+      "id": "355",
+      "name": "Hidden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Ballroom",
+      "price": 1008,
+      "capacity": 488,
+      "rating": 4.3,
+      "reviewCount": 42,
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space355/600/400",
+      "createdAt": "2024-03-06T00:00:00Z"
+    },
+    {
+      "id": "356",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Studio",
+      "price": 559,
+      "capacity": 293,
+      "rating": 5,
+      "reviewCount": 200,
+      "amenities": [
+        "Outdoor",
+        "Catering",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space356/600/400",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "357",
+      "name": "Golden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Rooftop",
+      "price": 1218,
+      "capacity": 500,
+      "rating": 4.7,
+      "reviewCount": 21,
+      "amenities": [
+        "Pool",
+        "Bar",
+        "Catering",
+        "Outdoor",
+        "AV Equipment",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space357/600/400",
+      "createdAt": "2024-04-12T00:00:00Z"
+    },
+    {
+      "id": "358",
+      "name": "Sky Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Loft",
+      "price": 3397,
+      "capacity": 474,
+      "rating": 4.6,
+      "reviewCount": 75,
+      "amenities": [
+        "Catering",
+        "Security",
+        "Sound System",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space358/600/400",
+      "createdAt": "2024-02-13T00:00:00Z"
+    },
+    {
+      "id": "359",
+      "name": "Urban Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Restaurant",
+      "price": 3843,
+      "capacity": 422,
+      "rating": 4.4,
+      "reviewCount": 282,
+      "amenities": [
+        "AV Equipment",
+        "Catering",
+        "WiFi",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space359/600/400",
+      "createdAt": "2024-03-02T00:00:00Z"
+    },
+    {
+      "id": "360",
+      "name": "Modern Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Unique",
+      "price": 1514,
+      "capacity": 198,
+      "rating": 4.7,
+      "reviewCount": 296,
+      "amenities": [
+        "Whiteboard",
+        "Security",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space360/600/400",
+      "createdAt": "2024-04-09T00:00:00Z"
+    },
+    {
+      "id": "361",
+      "name": "Elite Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Restaurant",
+      "price": 3647,
+      "capacity": 17,
+      "rating": 4.5,
+      "reviewCount": 131,
+      "amenities": [
+        "Pool",
+        "Bar",
+        "WiFi",
+        "AV Equipment",
+        "Catering",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space361/600/400",
+      "createdAt": "2024-04-14T00:00:00Z"
+    },
+    {
+      "id": "362",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Unique",
+      "price": 4537,
+      "capacity": 459,
+      "rating": 4.6,
+      "reviewCount": 238,
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Outdoor",
+        "Bar",
+        "AV Equipment",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space362/600/400",
+      "createdAt": "2024-02-14T00:00:00Z"
+    },
+    {
+      "id": "363",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Restaurant",
+      "price": 1286,
+      "capacity": 164,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "amenities": [
+        "Security",
+        "Whiteboard",
+        "AV Equipment",
+        "Pool",
+        "WiFi",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space363/600/400",
+      "createdAt": "2024-01-19T00:00:00Z"
+    },
+    {
+      "id": "364",
+      "name": "Crystal Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Lounge",
+      "price": 3228,
+      "capacity": 11,
+      "rating": 5,
+      "reviewCount": 79,
+      "amenities": [
+        "Catering",
+        "WiFi",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space364/600/400",
+      "createdAt": "2024-02-03T00:00:00Z"
+    },
+    {
+      "id": "365",
+      "name": "Hidden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Unique",
+      "price": 2444,
+      "capacity": 342,
+      "rating": 4.9,
+      "reviewCount": 141,
+      "amenities": [
+        "Parking",
+        "Whiteboard",
+        "Outdoor",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space365/600/400",
+      "createdAt": "2024-04-25T00:00:00Z"
+    },
+    {
+      "id": "366",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Conference Room",
+      "price": 3532,
+      "capacity": 259,
+      "rating": 4.8,
+      "reviewCount": 223,
+      "amenities": [
+        "Bar",
+        "Pool",
+        "Catering",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space366/600/400",
+      "createdAt": "2024-04-19T00:00:00Z"
+    },
+    {
+      "id": "367",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Outdoor",
+      "price": 2524,
+      "capacity": 113,
+      "rating": 4.5,
+      "reviewCount": 297,
+      "amenities": [
+        "Outdoor",
+        "Lighting",
+        "Parking",
+        "AV Equipment",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space367/600/400",
+      "createdAt": "2024-04-22T00:00:00Z"
+    },
+    {
+      "id": "368",
+      "name": "Hidden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Outdoor",
+      "price": 2645,
+      "capacity": 55,
+      "rating": 4.9,
+      "reviewCount": 84,
+      "amenities": [
+        "Bar",
+        "Parking",
+        "Lighting",
+        "Sound System",
+        "WiFi",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space368/600/400",
+      "createdAt": "2024-03-19T00:00:00Z"
+    },
+    {
+      "id": "369",
+      "name": "Golden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Restaurant",
+      "price": 1295,
+      "capacity": 480,
+      "rating": 4.6,
+      "reviewCount": 154,
+      "amenities": [
+        "Sound System",
+        "Catering",
+        "Lighting",
+        "Pool",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space369/600/400",
+      "createdAt": "2024-01-26T00:00:00Z"
+    },
+    {
+      "id": "370",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Outdoor",
+      "price": 915,
+      "capacity": 161,
+      "rating": 4.6,
+      "reviewCount": 161,
+      "amenities": [
+        "Outdoor",
+        "Parking",
+        "Sound System",
+        "Catering",
+        "Pool",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space370/600/400",
+      "createdAt": "2024-01-07T00:00:00Z"
+    },
+    {
+      "id": "371",
+      "name": "Elite Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Rooftop",
+      "price": 4186,
+      "capacity": 358,
+      "rating": 4.5,
+      "reviewCount": 267,
+      "amenities": [
+        "Whiteboard",
+        "Outdoor",
+        "Sound System",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space371/600/400",
+      "createdAt": "2024-03-21T00:00:00Z"
+    },
+    {
+      "id": "372",
+      "name": "Sky Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Loft",
+      "price": 2985,
+      "capacity": 18,
+      "rating": 4.3,
+      "reviewCount": 212,
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "AV Equipment",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space372/600/400",
+      "createdAt": "2024-04-21T00:00:00Z"
+    },
+    {
+      "id": "373",
+      "name": "Hidden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Rooftop",
+      "price": 1810,
+      "capacity": 57,
+      "rating": 4.7,
+      "reviewCount": 268,
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Lighting",
+        "Outdoor",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space373/600/400",
+      "createdAt": "2024-04-04T00:00:00Z"
+    },
+    {
+      "id": "374",
+      "name": "Golden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Lounge",
+      "price": 2978,
+      "capacity": 103,
+      "rating": 4.4,
+      "reviewCount": 123,
+      "amenities": [
+        "Catering",
+        "Lighting",
+        "Sound System",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space374/600/400",
+      "createdAt": "2024-04-02T00:00:00Z"
+    },
+    {
+      "id": "375",
+      "name": "Elite Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Lounge",
+      "price": 808,
+      "capacity": 56,
+      "rating": 4.4,
+      "reviewCount": 22,
+      "amenities": [
+        "Whiteboard",
+        "Lighting",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space375/600/400",
+      "createdAt": "2024-01-31T00:00:00Z"
+    },
+    {
+      "id": "376",
+      "name": "Crystal Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Conference Room",
+      "price": 1503,
+      "capacity": 44,
+      "rating": 4.6,
+      "reviewCount": 231,
+      "amenities": [
+        "Catering",
+        "Pool",
+        "AV Equipment",
+        "Security",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space376/600/400",
+      "createdAt": "2024-02-28T00:00:00Z"
+    },
+    {
+      "id": "377",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Lounge",
+      "price": 2100,
+      "capacity": 454,
+      "rating": 4.4,
+      "reviewCount": 132,
+      "amenities": [
+        "Pool",
+        "Catering",
+        "Lighting",
+        "Bar",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space377/600/400",
+      "createdAt": "2024-04-24T00:00:00Z"
+    },
+    {
+      "id": "378",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Loft",
+      "price": 3912,
+      "capacity": 391,
+      "rating": 4.7,
+      "reviewCount": 180,
+      "amenities": [
+        "Pool",
+        "AV Equipment",
+        "Bar",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space378/600/400",
+      "createdAt": "2024-02-03T00:00:00Z"
+    },
+    {
+      "id": "379",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Conference Room",
+      "price": 3133,
+      "capacity": 347,
+      "rating": 4.8,
+      "reviewCount": 195,
+      "amenities": [
+        "Pool",
+        "Bar",
+        "Whiteboard",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space379/600/400",
+      "createdAt": "2024-02-11T00:00:00Z"
+    },
+    {
+      "id": "380",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Studio",
+      "price": 1924,
+      "capacity": 155,
+      "rating": 4.9,
+      "reviewCount": 62,
+      "amenities": [
+        "WiFi",
+        "Parking",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space380/600/400",
+      "createdAt": "2024-03-02T00:00:00Z"
+    },
+    {
+      "id": "381",
+      "name": "Urban Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Ballroom",
+      "price": 2952,
+      "capacity": 131,
+      "rating": 4.7,
+      "reviewCount": 101,
+      "amenities": [
+        "Outdoor",
+        "Security",
+        "Sound System",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space381/600/400",
+      "createdAt": "2024-04-25T00:00:00Z"
+    },
+    {
+      "id": "382",
+      "name": "Modern Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Outdoor",
+      "price": 518,
+      "capacity": 220,
+      "rating": 4.6,
+      "reviewCount": 278,
+      "amenities": [
+        "AV Equipment",
+        "Security",
+        "Parking",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space382/600/400",
+      "createdAt": "2024-02-13T00:00:00Z"
+    },
+    {
+      "id": "383",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Outdoor",
+      "price": 1489,
+      "capacity": 224,
+      "rating": 4.5,
+      "reviewCount": 95,
+      "amenities": [
+        "Outdoor",
+        "Pool",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space383/600/400",
+      "createdAt": "2024-02-14T00:00:00Z"
+    },
+    {
+      "id": "384",
+      "name": "Golden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Studio",
+      "price": 1569,
+      "capacity": 113,
+      "rating": 4.8,
+      "reviewCount": 126,
+      "amenities": [
+        "WiFi",
+        "Sound System",
+        "AV Equipment",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space384/600/400",
+      "createdAt": "2024-02-05T00:00:00Z"
+    },
+    {
+      "id": "385",
+      "name": "Sky Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Lounge",
+      "price": 1289,
+      "capacity": 53,
+      "rating": 4.3,
+      "reviewCount": 179,
+      "amenities": [
+        "Parking",
+        "Sound System",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space385/600/400",
+      "createdAt": "2024-01-09T00:00:00Z"
+    },
+    {
+      "id": "386",
+      "name": "Sky Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Studio",
+      "price": 3627,
+      "capacity": 157,
+      "rating": 4.5,
+      "reviewCount": 164,
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Pool",
+        "Catering",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space386/600/400",
+      "createdAt": "2024-03-07T00:00:00Z"
+    },
+    {
+      "id": "387",
+      "name": "Hidden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Gallery",
+      "price": 2589,
+      "capacity": 315,
+      "rating": 4.8,
+      "reviewCount": 162,
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "AV Equipment",
+        "Security",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space387/600/400",
+      "createdAt": "2024-01-11T00:00:00Z"
+    },
+    {
+      "id": "388",
+      "name": "Sky Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Ballroom",
+      "price": 4544,
+      "capacity": 469,
+      "rating": 4.4,
+      "reviewCount": 44,
+      "amenities": [
+        "Security",
+        "Outdoor",
+        "Whiteboard",
+        "Bar",
+        "Sound System",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space388/600/400",
+      "createdAt": "2024-03-22T00:00:00Z"
+    },
+    {
+      "id": "389",
+      "name": "Sky Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Lounge",
+      "price": 3769,
+      "capacity": 45,
+      "rating": 4.9,
+      "reviewCount": 107,
+      "amenities": [
+        "Pool",
+        "Sound System",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space389/600/400",
+      "createdAt": "2024-03-22T00:00:00Z"
+    },
+    {
+      "id": "390",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Rooftop",
+      "price": 644,
+      "capacity": 400,
+      "rating": 4.4,
+      "reviewCount": 160,
+      "amenities": [
+        "WiFi",
+        "Catering",
+        "Pool",
+        "Bar",
+        "Outdoor",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space390/600/400",
+      "createdAt": "2024-01-06T00:00:00Z"
+    },
+    {
+      "id": "391",
+      "name": "Crystal Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Unique",
+      "price": 2649,
+      "capacity": 74,
+      "rating": 4.5,
+      "reviewCount": 200,
+      "amenities": [
+        "Catering",
+        "Bar",
+        "Security",
+        "Sound System",
+        "WiFi",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space391/600/400",
+      "createdAt": "2024-03-30T00:00:00Z"
+    },
+    {
+      "id": "392",
+      "name": "Crystal Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Loft",
+      "price": 4323,
+      "capacity": 438,
+      "rating": 4.3,
+      "reviewCount": 40,
+      "amenities": [
+        "AV Equipment",
+        "Parking",
+        "Bar",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space392/600/400",
+      "createdAt": "2024-02-25T00:00:00Z"
+    },
+    {
+      "id": "393",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Loft",
+      "price": 4803,
+      "capacity": 109,
+      "rating": 4.9,
+      "reviewCount": 259,
+      "amenities": [
+        "Security",
+        "Lighting",
+        "Whiteboard",
+        "Catering",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space393/600/400",
+      "createdAt": "2024-03-22T00:00:00Z"
+    },
+    {
+      "id": "394",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Lounge",
+      "price": 3632,
+      "capacity": 368,
+      "rating": 4.3,
+      "reviewCount": 96,
+      "amenities": [
+        "Parking",
+        "WiFi",
+        "Whiteboard",
+        "Pool",
+        "Security",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space394/600/400",
+      "createdAt": "2024-01-16T00:00:00Z"
+    },
+    {
+      "id": "395",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Ballroom",
+      "price": 1830,
+      "capacity": 441,
+      "rating": 4.8,
+      "reviewCount": 292,
+      "amenities": [
+        "Lighting",
+        "Pool",
+        "Parking",
+        "WiFi",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space395/600/400",
+      "createdAt": "2024-04-17T00:00:00Z"
+    },
+    {
+      "id": "396",
+      "name": "Golden Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Ballroom",
+      "price": 3569,
+      "capacity": 150,
+      "rating": 4.8,
+      "reviewCount": 216,
+      "amenities": [
+        "Pool",
+        "Security",
+        "Lighting",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space396/600/400",
+      "createdAt": "2024-03-31T00:00:00Z"
+    },
+    {
+      "id": "397",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Ballroom",
+      "price": 3404,
+      "capacity": 183,
+      "rating": 4.4,
+      "reviewCount": 247,
+      "amenities": [
+        "AV Equipment",
+        "Outdoor",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space397/600/400",
+      "createdAt": "2024-01-24T00:00:00Z"
+    },
+    {
+      "id": "398",
+      "name": "Hidden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Rooftop",
+      "price": 1576,
+      "capacity": 68,
+      "rating": 4.7,
+      "reviewCount": 109,
+      "amenities": [
+        "Whiteboard",
+        "Sound System",
+        "Outdoor",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space398/600/400",
+      "createdAt": "2024-02-06T00:00:00Z"
+    },
+    {
+      "id": "399",
+      "name": "Grand Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Lounge",
+      "price": 4565,
+      "capacity": 112,
+      "rating": 4.6,
+      "reviewCount": 110,
+      "amenities": [
+        "Pool",
+        "Parking",
+        "Lighting",
+        "Outdoor",
+        "Security",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space399/600/400",
+      "createdAt": "2024-04-28T00:00:00Z"
+    },
+    {
+      "id": "400",
+      "name": "Modern Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Ballroom",
+      "price": 646,
+      "capacity": 97,
+      "rating": 4.7,
+      "reviewCount": 100,
+      "amenities": [
+        "Whiteboard",
+        "Bar",
+        "Lighting",
+        "Parking",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space400/600/400",
+      "createdAt": "2024-01-17T00:00:00Z"
+    },
+    {
+      "id": "401",
+      "name": "Elite Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Studio",
+      "price": 3355,
+      "capacity": 420,
+      "rating": 4.5,
+      "reviewCount": 162,
+      "amenities": [
+        "Outdoor",
+        "Lighting",
+        "WiFi",
+        "Pool",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space401/600/400",
+      "createdAt": "2024-02-17T00:00:00Z"
+    },
+    {
+      "id": "402",
+      "name": "Modern Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Conference Room",
+      "price": 2952,
+      "capacity": 38,
+      "rating": 4.6,
+      "reviewCount": 182,
+      "amenities": [
+        "Sound System",
+        "Outdoor",
+        "Pool",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space402/600/400",
+      "createdAt": "2024-03-14T00:00:00Z"
+    },
+    {
+      "id": "403",
+      "name": "Grand Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Rooftop",
+      "price": 3359,
+      "capacity": 102,
+      "rating": 4.8,
+      "reviewCount": 52,
+      "amenities": [
+        "Whiteboard",
+        "Sound System",
+        "Security",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space403/600/400",
+      "createdAt": "2024-01-07T00:00:00Z"
+    },
+    {
+      "id": "404",
+      "name": "Sky Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Rooftop",
+      "price": 2370,
+      "capacity": 159,
+      "rating": 4.5,
+      "reviewCount": 151,
+      "amenities": [
+        "Outdoor",
+        "Sound System",
+        "Lighting",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space404/600/400",
+      "createdAt": "2024-04-09T00:00:00Z"
+    },
+    {
+      "id": "405",
+      "name": "Hidden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Gallery",
+      "price": 269,
+      "capacity": 250,
+      "rating": 4.7,
+      "reviewCount": 39,
+      "amenities": [
+        "Catering",
+        "WiFi",
+        "Pool",
+        "AV Equipment",
+        "Parking",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space405/600/400",
+      "createdAt": "2024-04-24T00:00:00Z"
+    },
+    {
+      "id": "406",
+      "name": "Urban Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Rooftop",
+      "price": 1836,
+      "capacity": 330,
+      "rating": 4.7,
+      "reviewCount": 197,
+      "amenities": [
+        "Security",
+        "Catering",
+        "Sound System",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space406/600/400",
+      "createdAt": "2024-01-07T00:00:00Z"
+    },
+    {
+      "id": "407",
+      "name": "Urban Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Unique",
+      "price": 4634,
+      "capacity": 109,
+      "rating": 4.8,
+      "reviewCount": 26,
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Outdoor",
+        "Whiteboard",
+        "Sound System",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space407/600/400",
+      "createdAt": "2024-03-31T00:00:00Z"
+    },
+    {
+      "id": "408",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Rooftop",
+      "price": 651,
+      "capacity": 123,
+      "rating": 5,
+      "reviewCount": 117,
+      "amenities": [
+        "Security",
+        "Catering",
+        "Whiteboard",
+        "WiFi",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space408/600/400",
+      "createdAt": "2024-03-13T00:00:00Z"
+    },
+    {
+      "id": "409",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Ballroom",
+      "price": 2524,
+      "capacity": 190,
+      "rating": 4.6,
+      "reviewCount": 24,
+      "amenities": [
+        "Lighting",
+        "Outdoor",
+        "AV Equipment",
+        "Whiteboard",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space409/600/400",
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "410",
+      "name": "Elite Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Loft",
+      "price": 1138,
+      "capacity": 85,
+      "rating": 4.9,
+      "reviewCount": 151,
+      "amenities": [
+        "AV Equipment",
+        "Bar",
+        "Pool",
+        "Lighting",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space410/600/400",
+      "createdAt": "2024-03-09T00:00:00Z"
+    },
+    {
+      "id": "411",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Ballroom",
+      "price": 548,
+      "capacity": 314,
+      "rating": 4.9,
+      "reviewCount": 169,
+      "amenities": [
+        "Catering",
+        "Parking",
+        "Sound System",
+        "Lighting",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space411/600/400",
+      "createdAt": "2024-04-07T00:00:00Z"
+    },
+    {
+      "id": "412",
+      "name": "Sky Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Ballroom",
+      "price": 3754,
+      "capacity": 86,
+      "rating": 4.4,
+      "reviewCount": 85,
+      "amenities": [
+        "AV Equipment",
+        "Pool",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space412/600/400",
+      "createdAt": "2024-02-13T00:00:00Z"
+    },
+    {
+      "id": "413",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Ballroom",
+      "price": 3617,
+      "capacity": 412,
+      "rating": 4.7,
+      "reviewCount": 105,
+      "amenities": [
+        "Lighting",
+        "Whiteboard",
+        "Catering",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space413/600/400",
+      "createdAt": "2024-02-06T00:00:00Z"
+    },
+    {
+      "id": "414",
+      "name": "Elite Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Restaurant",
+      "price": 752,
+      "capacity": 42,
+      "rating": 4.6,
+      "reviewCount": 108,
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space414/600/400",
+      "createdAt": "2024-04-29T00:00:00Z"
+    },
+    {
+      "id": "415",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Unique",
+      "price": 2179,
+      "capacity": 265,
+      "rating": 4.8,
+      "reviewCount": 46,
+      "amenities": [
+        "Whiteboard",
+        "AV Equipment",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space415/600/400",
+      "createdAt": "2024-02-20T00:00:00Z"
+    },
+    {
+      "id": "416",
+      "name": "Grand Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Outdoor",
+      "price": 1272,
+      "capacity": 151,
+      "rating": 4.9,
+      "reviewCount": 200,
+      "amenities": [
+        "AV Equipment",
+        "Parking",
+        "Whiteboard",
+        "Sound System",
+        "WiFi",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space416/600/400",
+      "createdAt": "2024-03-26T00:00:00Z"
+    },
+    {
+      "id": "417",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Loft",
+      "price": 2396,
+      "capacity": 302,
+      "rating": 4.7,
+      "reviewCount": 121,
+      "amenities": [
+        "AV Equipment",
+        "Lighting",
+        "Whiteboard",
+        "Bar",
+        "Pool",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space417/600/400",
+      "createdAt": "2024-03-05T00:00:00Z"
+    },
+    {
+      "id": "418",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Studio",
+      "price": 3843,
+      "capacity": 145,
+      "rating": 4.6,
+      "reviewCount": 228,
+      "amenities": [
+        "Catering",
+        "AV Equipment",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space418/600/400",
+      "createdAt": "2024-04-26T00:00:00Z"
+    },
+    {
+      "id": "419",
+      "name": "Urban Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Studio",
+      "price": 3585,
+      "capacity": 447,
+      "rating": 4.8,
+      "reviewCount": 58,
+      "amenities": [
+        "Lighting",
+        "Bar",
+        "Outdoor",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space419/600/400",
+      "createdAt": "2024-04-08T00:00:00Z"
+    },
+    {
+      "id": "420",
+      "name": "Sky Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Ballroom",
+      "price": 3121,
+      "capacity": 105,
+      "rating": 4.5,
+      "reviewCount": 190,
+      "amenities": [
+        "Parking",
+        "Bar",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space420/600/400",
+      "createdAt": "2024-01-11T00:00:00Z"
+    },
+    {
+      "id": "421",
+      "name": "Crystal Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Lounge",
+      "price": 3669,
+      "capacity": 493,
+      "rating": 4.7,
+      "reviewCount": 106,
+      "amenities": [
+        "Bar",
+        "Whiteboard",
+        "Security",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space421/600/400",
+      "createdAt": "2024-03-26T00:00:00Z"
+    },
+    {
+      "id": "422",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Restaurant",
+      "price": 3804,
+      "capacity": 263,
+      "rating": 4.8,
+      "reviewCount": 41,
+      "amenities": [
+        "Catering",
+        "Parking",
+        "Sound System",
+        "AV Equipment",
+        "Whiteboard",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space422/600/400",
+      "createdAt": "2024-03-22T00:00:00Z"
+    },
+    {
+      "id": "423",
+      "name": "Elite Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Ballroom",
+      "price": 4670,
+      "capacity": 486,
+      "rating": 4.6,
+      "reviewCount": 53,
+      "amenities": [
+        "Pool",
+        "WiFi",
+        "Catering",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space423/600/400",
+      "createdAt": "2024-04-15T00:00:00Z"
+    },
+    {
+      "id": "424",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Ballroom",
+      "price": 4534,
+      "capacity": 290,
+      "rating": 4.5,
+      "reviewCount": 290,
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space424/600/400",
+      "createdAt": "2024-01-03T00:00:00Z"
+    },
+    {
+      "id": "425",
+      "name": "Urban Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Outdoor",
+      "price": 2483,
+      "capacity": 269,
+      "rating": 4.5,
+      "reviewCount": 174,
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space425/600/400",
+      "createdAt": "2024-03-02T00:00:00Z"
+    },
+    {
+      "id": "426",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Outdoor",
+      "price": 3831,
+      "capacity": 294,
+      "rating": 4.7,
+      "reviewCount": 117,
+      "amenities": [
+        "Whiteboard",
+        "Lighting",
+        "Catering",
+        "Bar",
+        "Outdoor",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space426/600/400",
+      "createdAt": "2024-02-17T00:00:00Z"
+    },
+    {
+      "id": "427",
+      "name": "Golden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Gallery",
+      "price": 3730,
+      "capacity": 384,
+      "rating": 4.9,
+      "reviewCount": 252,
+      "amenities": [
+        "Security",
+        "Whiteboard",
+        "Sound System",
+        "Pool",
+        "Bar",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space427/600/400",
+      "createdAt": "2024-01-09T00:00:00Z"
+    },
+    {
+      "id": "428",
+      "name": "Crystal Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Conference Room",
+      "price": 3711,
+      "capacity": 261,
+      "rating": 4.6,
+      "reviewCount": 22,
+      "amenities": [
+        "Parking",
+        "AV Equipment",
+        "Security",
+        "Outdoor",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space428/600/400",
+      "createdAt": "2024-02-13T00:00:00Z"
+    },
+    {
+      "id": "429",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Unique",
+      "price": 4092,
+      "capacity": 419,
+      "rating": 4.7,
+      "reviewCount": 101,
+      "amenities": [
+        "Parking",
+        "Bar",
+        "WiFi",
+        "Outdoor",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space429/600/400",
+      "createdAt": "2024-04-03T00:00:00Z"
+    },
+    {
+      "id": "430",
+      "name": "Golden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Conference Room",
+      "price": 4781,
+      "capacity": 199,
+      "rating": 4.7,
+      "reviewCount": 236,
+      "amenities": [
+        "Sound System",
+        "Lighting",
+        "Whiteboard",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space430/600/400",
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "431",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Outdoor",
+      "price": 808,
+      "capacity": 478,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "amenities": [
+        "Outdoor",
+        "Bar",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space431/600/400",
+      "createdAt": "2024-02-27T00:00:00Z"
+    },
+    {
+      "id": "432",
+      "name": "Golden Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Tokyo",
+      "category": "Outdoor",
+      "price": 4120,
+      "capacity": 334,
+      "rating": 4.7,
+      "reviewCount": 255,
+      "amenities": [
+        "WiFi",
+        "AV Equipment",
+        "Lighting",
+        "Pool",
+        "Outdoor",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space432/600/400",
+      "createdAt": "2024-04-10T00:00:00Z"
+    },
+    {
+      "id": "433",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Restaurant",
+      "price": 4385,
+      "capacity": 103,
+      "rating": 4.5,
+      "reviewCount": 146,
+      "amenities": [
+        "Sound System",
+        "Whiteboard",
+        "AV Equipment",
+        "Pool",
+        "Bar",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space433/600/400",
+      "createdAt": "2024-01-26T00:00:00Z"
+    },
+    {
+      "id": "434",
+      "name": "Golden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Lounge",
+      "price": 3563,
+      "capacity": 481,
+      "rating": 4.8,
+      "reviewCount": 126,
+      "amenities": [
+        "Lighting",
+        "Bar",
+        "Security",
+        "Outdoor",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space434/600/400",
+      "createdAt": "2024-02-18T00:00:00Z"
+    },
+    {
+      "id": "435",
+      "name": "Elite Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Restaurant",
+      "price": 2344,
+      "capacity": 56,
+      "rating": 4.6,
+      "reviewCount": 283,
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Pool",
+        "WiFi",
+        "Parking",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space435/600/400",
+      "createdAt": "2024-03-08T00:00:00Z"
+    },
+    {
+      "id": "436",
+      "name": "Grand Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Loft",
+      "price": 3718,
+      "capacity": 260,
+      "rating": 4.3,
+      "reviewCount": 173,
+      "amenities": [
+        "Whiteboard",
+        "Parking",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space436/600/400",
+      "createdAt": "2024-03-30T00:00:00Z"
+    },
+    {
+      "id": "437",
+      "name": "Grand Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Outdoor",
+      "price": 4927,
+      "capacity": 48,
+      "rating": 5,
+      "reviewCount": 79,
+      "amenities": [
+        "AV Equipment",
+        "Lighting",
+        "Outdoor",
+        "Whiteboard",
+        "Bar",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space437/600/400",
+      "createdAt": "2024-01-21T00:00:00Z"
+    },
+    {
+      "id": "438",
+      "name": "Urban Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Ballroom",
+      "price": 4326,
+      "capacity": 124,
+      "rating": 4.4,
+      "reviewCount": 190,
+      "amenities": [
+        "Pool",
+        "Whiteboard",
+        "Parking",
+        "Security",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space438/600/400",
+      "createdAt": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "439",
+      "name": "Urban Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Loft",
+      "price": 878,
+      "capacity": 481,
+      "rating": 4.9,
+      "reviewCount": 56,
+      "amenities": [
+        "Bar",
+        "Security",
+        "Pool",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space439/600/400",
+      "createdAt": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "440",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Outdoor",
+      "price": 784,
+      "capacity": 451,
+      "rating": 4.4,
+      "reviewCount": 232,
+      "amenities": [
+        "Outdoor",
+        "Pool",
+        "Bar",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space440/600/400",
+      "createdAt": "2024-01-17T00:00:00Z"
+    },
+    {
+      "id": "441",
+      "name": "Crystal Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Lounge",
+      "price": 3946,
+      "capacity": 163,
+      "rating": 4.4,
+      "reviewCount": 263,
+      "amenities": [
+        "Lighting",
+        "Security",
+        "WiFi",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space441/600/400",
+      "createdAt": "2024-03-20T00:00:00Z"
+    },
+    {
+      "id": "442",
+      "name": "Elite Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Ballroom",
+      "price": 3651,
+      "capacity": 473,
+      "rating": 4.4,
+      "reviewCount": 241,
+      "amenities": [
+        "Catering",
+        "AV Equipment",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space442/600/400",
+      "createdAt": "2024-03-13T00:00:00Z"
+    },
+    {
+      "id": "443",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Lounge",
+      "price": 4441,
+      "capacity": 311,
+      "rating": 4.4,
+      "reviewCount": 296,
+      "amenities": [
+        "Whiteboard",
+        "WiFi",
+        "Parking",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space443/600/400",
+      "createdAt": "2024-02-08T00:00:00Z"
+    },
+    {
+      "id": "444",
+      "name": "Crystal Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Loft",
+      "price": 4194,
+      "capacity": 119,
+      "rating": 4.5,
+      "reviewCount": 170,
+      "amenities": [
+        "Sound System",
+        "Catering",
+        "Bar",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space444/600/400",
+      "createdAt": "2024-02-28T00:00:00Z"
+    },
+    {
+      "id": "445",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Gallery",
+      "price": 2583,
+      "capacity": 413,
+      "rating": 4.7,
+      "reviewCount": 32,
+      "amenities": [
+        "Lighting",
+        "Sound System",
+        "Security",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space445/600/400",
+      "createdAt": "2024-02-15T00:00:00Z"
+    },
+    {
+      "id": "446",
+      "name": "Hidden Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Restaurant",
+      "price": 337,
+      "capacity": 311,
+      "rating": 4.3,
+      "reviewCount": 276,
+      "amenities": [
+        "Outdoor",
+        "Lighting",
+        "Security",
+        "Catering",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space446/600/400",
+      "createdAt": "2024-02-25T00:00:00Z"
+    },
+    {
+      "id": "447",
+      "name": "Grand Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Outdoor",
+      "price": 3626,
+      "capacity": 185,
+      "rating": 5,
+      "reviewCount": 72,
+      "amenities": [
+        "Catering",
+        "Sound System",
+        "Parking",
+        "Security",
+        "Bar",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space447/600/400",
+      "createdAt": "2024-04-04T00:00:00Z"
+    },
+    {
+      "id": "448",
+      "name": "Modern Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Singapore",
+      "category": "Conference Room",
+      "price": 890,
+      "capacity": 361,
+      "rating": 4.9,
+      "reviewCount": 243,
+      "amenities": [
+        "Outdoor",
+        "Lighting",
+        "Whiteboard",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space448/600/400",
+      "createdAt": "2024-02-14T00:00:00Z"
+    },
+    {
+      "id": "449",
+      "name": "Hidden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Ballroom",
+      "price": 4603,
+      "capacity": 101,
+      "rating": 4.6,
+      "reviewCount": 21,
+      "amenities": [
+        "Lighting",
+        "Outdoor",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space449/600/400",
+      "createdAt": "2024-02-27T00:00:00Z"
+    },
+    {
+      "id": "450",
+      "name": "Hidden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Lounge",
+      "price": 3897,
+      "capacity": 488,
+      "rating": 4.8,
+      "reviewCount": 251,
+      "amenities": [
+        "Bar",
+        "Outdoor",
+        "Sound System",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space450/600/400",
+      "createdAt": "2024-04-18T00:00:00Z"
+    },
+    {
+      "id": "451",
+      "name": "Elite Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Ballroom",
+      "price": 2537,
+      "capacity": 438,
+      "rating": 4.8,
+      "reviewCount": 49,
+      "amenities": [
+        "Catering",
+        "Pool",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space451/600/400",
+      "createdAt": "2024-03-27T00:00:00Z"
+    },
+    {
+      "id": "452",
+      "name": "Hidden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Gallery",
+      "price": 1361,
+      "capacity": 374,
+      "rating": 4.4,
+      "reviewCount": 54,
+      "amenities": [
+        "Catering",
+        "Outdoor",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space452/600/400",
+      "createdAt": "2024-04-21T00:00:00Z"
+    },
+    {
+      "id": "453",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Outdoor",
+      "price": 2382,
+      "capacity": 183,
+      "rating": 4.7,
+      "reviewCount": 65,
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Whiteboard",
+        "Lighting",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space453/600/400",
+      "createdAt": "2024-02-10T00:00:00Z"
+    },
+    {
+      "id": "454",
+      "name": "Grand Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Rooftop",
+      "price": 1238,
+      "capacity": 49,
+      "rating": 4.5,
+      "reviewCount": 210,
+      "amenities": [
+        "Whiteboard",
+        "WiFi",
+        "AV Equipment",
+        "Pool",
+        "Bar",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space454/600/400",
+      "createdAt": "2024-03-25T00:00:00Z"
+    },
+    {
+      "id": "455",
+      "name": "Sky Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Gallery",
+      "price": 3601,
+      "capacity": 274,
+      "rating": 4.8,
+      "reviewCount": 78,
+      "amenities": [
+        "Sound System",
+        "Outdoor",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space455/600/400",
+      "createdAt": "2024-01-18T00:00:00Z"
+    },
+    {
+      "id": "456",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Gallery",
+      "price": 2484,
+      "capacity": 365,
+      "rating": 5,
+      "reviewCount": 88,
+      "amenities": [
+        "Parking",
+        "Bar",
+        "Pool",
+        "AV Equipment",
+        "Whiteboard",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space456/600/400",
+      "createdAt": "2024-02-03T00:00:00Z"
+    },
+    {
+      "id": "457",
+      "name": "Modern Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Unique",
+      "price": 3965,
+      "capacity": 233,
+      "rating": 4.4,
+      "reviewCount": 36,
+      "amenities": [
+        "Parking",
+        "AV Equipment",
+        "Bar",
+        "Whiteboard",
+        "WiFi",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space457/600/400",
+      "createdAt": "2024-01-07T00:00:00Z"
+    },
+    {
+      "id": "458",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Studio",
+      "price": 2523,
+      "capacity": 81,
+      "rating": 4.5,
+      "reviewCount": 46,
+      "amenities": [
+        "Bar",
+        "Sound System",
+        "Whiteboard",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space458/600/400",
+      "createdAt": "2024-01-28T00:00:00Z"
+    },
+    {
+      "id": "459",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Unique",
+      "price": 1721,
+      "capacity": 50,
+      "rating": 4.3,
+      "reviewCount": 227,
+      "amenities": [
+        "WiFi",
+        "Outdoor",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space459/600/400",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "460",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Amsterdam",
+      "category": "Loft",
+      "price": 1242,
+      "capacity": 43,
+      "rating": 4.8,
+      "reviewCount": 197,
+      "amenities": [
+        "AV Equipment",
+        "Parking",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space460/600/400",
+      "createdAt": "2024-01-19T00:00:00Z"
+    },
+    {
+      "id": "461",
+      "name": "Crystal Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Mumbai",
+      "category": "Lounge",
+      "price": 597,
+      "capacity": 306,
+      "rating": 4.5,
+      "reviewCount": 75,
+      "amenities": [
+        "AV Equipment",
+        "Whiteboard",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space461/600/400",
+      "createdAt": "2024-02-07T00:00:00Z"
+    },
+    {
+      "id": "462",
+      "name": "Elite Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Gallery",
+      "price": 4097,
+      "capacity": 421,
+      "rating": 4.6,
+      "reviewCount": 125,
+      "amenities": [
+        "Pool",
+        "Lighting",
+        "Bar",
+        "Catering",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space462/600/400",
+      "createdAt": "2024-04-20T00:00:00Z"
+    },
+    {
+      "id": "463",
+      "name": "Grand Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Studio",
+      "price": 2730,
+      "capacity": 270,
+      "rating": 4.9,
+      "reviewCount": 124,
+      "amenities": [
+        "Catering",
+        "Sound System",
+        "Lighting",
+        "AV Equipment",
+        "WiFi",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space463/600/400",
+      "createdAt": "2024-01-22T00:00:00Z"
+    },
+    {
+      "id": "464",
+      "name": "Crystal Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Rooftop",
+      "price": 408,
+      "capacity": 224,
+      "rating": 4.8,
+      "reviewCount": 64,
+      "amenities": [
+        "Security",
+        "Pool",
+        "Catering",
+        "Lighting",
+        "Whiteboard",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space464/600/400",
+      "createdAt": "2024-03-23T00:00:00Z"
+    },
+    {
+      "id": "465",
+      "name": "Elite Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Ballroom",
+      "price": 3152,
+      "capacity": 491,
+      "rating": 4.7,
+      "reviewCount": 186,
+      "amenities": [
+        "AV Equipment",
+        "Security",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space465/600/400",
+      "createdAt": "2024-02-19T00:00:00Z"
+    },
+    {
+      "id": "466",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Loft",
+      "price": 4196,
+      "capacity": 474,
+      "rating": 4.3,
+      "reviewCount": 195,
+      "amenities": [
+        "Security",
+        "Catering",
+        "Parking",
+        "Sound System",
+        "Lighting",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space466/600/400",
+      "createdAt": "2024-03-25T00:00:00Z"
+    },
+    {
+      "id": "467",
+      "name": "Elite Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Rooftop",
+      "price": 2855,
+      "capacity": 123,
+      "rating": 4.5,
+      "reviewCount": 273,
+      "amenities": [
+        "Pool",
+        "Parking",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space467/600/400",
+      "createdAt": "2024-03-18T00:00:00Z"
+    },
+    {
+      "id": "468",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Ballroom",
+      "price": 2788,
+      "capacity": 308,
+      "rating": 4.8,
+      "reviewCount": 160,
+      "amenities": [
+        "Whiteboard",
+        "Parking",
+        "WiFi",
+        "Security",
+        "AV Equipment",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space468/600/400",
+      "createdAt": "2024-04-18T00:00:00Z"
+    },
+    {
+      "id": "469",
+      "name": "Grand Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Gallery",
+      "price": 3040,
+      "capacity": 137,
+      "rating": 4.6,
+      "reviewCount": 116,
+      "amenities": [
+        "Security",
+        "Whiteboard",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space469/600/400",
+      "createdAt": "2024-01-14T00:00:00Z"
+    },
+    {
+      "id": "470",
+      "name": "Elite Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Conference Room",
+      "price": 3657,
+      "capacity": 292,
+      "rating": 4.4,
+      "reviewCount": 167,
+      "amenities": [
+        "AV Equipment",
+        "Parking",
+        "WiFi",
+        "Pool",
+        "Catering",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space470/600/400",
+      "createdAt": "2024-04-25T00:00:00Z"
+    },
+    {
+      "id": "471",
+      "name": "Sky Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Restaurant",
+      "price": 2704,
+      "capacity": 30,
+      "rating": 4.4,
+      "reviewCount": 139,
+      "amenities": [
+        "AV Equipment",
+        "Outdoor",
+        "WiFi",
+        "Bar",
+        "Pool",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space471/600/400",
+      "createdAt": "2024-03-24T00:00:00Z"
+    },
+    {
+      "id": "472",
+      "name": "Crystal Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Istanbul",
+      "category": "Unique",
+      "price": 4051,
+      "capacity": 419,
+      "rating": 4.8,
+      "reviewCount": 299,
+      "amenities": [
+        "Lighting",
+        "Outdoor",
+        "Whiteboard",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space472/600/400",
+      "createdAt": "2024-01-07T00:00:00Z"
+    },
+    {
+      "id": "473",
+      "name": "Modern Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Conference Room",
+      "price": 1133,
+      "capacity": 467,
+      "rating": 4.8,
+      "reviewCount": 161,
+      "amenities": [
+        "Pool",
+        "Outdoor",
+        "Sound System"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space473/600/400",
+      "createdAt": "2024-02-24T00:00:00Z"
+    },
+    {
+      "id": "474",
+      "name": "Elite Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Rooftop",
+      "price": 4027,
+      "capacity": 44,
+      "rating": 4.9,
+      "reviewCount": 300,
+      "amenities": [
+        "Catering",
+        "Lighting",
+        "WiFi",
+        "AV Equipment",
+        "Outdoor",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space474/600/400",
+      "createdAt": "2024-02-29T00:00:00Z"
+    },
+    {
+      "id": "475",
+      "name": "Modern Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Rooftop",
+      "price": 2631,
+      "capacity": 332,
+      "rating": 4.9,
+      "reviewCount": 33,
+      "amenities": [
+        "Sound System",
+        "Catering",
+        "Lighting",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space475/600/400",
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "476",
+      "name": "Modern Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Ballroom",
+      "price": 4845,
+      "capacity": 354,
+      "rating": 4.5,
+      "reviewCount": 86,
+      "amenities": [
+        "Parking",
+        "AV Equipment",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space476/600/400",
+      "createdAt": "2024-02-18T00:00:00Z"
+    },
+    {
+      "id": "477",
+      "name": "Golden Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Chicago",
+      "category": "Gallery",
+      "price": 4240,
+      "capacity": 478,
+      "rating": 4.7,
+      "reviewCount": 276,
+      "amenities": [
+        "Pool",
+        "Security",
+        "Lighting",
+        "Sound System",
+        "Outdoor",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space477/600/400",
+      "createdAt": "2024-03-12T00:00:00Z"
+    },
+    {
+      "id": "478",
+      "name": "Crystal Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Unique",
+      "price": 525,
+      "capacity": 335,
+      "rating": 4.9,
+      "reviewCount": 35,
+      "amenities": [
+        "Security",
+        "Bar",
+        "Whiteboard",
+        "AV Equipment",
+        "Parking",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space478/600/400",
+      "createdAt": "2024-01-27T00:00:00Z"
+    },
+    {
+      "id": "479",
+      "name": "Golden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Lisbon",
+      "category": "Ballroom",
+      "price": 2069,
+      "capacity": 240,
+      "rating": 4.7,
+      "reviewCount": 154,
+      "amenities": [
+        "Sound System",
+        "Catering",
+        "Security",
+        "Outdoor",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space479/600/400",
+      "createdAt": "2024-03-26T00:00:00Z"
+    },
+    {
+      "id": "480",
+      "name": "Crystal Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Seoul",
+      "category": "Gallery",
+      "price": 2226,
+      "capacity": 388,
+      "rating": 4.3,
+      "reviewCount": 51,
+      "amenities": [
+        "Catering",
+        "Bar",
+        "WiFi",
+        "Whiteboard",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space480/600/400",
+      "createdAt": "2024-04-01T00:00:00Z"
+    },
+    {
+      "id": "481",
+      "name": "Hidden Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Restaurant",
+      "price": 2138,
+      "capacity": 49,
+      "rating": 4.4,
+      "reviewCount": 211,
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Security"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space481/600/400",
+      "createdAt": "2024-04-09T00:00:00Z"
+    },
+    {
+      "id": "482",
+      "name": "Urban Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Barcelona",
+      "category": "Gallery",
+      "price": 1902,
+      "capacity": 121,
+      "rating": 4.9,
+      "reviewCount": 24,
+      "amenities": [
+        "Security",
+        "WiFi",
+        "Parking",
+        "Catering",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space482/600/400",
+      "createdAt": "2024-02-14T00:00:00Z"
+    },
+    {
+      "id": "483",
+      "name": "Grand Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Conference Room",
+      "price": 3197,
+      "capacity": 470,
+      "rating": 4.9,
+      "reviewCount": 109,
+      "amenities": [
+        "Lighting",
+        "Bar",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space483/600/400",
+      "createdAt": "2024-02-13T00:00:00Z"
+    },
+    {
+      "id": "484",
+      "name": "Golden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Loft",
+      "price": 3856,
+      "capacity": 364,
+      "rating": 4.3,
+      "reviewCount": 155,
+      "amenities": [
+        "Catering",
+        "Pool",
+        "Bar",
+        "WiFi"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space484/600/400",
+      "createdAt": "2024-02-18T00:00:00Z"
+    },
+    {
+      "id": "485",
+      "name": "Golden Studio",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Sydney",
+      "category": "Restaurant",
+      "price": 2530,
+      "capacity": 88,
+      "rating": 4.5,
+      "reviewCount": 59,
+      "amenities": [
+        "Bar",
+        "Catering",
+        "Outdoor",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space485/600/400",
+      "createdAt": "2024-02-26T00:00:00Z"
+    },
+    {
+      "id": "486",
+      "name": "Urban Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Dubai",
+      "category": "Studio",
+      "price": 2643,
+      "capacity": 141,
+      "rating": 4.8,
+      "reviewCount": 225,
+      "amenities": [
+        "AV Equipment",
+        "Whiteboard",
+        "WiFi",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space486/600/400",
+      "createdAt": "2024-02-06T00:00:00Z"
+    },
+    {
+      "id": "487",
+      "name": "Elite Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Toronto",
+      "category": "Conference Room",
+      "price": 3730,
+      "capacity": 230,
+      "rating": 4.6,
+      "reviewCount": 197,
+      "amenities": [
+        "Outdoor",
+        "AV Equipment",
+        "Whiteboard",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space487/600/400",
+      "createdAt": "2024-03-08T00:00:00Z"
+    },
+    {
+      "id": "488",
+      "name": "Modern Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Lounge",
+      "price": 4272,
+      "capacity": 318,
+      "rating": 4.6,
+      "reviewCount": 254,
+      "amenities": [
+        "Security",
+        "Catering",
+        "Whiteboard"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space488/600/400",
+      "createdAt": "2024-02-06T00:00:00Z"
+    },
+    {
+      "id": "489",
+      "name": "Urban Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Restaurant",
+      "price": 4050,
+      "capacity": 148,
+      "rating": 4.4,
+      "reviewCount": 228,
+      "amenities": [
+        "AV Equipment",
+        "Lighting",
+        "Outdoor"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space489/600/400",
+      "createdAt": "2024-03-04T00:00:00Z"
+    },
+    {
+      "id": "490",
+      "name": "Sky Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Unique",
+      "price": 2365,
+      "capacity": 448,
+      "rating": 4.4,
+      "reviewCount": 252,
+      "amenities": [
+        "Outdoor",
+        "WiFi",
+        "Whiteboard",
+        "Catering",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space490/600/400",
+      "createdAt": "2024-02-29T00:00:00Z"
+    },
+    {
+      "id": "491",
+      "name": "Hidden Space",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Cape Town",
+      "category": "Unique",
+      "price": 3788,
+      "capacity": 87,
+      "rating": 4.7,
+      "reviewCount": 49,
+      "amenities": [
+        "AV Equipment",
+        "Whiteboard",
+        "Outdoor",
+        "Bar",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space491/600/400",
+      "createdAt": "2024-04-06T00:00:00Z"
+    },
+    {
+      "id": "492",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Loft",
+      "price": 4874,
+      "capacity": 87,
+      "rating": 4.5,
+      "reviewCount": 156,
+      "amenities": [
+        "Parking",
+        "Sound System",
+        "AV Equipment",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space492/600/400",
+      "createdAt": "2024-02-14T00:00:00Z"
+    },
+    {
+      "id": "493",
+      "name": "Urban Venue",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Rome",
+      "category": "Loft",
+      "price": 4280,
+      "capacity": 342,
+      "rating": 4.9,
+      "reviewCount": 199,
+      "amenities": [
+        "Whiteboard",
+        "Security",
+        "Bar",
+        "Outdoor",
+        "Parking",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space493/600/400",
+      "createdAt": "2024-01-21T00:00:00Z"
+    },
+    {
+      "id": "494",
+      "name": "Sky Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Paris",
+      "category": "Ballroom",
+      "price": 1257,
+      "capacity": 145,
+      "rating": 4.5,
+      "reviewCount": 62,
+      "amenities": [
+        "Lighting",
+        "Catering",
+        "AV Equipment",
+        "Parking"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space494/600/400",
+      "createdAt": "2024-03-29T00:00:00Z"
+    },
+    {
+      "id": "495",
+      "name": "Urban Hall",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Berlin",
+      "category": "Conference Room",
+      "price": 1104,
+      "capacity": 200,
+      "rating": 4.4,
+      "reviewCount": 235,
+      "amenities": [
+        "AV Equipment",
+        "Outdoor",
+        "Sound System",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space495/600/400",
+      "createdAt": "2024-04-03T00:00:00Z"
+    },
+    {
+      "id": "496",
+      "name": "Urban Lounge",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "London",
+      "category": "Studio",
+      "price": 288,
+      "capacity": 342,
+      "rating": 4.4,
+      "reviewCount": 239,
+      "amenities": [
+        "AV Equipment",
+        "Catering",
+        "Parking",
+        "Lighting",
+        "Pool"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space496/600/400",
+      "createdAt": "2024-02-15T00:00:00Z"
+    },
+    {
+      "id": "497",
+      "name": "Elite Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Rooftop",
+      "price": 2143,
+      "capacity": 240,
+      "rating": 4.3,
+      "reviewCount": 49,
+      "amenities": [
+        "Pool",
+        "Outdoor",
+        "Security",
+        "Whiteboard",
+        "Parking",
+        "Catering"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space497/600/400",
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "498",
+      "name": "Modern Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Los Angeles",
+      "category": "Conference Room",
+      "price": 1745,
+      "capacity": 17,
+      "rating": 4.7,
+      "reviewCount": 298,
+      "amenities": [
+        "Sound System",
+        "Whiteboard",
+        "Outdoor",
+        "Parking",
+        "Security",
+        "AV Equipment"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space498/600/400",
+      "createdAt": "2024-01-09T00:00:00Z"
+    },
+    {
+      "id": "499",
+      "name": "Elite Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "New York",
+      "category": "Unique",
+      "price": 493,
+      "capacity": 340,
+      "rating": 5,
+      "reviewCount": 215,
+      "amenities": [
+        "Whiteboard",
+        "Sound System",
+        "AV Equipment",
+        "Security",
+        "WiFi",
+        "Lighting"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space499/600/400",
+      "createdAt": "2024-02-12T00:00:00Z"
+    },
+    {
+      "id": "500",
+      "name": "Urban Retreat",
+      "description": "A versatile and stylish space suitable for events, meetings, and private gatherings.",
+      "city": "Bangkok",
+      "category": "Restaurant",
+      "price": 2386,
+      "capacity": 55,
+      "rating": 4.4,
+      "reviewCount": 282,
+      "amenities": [
+        "Sound System",
+        "Catering",
+        "Parking",
+        "Bar"
+      ],
+      "imageUrl": "https://picsum.photos/seed/space500/600/400",
+      "createdAt": "2024-04-22T00:00:00Z"
     }
   ],
   "bookings": [
@@ -3940,6 +9780,18 @@
     {
       "spaceId": "198",
       "id": "G2XpEw8n3NY"
+    },
+    {
+      "spaceId": "446",
+      "id": "c72ROVYsIaU"
+    },
+    {
+      "spaceId": "445",
+      "id": "CKQkX2um-pI"
+    },
+    {
+      "spaceId": "434",
+      "id": "Kmm7IGkmuio"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

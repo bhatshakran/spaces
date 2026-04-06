@@ -3,7 +3,7 @@ import { DashboardView } from "@/features/dashboard/components/DashboardView";
 // Fetches initial bookings on the server, zero client JS for the data fetch
 export default async function DashboardPage() {
   let initialBookings = [];
-  let isError = false; // Add this flag
+  let isError = false;
 
   try {
     const res = await fetch("http://localhost:3001/bookings", {

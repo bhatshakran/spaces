@@ -4,6 +4,7 @@ import { SpaceCardProps } from "@/features/spaces/types/spaces";
 import { useState } from "react";
 import { useSavedSpaces } from "@/features/spaces/hooks/useSavedSpaces";
 import Image from "next/image";
+import { shimmer, toBase64 } from "../lib/shimmer";
 
 export const SpaceCard = ({ space, onRemove }: SpaceCardProps) => {
   const [, forceUpdate] = useState(0);
@@ -33,7 +34,8 @@ export const SpaceCard = ({ space, onRemove }: SpaceCardProps) => {
           src={space.imageUrl}
           alt={space.name}
           className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out"
-          loading="lazy"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          placeholder={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
         />
         <div
           className="absolute inset-0 bg-linear-to-t from-[#1A110A]/35 via-transparent to-transparent

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Spaces",
     images: [
       {
-        url: "/og-image.jpg", // Ensure you add this to your public folder
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Spaces Spaces Preview",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 
 // 2. Viewport Configuration (Better for mobile performance)
 export const viewport: Viewport = {
-  themeColor: "#4f46e5", // Your Indigo Slate primary color
+  themeColor: "#4f46e5",
   width: "device-width",
   initialScale: 1,
 };

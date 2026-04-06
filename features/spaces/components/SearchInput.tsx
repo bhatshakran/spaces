@@ -10,10 +10,23 @@ export const SearchInput = ({
 }) => {
   const [localValue, setLocalValue] = useState(value);
 
+  // 1. Sync local state with the prop (URL)
   useEffect(() => {
-    const timer = setTimeout(() => onChange(localValue), 400);
+    setLocalValue(value);
+  }, [value]);
+
+  // 2. Debounce local changes back to the parent
+  useEffect(() => {
+    // Only trigger onChange if the value is actually different
+    // to prevent unnecessary URL updates/loops
+    const timer = setTimeout(() => {
+      if (localValue !== value) {
+        onChange(localValue);
+      }
+    }, 400);
+
     return () => clearTimeout(timer);
-  }, [localValue, onChange]);
+  }, [localValue, onChange, value]);
 
   return (
     <div className="relative group w-full">
@@ -24,7 +37,7 @@ export const SearchInput = ({
           viewBox="0 0 24 24"
           strokeWidth={2}
           stroke="currentColor"
-          className="w-4 h-4 text-stone-400 group-focus-within:text-terracotta transition-colors duration-200"
+          className="w-4 h-4 text-stone-400 group-focus-within:text-[#C05A32] transition-colors duration-200"
         >
           <path
             strokeLinecap="round"
